@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanta Virüs Risk Testi</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-success" href="{{ url_for('index') }}">
+            <i class="bi bi-shield-virus"></i> Hanta Portalı
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ustMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="ustMenu">
+            <div class="navbar-nav ms-auto gap-2">
+                <a class="nav-link" href="{{ url_for('index') }}">Açıklama</a>
+                <a class="nav-link active-menu" href="{{ url_for('test') }}">Test</a>
+                <a class="nav-link" href="{{ url_for('sonuclar') }}">Sonuçlar</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="page-head">
+    <div class="container">
+        <span class="badge bg-success-subtle text-success px-3 py-2 mb-3">
+            20 soruluk ayrıntılı risk değerlendirmesi
+        </span>
+
+        <h1>Hanta virüs risk testi</h1>
+
+        <p>
+            Sorulara durumunuza en yakın cevabı verin. Sistem cevapları puanlayarak
+            maruziyet, belirti, kritik bulgu ve korunma durumunu analiz eder.
+        </p>
+    </div>
+</section>
+
+<main class="container py-5">
+
+    <form method="POST" action="{{ url_for('test') }}">
+
+        <section class="form-shell mb-4">
+            <h2>Kişi bilgileri</h2>
+
+            <div class="row g-3 mt-1">
+                <div class="col-md-5">
+                    <label class="form-label fw-bold">Ad Soyad</label>
+                    <input class="form-control form-control-lg" type="text" name="ad_soyad" placeholder="Örn: Furkan Arslan" required>
+                </div>
+
+                <div class="col-md-2">
+                    <label class="form-label fw-bold">Yaş</label>
+                    <input class="form-control form-control-lg" type="number" name="yas" min="1" max="120" required>
+                </div>
+
+                <div class="col-md-5">
+                    <label class="form-label fw-bold">Şehir</label>
+                    <input class="form-control form-control-lg" type="text" name="sehir" placeholder="Örn: İstanbul">
+                </div>
+            </div>
+        </section>
+
+        <section class="test-info mb-4">
+            <div>
+                <h2>Test nasıl puanlanır?</h2>
+
+                <p>
+                    Yüksek puan; kemirgen teması, kapalı/tozlu alan temizliği, nefes darlığı,
+                    hızlı kötüleşme ve korumasız temas gibi riskleri artırır.
+                </p>
+            </div>
+
+            <div class="score-guide">
+                <span class="low">Düşük</span>
+                <span class="mid">Orta</span>
+                <span class="high">Yüksek</span>
+            </div>
+        </section>
+
+        <section class="question-grid">
+            {% for soru in sorular %}
+            <div class="question-card">
+                <div class="question-top">
+                    <span class="q-number">{{ loop.index }}</span>
+                    <span class="q-category">{{ soru.category }}</span>
+                </div>
+
+                <h3>{{ soru.text }}</h3>
+
+                <div class="answers">
+                    {% for value, label in soru.options %}
+                    <label class="answer">
+                        <input type="radio" name="{{ soru.name }}" value="{{ value }}" required>
+                        <span>{{ label }}</span>
+                    </label>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </section>
+
+        <section class="submit-bar">
+            <div>
+                <strong>Analiz tamamlanınca sonuç veritabanına kaydedilir.</strong>
+                <p class="text-muted mb-0 small">
+                    Bu test tıbbi tanı değildir. Özellikle nefes darlığı veya hızlı kötüleşme varsa sağlık desteği alınmalıdır.
+                </p>
+            </div>
+
+            <button class="btn btn-success btn-lg fw-bold" type="submit">
+                <i class="bi bi-activity"></i> Analiz Et ve Kaydet
+            </button>
+        </section>
+
+    </form>
+
+</main>
+
+<footer class="bg-white border-top py-4">
+    <div class="container d-flex justify-content-between flex-wrap gap-2 text-muted small">
+        <span>Hanta Virüs Risk Testi</span>
+        <span>Sonuçlar eğitim amaçlıdır.</span>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanta Virüs Test Sonuçları</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-success" href="{{ url_for('index') }}">
+            <i class="bi bi-shield-virus"></i> Hanta Portalı
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ustMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="ustMenu">
+            <div class="navbar-nav ms-auto gap-2">
+                <a class="nav-link" href="{{ url_for('index') }}">Açıklama</a>
+                <a class="nav-link" href="{{ url_for('test') }}">Test</a>
+                <a class="nav-link active-menu" href="{{ url_for('sonuclar') }}">Sonuçlar</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="page-head">
+    <div class="container">
+        <span class="badge bg-success-subtle text-success px-3 py-2 mb-3">
+            SQLite veritabanı kayıtları
+        </span>
+
+        <h1>Test sonuçları ve analiz detayları</h1>
+
+        <p>
+            Bu sayfada yapılan testler, risk skorları, kategori puanları ve seçili kişinin
+            ayrıntılı analiz sonucu görüntülenir.
+        </p>
+    </div>
+</section>
+
+<main class="container py-5">
+
+    {% if secili %}
+    <section class="result-focus border-{{ secili.risk_rengi }}">
+        <div class="score-circle bg-{{ secili.risk_rengi }}">
+            %{{ secili.risk_skoru }}
+        </div>
+
+        <div>
+            <div class="d-flex justify-content-between flex-wrap gap-2">
+                <div>
+                    <h2>{{ secili.ad_soyad }} için {{ secili.risk_seviyesi }} Risk</h2>
+                    <p class="text-muted mb-2">
+                        {{ secili.yas }} yaş
+                        {% if secili.sehir %}
+                            - {{ secili.sehir }}
+                        {% endif %}
+                    </p>
+                </div>
+
+                <span class="badge bg-{{ secili.risk_rengi }} result-badge">
+                    {{ secili.risk_seviyesi }}
+                </span>
+            </div>
+
+            <p>{{ secili.risk_yorumu }}</p>
+
+            <p>
+                <strong>Öneri:</strong> {{ secili.oneri }}
+            </p>
+
+            <p>
+                <strong>Öne çıkan analiz alanları:</strong> {{ secili.odak_alanlari }}
+            </p>
+
+            <p class="text-muted mb-0">
+                <strong>Veri seti karşılaştırması:</strong> {{ secili.analiz_notu }}
+            </p>
+        </div>
+    </section>
+
+    <section class="row g-3 mb-4">
+        <div class="col-md-3">
+            <div class="metric-box">
+                <small>Maruziyet</small>
+                <strong>{{ secili.maruziyet_puani }}</strong>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="metric-box">
+                <small>Belirti</small>
+                <strong>{{ secili.belirti_puani }}</strong>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="metric-box">
+                <small>Kritik Bulgu</small>
+                <strong>{{ secili.kritik_puani }}</strong>
+            </div>
+        </div>
+
+        <div class="col-md-3">
+            <div class="metric-box">
+                <small>Korunma Riski</small>
+                <strong>{{ secili.korunma_puani }}</strong>
+            </div>
+        </div>
+    </section>
+
+    <section class="answer-detail mb-5">
+        <h2>Verilen cevapların detayları</h2>
+
+        <div class="table-responsive mt-3">
+            <table class="table table-sm align-middle">
+                <thead>
+                    <tr>
+                        <th>Soru</th>
+                        <th>Kategori</th>
+                        <th>Cevap</th>
+                        <th>Puan</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for cevap in cevaplar %}
+                    <tr>
+                        <td>{{ cevap.soru }}</td>
+                        <td>{{ cevap.kategori }}</td>
+                        <td>{{ cevap.cevap }}</td>
+                        <td>
+                            <span class="badge bg-secondary">{{ cevap.puan }}</span>
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+    {% endif %}
+
+    <section class="table-card">
+        <div class="d-flex justify-content-between align-items-center flex-wrap gap-2 p-3 border-bottom">
+            <h2 class="m-0">Veritabanındaki tüm test kayıtları</h2>
+
+            <div class="d-flex gap-2">
+                <a href="{{ url_for('test') }}" class="btn btn-success btn-sm fw-bold">
+                    Yeni Test
+                </a>
+
+                <span class="badge bg-secondary d-flex align-items-center">
+                    {{ vakalar|length }} kayıt
+                </span>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>Hasta</th>
+                        <th>Risk</th>
+                        <th>Kategori Puanları</th>
+                        <th>Şehir</th>
+                        <th>Tarih</th>
+                        <th>Detay</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    {% for hasta in vakalar %}
+                    <tr>
+                        <td>
+                            <strong>{{ hasta.ad_soyad }}</strong><br>
+                            <small class="text-muted">{{ hasta.yas }} yaş</small>
+                        </td>
+
+                        <td>
+                            <span class="badge bg-{{ hasta.risk_rengi }}">
+                                %{{ hasta.risk_skoru }} - {{ hasta.risk_seviyesi }}
+                            </span>
+                        </td>
+
+                        <td>
+                            <small>
+                                Maruziyet: {{ hasta.maruziyet_puani }} |
+                                Belirti: {{ hasta.belirti_puani }} |
+                                Kritik: {{ hasta.kritik_puani }} |
+                                Korunma: {{ hasta.korunma_puani }}
+                            </small>
+                        </td>
+
+                        <td>{{ hasta.sehir or "-" }}</td>
+
+                        <td>
+                            <small>{{ hasta.tarih.strftime("%d.%m.%Y %H:%M") }}</small>
+                        </td>
+
+                        <td>
+                            <a class="btn btn-outline-success btn-sm fw-bold" href="{{ url_for('sonuc_detay', hasta_id=hasta.id) }}">
+                                Detay Aç
+                            </a>
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td colspan="6" class="text-center text-muted py-5">
+                            Henüz kayıt yok. Test sayfasından ilk kaydı oluşturabilirsin.
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+</main>
+
+<footer class="bg-white border-top py-4">
+    <div class="container d-flex justify-content-between flex-wrap gap-2 text-muted small">
+        <span>Hanta Virüs Sonuç Paneli</span>
+        <span>Veriler SQLite veritabanında saklanır.</span>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

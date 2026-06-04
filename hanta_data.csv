@@ -1,0 +1,1501 @@
+Age,Gender,Country,City,Symptom_Fever,Symptom_Muscle_Pain,Symptom_Headache,Symptom_Nausea,Symptom_Cough,Symptom_Shortness_of_Breath,Rodent_Seen,Rodent_Droppings_Contact,Dusty_Closed_Area,Rural_Animal_Area,Food_Storage_Risk,Used_Mask_Gloves,Ventilated_Before_Cleaning,Exposure_Type,Risk_Level,Outcome
+11,Erkek,Türkiye,Trabzon,1,0,0,0,0,0,1,1,0,0,0,1,1,Kapalı alan temizliği,Düşük,İyileşti
+8,Kadın,ABD,Colorado,0,0,0,0,0,0,1,1,0,0,1,1,0,Gıda deposu riski,Orta,Tedavi altında
+54,Kadın,İsveç,Umea,0,0,0,1,1,0,1,1,0,1,0,1,1,Gıda deposu riski,Orta,Takip önerildi
+29,Kadın,İsveç,Umea,1,1,1,1,1,0,1,0,0,0,0,0,0,Kemirgen teması,Orta,Takip önerildi
+35,Erkek,ABD,Arizona,0,0,1,0,0,1,0,0,1,1,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+27,Kadın,Türkiye,Trabzon,1,0,0,0,1,0,0,1,0,0,0,0,0,Gıda deposu riski,Orta,İyileşti
+28,Erkek,Şili,Santiago,0,0,1,0,1,0,0,0,0,0,0,1,0,Kemirgen teması,Düşük,Takip önerildi
+84,Erkek,Türkiye,İstanbul,1,0,0,0,0,1,1,1,0,0,1,1,0,Kırsal/hayvanlı alan,Yüksek,Takip önerildi
+29,Erkek,Almanya,Berlin,0,0,0,0,1,1,0,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+37,Kadın,Almanya,Berlin,0,0,0,0,0,1,1,1,1,1,1,0,1,Kemirgen teması,Yüksek,Tedavi altında
+32,Kadın,Şili,Santiago,0,1,0,1,1,0,1,1,1,0,0,0,1,Kemirgen teması,Orta,Tedavi altında
+67,Kadın,ABD,Colorado,1,0,0,0,0,0,1,0,0,1,0,0,1,Belirgin temas yok,Orta,Takip önerildi
+56,Kadın,Türkiye,Erzurum,0,1,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+14,Erkek,Türkiye,Ankara,1,1,0,1,0,0,0,1,0,1,1,0,0,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+80,Erkek,Fransa,Lyon,0,1,0,0,0,1,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+24,Erkek,ABD,Colorado,0,1,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+21,Kadın,Türkiye,Trabzon,0,1,0,1,1,0,1,0,1,0,1,0,0,Kapalı alan temizliği,Orta,Tedavi altında
+28,Erkek,ABD,Colorado,0,1,1,0,0,0,1,1,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+34,Kadın,Arjantin,Buenos Aires,1,0,1,0,1,0,1,0,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+39,Erkek,Şili,Santiago,0,0,1,0,0,1,1,1,1,0,1,0,1,Kemirgen teması,Yüksek,İyileşti
+52,Erkek,ABD,Colorado,1,0,0,0,0,0,0,1,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+32,Erkek,Fransa,Lyon,0,0,0,0,0,1,1,0,0,0,0,0,1,Kemirgen teması,Düşük,Takip önerildi
+47,Erkek,Çin,Yunnan,0,0,0,1,1,0,0,0,1,0,0,0,1,Kapalı alan temizliği,Düşük,Tedavi altında
+67,Erkek,ABD,Arizona,0,1,0,0,0,1,1,0,0,0,1,1,1,Kapalı alan temizliği,Orta,İyileşti
+13,Kadın,Türkiye,İstanbul,0,1,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+30,Erkek,Türkiye,Rize,0,0,0,0,0,0,1,0,1,0,0,0,0,Kemirgen teması,Düşük,İyileşti
+68,Erkek,Türkiye,Erzurum,1,1,1,0,1,1,1,0,0,0,0,1,1,Kapalı alan temizliği,Yüksek,Takip önerildi
+16,Erkek,Türkiye,Kars,0,0,0,1,1,0,1,1,1,0,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+76,Kadın,Şili,Santiago,0,0,0,0,0,0,1,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+25,Erkek,Şili,Santiago,0,0,0,0,1,0,1,1,1,1,0,1,0,Kemirgen teması,Orta,İyileşti
+13,Kadın,Türkiye,Bolu,0,0,1,0,0,1,0,1,0,0,0,0,1,Belirgin temas yok,Orta,Takip önerildi
+21,Kadın,ABD,New Mexico,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+52,Erkek,Türkiye,Ankara,0,0,1,1,0,0,1,0,1,0,0,1,1,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+69,Erkek,Almanya,Berlin,0,0,0,1,0,1,0,1,0,0,1,0,1,Kapalı alan temizliği,Orta,İyileşti
+51,Erkek,ABD,Colorado,0,0,0,0,0,1,0,0,1,0,0,0,1,Belirgin temas yok,Orta,İyileşti
+47,Erkek,Türkiye,Rize,1,1,1,0,0,1,0,0,0,1,0,1,1,Kırsal/hayvanlı alan,Orta,İyileşti
+43,Erkek,Güney Kore,Seoul,1,0,0,0,0,1,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+68,Erkek,ABD,New Mexico,0,1,1,0,1,0,1,1,0,0,0,1,1,Kapalı alan temizliği,Orta,İyileşti
+85,Kadın,Şili,Santiago,0,1,0,0,1,1,1,0,0,0,0,0,1,Gıda deposu riski,Orta,İyileşti
+17,Kadın,Almanya,Berlin,0,0,0,0,0,0,1,0,1,1,0,0,1,Kemirgen teması,Düşük,İyileşti
+36,Kadın,Almanya,Berlin,1,0,0,0,0,0,0,1,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+63,Erkek,Türkiye,Ankara,0,0,0,1,0,0,1,1,0,0,0,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+63,Erkek,Fransa,Lyon,0,0,0,1,1,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+73,Kadın,Arjantin,Salta,1,0,0,0,0,1,0,0,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+38,Kadın,İsveç,Umea,1,0,1,0,0,0,1,1,1,0,1,0,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+78,Kadın,Brezilya,Parana,0,0,0,1,1,0,0,0,0,0,1,0,1,Kapalı alan temizliği,Düşük,Acil değerlendirme önerildi
+27,Erkek,Güney Kore,Seoul,0,1,0,1,0,0,1,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+27,Erkek,Arjantin,Salta,1,1,0,0,1,0,1,0,0,1,0,1,0,Belirgin temas yok,Orta,İyileşti
+58,Kadın,İsveç,Umea,1,1,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+20,Erkek,Türkiye,Trabzon,0,0,1,1,0,0,1,1,1,1,1,1,1,Kemirgen teması,Orta,Takip önerildi
+82,Kadın,Güney Kore,Seoul,1,0,0,1,0,0,1,1,0,0,0,1,0,Kemirgen teması,Orta,Tedavi altında
+33,Erkek,ABD,New Mexico,0,1,0,0,0,0,1,0,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+37,Erkek,ABD,New Mexico,0,1,0,1,1,1,1,1,0,0,0,1,1,Kemirgen teması,Orta,Takip önerildi
+61,Kadın,ABD,Arizona,0,0,1,0,0,0,0,0,1,0,1,1,0,Kemirgen teması,Düşük,İyileşti
+58,Erkek,Türkiye,Rize,0,1,0,0,0,0,1,1,1,1,0,1,1,Kemirgen teması,Orta,İyileşti
+36,Kadın,İsveç,Umea,1,1,0,0,0,0,1,0,0,1,1,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+61,Kadın,Almanya,Berlin,0,0,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Tedavi altında
+58,Erkek,Türkiye,Ankara,0,1,1,0,1,0,1,0,1,0,0,0,1,Kemirgen teması,Orta,İyileşti
+37,Erkek,Türkiye,Kars,1,0,1,0,0,0,0,0,1,0,0,0,0,Gıda deposu riski,Orta,İyileşti
+14,Kadın,ABD,Colorado,0,1,0,0,0,0,0,0,0,0,0,1,1,Gıda deposu riski,Düşük,Takip önerildi
+69,Erkek,Türkiye,Ankara,0,0,0,0,0,1,1,0,0,0,0,1,1,Kapalı alan temizliği,Düşük,İyileşti
+20,Kadın,Şili,Santiago,0,0,1,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+16,Kadın,Güney Kore,Seoul,0,1,0,0,0,0,1,1,0,0,0,0,0,Belirgin temas yok,Orta,Takip önerildi
+84,Erkek,ABD,New Mexico,0,0,0,0,0,0,1,1,0,1,1,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+11,Erkek,Almanya,Berlin,1,0,0,1,0,0,1,0,0,1,1,1,0,Kemirgen teması,Orta,Tedavi altında
+55,Erkek,Türkiye,Erzurum,0,0,0,0,1,0,0,0,1,1,1,0,0,Gıda deposu riski,Orta,İyileşti
+22,Erkek,Şili,Santiago,0,0,0,0,1,0,0,0,1,1,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+56,Kadın,Türkiye,Samsun,0,0,0,0,0,1,0,0,1,0,1,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+29,Erkek,ABD,Arizona,0,0,0,0,0,1,0,1,0,0,0,0,1,Belirgin temas yok,Orta,Tedavi altında
+52,Kadın,Arjantin,Buenos Aires,0,0,0,0,0,0,1,1,0,0,0,1,0,Kemirgen teması,Düşük,Tedavi altında
+49,Erkek,İsveç,Umea,0,1,0,1,0,0,1,1,1,1,1,0,1,Kemirgen teması,Yüksek,Takip önerildi
+57,Erkek,Çin,Yunnan,0,0,0,0,0,0,0,0,1,0,0,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+13,Kadın,Türkiye,Erzurum,0,1,0,0,0,0,0,0,0,0,0,1,0,Gıda deposu riski,Düşük,İyileşti
+85,Kadın,ABD,Colorado,0,1,1,0,0,0,1,1,1,0,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+19,Erkek,Çin,Yunnan,1,1,0,0,0,0,1,1,0,0,0,1,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+87,Kadın,ABD,Arizona,0,0,0,0,0,0,1,1,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+47,Erkek,Türkiye,Rize,0,1,1,0,0,1,0,0,0,0,0,0,1,Belirgin temas yok,Orta,Tedavi altında
+78,Kadın,Arjantin,Buenos Aires,1,0,0,0,0,0,0,1,1,1,0,0,0,Gıda deposu riski,Orta,Tedavi altında
+38,Erkek,Arjantin,Buenos Aires,0,0,0,1,0,0,0,1,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+10,Erkek,Türkiye,Bolu,1,0,0,1,0,0,1,0,0,1,0,1,1,Kemirgen teması,Düşük,İyileşti
+81,Kadın,Çin,Yunnan,0,0,0,0,0,1,1,1,0,0,1,0,0,Gıda deposu riski,Yüksek,Acil değerlendirme önerildi
+57,Erkek,Türkiye,Ankara,1,1,0,0,1,0,1,0,1,0,0,0,0,Kapalı alan temizliği,Orta,Tedavi altında
+88,Kadın,Güney Kore,Seoul,0,0,0,0,1,0,1,0,0,0,1,1,1,Gıda deposu riski,Düşük,İyileşti
+14,Erkek,Arjantin,Buenos Aires,0,1,0,1,1,0,0,1,1,0,0,1,1,Kapalı alan temizliği,Orta,Tedavi altında
+77,Erkek,Türkiye,Erzurum,1,0,1,0,1,0,1,0,1,0,0,0,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+59,Erkek,Türkiye,Bolu,1,0,0,0,1,1,0,1,1,0,0,1,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+55,Erkek,Arjantin,Buenos Aires,0,0,0,0,1,0,0,0,0,0,0,1,0,Gıda deposu riski,Düşük,Acil değerlendirme önerildi
+70,Kadın,ABD,New Mexico,1,1,1,0,0,0,0,1,0,1,1,0,0,Kemirgen teması,Yüksek,Takip önerildi
+54,Kadın,Türkiye,Erzurum,0,0,1,1,0,0,1,1,0,1,0,1,0,Kemirgen teması,Orta,Tedavi altında
+81,Kadın,Şili,Santiago,0,0,1,0,0,0,1,1,1,0,1,0,0,Kemirgen teması,Yüksek,Tedavi altında
+29,Kadın,ABD,New Mexico,0,1,1,0,0,1,0,1,0,0,0,1,0,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+29,Erkek,Türkiye,Samsun,0,0,0,0,0,0,0,0,1,1,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+39,Erkek,Güney Kore,Seoul,0,0,0,0,1,0,1,1,0,0,1,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+38,Erkek,ABD,Arizona,0,0,0,0,1,1,1,1,1,0,0,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+71,Erkek,Brezilya,Parana,0,0,0,0,1,1,1,0,0,1,0,1,1,Kırsal/hayvanlı alan,Orta,İyileşti
+54,Erkek,ABD,Colorado,1,0,0,1,0,0,1,0,1,0,1,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+79,Erkek,ABD,Arizona,0,0,0,0,0,1,1,0,0,1,1,1,1,Gıda deposu riski,Orta,Acil değerlendirme önerildi
+83,Erkek,ABD,New Mexico,0,1,0,0,0,0,1,0,0,0,1,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+81,Kadın,Fransa,Lyon,1,0,1,1,0,1,0,1,0,0,0,1,0,Gıda deposu riski,Yüksek,Takip önerildi
+72,Erkek,Şili,Santiago,0,1,0,0,0,0,0,1,0,0,0,0,0,Belirgin temas yok,Orta,Takip önerildi
+86,Erkek,ABD,Colorado,0,1,1,0,0,1,1,0,1,0,1,1,1,Kemirgen teması,Yüksek,İyileşti
+56,Erkek,Almanya,Berlin,1,0,1,0,0,0,0,0,0,0,0,1,1,Gıda deposu riski,Düşük,İyileşti
+83,Kadın,İsveç,Umea,0,1,0,0,0,0,0,0,0,1,0,0,1,Kapalı alan temizliği,Düşük,Takip önerildi
+33,Erkek,Güney Kore,Seoul,0,1,0,1,0,0,0,0,1,0,0,0,0,Kapalı alan temizliği,Orta,Tedavi altında
+31,Erkek,Güney Kore,Seoul,0,0,0,0,1,1,1,0,1,0,0,0,0,Belirgin temas yok,Orta,İyileşti
+40,Kadın,Brezilya,Parana,0,1,1,1,0,0,1,1,0,1,0,0,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+41,Erkek,Türkiye,İstanbul,1,1,1,0,0,0,0,0,1,0,1,0,0,Kemirgen teması,Orta,Takip önerildi
+23,Erkek,ABD,New Mexico,0,0,0,0,0,0,1,0,0,0,0,1,0,Kapalı alan temizliği,Düşük,Tedavi altında
+75,Erkek,Türkiye,Bolu,1,0,0,0,0,0,1,0,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+15,Erkek,Brezilya,Parana,1,1,1,0,0,0,1,0,0,0,1,1,1,Kemirgen teması,Orta,İyileşti
+68,Kadın,Türkiye,Bolu,0,0,0,1,0,0,1,1,0,0,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+23,Kadın,Arjantin,Buenos Aires,0,0,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+12,Erkek,Türkiye,Trabzon,0,1,1,0,0,0,0,0,1,1,0,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+72,Erkek,Türkiye,Samsun,0,0,0,1,0,0,0,0,0,0,0,1,0,Kemirgen teması,Düşük,Takip önerildi
+88,Erkek,Türkiye,Erzurum,1,1,0,1,1,0,1,1,0,0,0,0,1,Kırsal/hayvanlı alan,Yüksek,İyileşti
+15,Erkek,Brezilya,Parana,1,0,1,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+83,Kadın,Türkiye,Kars,0,0,1,0,1,0,0,1,0,1,0,0,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+56,Erkek,ABD,New Mexico,0,0,0,0,0,1,1,1,0,0,1,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+78,Erkek,ABD,Colorado,0,0,0,0,0,0,1,1,0,1,0,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+77,Erkek,Türkiye,Samsun,1,1,1,0,1,1,0,0,0,0,0,1,0,Kemirgen teması,Orta,İyileşti
+55,Kadın,Brezilya,Parana,0,1,0,1,0,0,0,0,0,0,1,0,1,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+21,Kadın,Türkiye,Erzurum,0,1,0,0,0,1,1,0,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+19,Erkek,Türkiye,Ankara,0,0,1,0,1,1,1,1,1,1,0,1,0,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+68,Erkek,Fransa,Lyon,0,0,0,0,0,1,1,0,0,0,1,0,1,Kemirgen teması,Orta,İyileşti
+80,Erkek,Türkiye,Rize,0,1,1,1,0,0,0,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+11,Erkek,ABD,Arizona,0,1,1,1,1,0,0,1,0,0,1,0,1,Gıda deposu riski,Orta,Takip önerildi
+57,Erkek,Türkiye,Samsun,0,0,1,1,0,0,1,0,0,0,1,1,1,Kapalı alan temizliği,Düşük,Takip önerildi
+9,Erkek,Arjantin,Salta,1,1,1,1,1,1,0,0,0,0,1,0,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+54,Erkek,Türkiye,Bolu,0,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Tedavi altında
+25,Erkek,İsveç,Umea,0,0,1,0,0,0,0,1,1,0,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+33,Kadın,Fransa,Lyon,0,0,0,0,0,0,0,0,0,0,0,1,0,Gıda deposu riski,Düşük,Tedavi altında
+56,Kadın,Şili,Santiago,0,0,0,0,0,1,1,0,0,0,0,1,1,Kapalı alan temizliği,Düşük,İyileşti
+29,Kadın,Arjantin,Buenos Aires,1,0,0,0,1,0,0,0,0,1,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+72,Kadın,Fransa,Lyon,1,0,1,0,0,0,1,1,1,0,1,0,1,Kapalı alan temizliği,Yüksek,Takip önerildi
+16,Erkek,ABD,Arizona,0,0,1,0,0,0,1,1,1,1,0,0,0,Kemirgen teması,Orta,Tedavi altında
+63,Erkek,Türkiye,Erzurum,0,1,1,0,1,1,1,1,0,1,0,1,0,Kemirgen teması,Yüksek,Tedavi altında
+70,Erkek,ABD,Colorado,1,0,1,1,1,0,0,0,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+73,Erkek,Türkiye,Samsun,0,0,1,1,0,1,1,1,1,0,0,0,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+70,Kadın,Türkiye,İstanbul,1,0,0,1,1,1,1,0,0,1,0,0,1,Kemirgen teması,Yüksek,Tedavi altında
+80,Erkek,Brezilya,Parana,0,0,0,1,0,0,1,1,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+65,Erkek,Türkiye,Ankara,0,0,0,1,1,1,0,1,0,0,1,0,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+80,Erkek,Türkiye,Ankara,0,0,1,0,0,1,0,1,0,1,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+24,Kadın,Türkiye,Samsun,0,1,0,0,0,0,1,1,0,1,1,0,0,Kemirgen teması,Orta,Takip önerildi
+66,Erkek,Arjantin,Buenos Aires,1,0,1,0,1,1,1,0,0,0,0,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+78,Kadın,ABD,Arizona,1,0,0,1,0,1,1,1,0,1,1,0,1,Kırsal/hayvanlı alan,Yüksek,Takip önerildi
+46,Kadın,Türkiye,Samsun,0,0,0,0,1,1,0,1,0,1,0,0,1,Belirgin temas yok,Orta,İyileşti
+24,Kadın,Türkiye,Bolu,1,1,0,1,0,0,1,1,1,1,0,0,1,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+26,Kadın,Türkiye,Samsun,0,0,1,1,0,0,1,0,0,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+48,Kadın,Şili,Santiago,0,0,1,0,1,0,0,1,0,0,1,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+71,Erkek,Türkiye,Rize,0,0,1,0,0,0,1,0,0,0,0,0,1,Kemirgen teması,Düşük,Takip önerildi
+83,Kadın,Türkiye,İstanbul,0,1,0,0,1,1,1,0,0,1,1,0,0,Kemirgen teması,Yüksek,İyileşti
+27,Erkek,Türkiye,Kars,1,1,0,0,0,0,0,0,0,1,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+23,Kadın,Türkiye,Erzurum,1,0,1,0,0,1,0,1,0,0,0,0,1,Gıda deposu riski,Orta,Takip önerildi
+75,Kadın,ABD,Colorado,1,0,0,0,1,0,0,0,0,0,1,0,1,Kapalı alan temizliği,Orta,İyileşti
+39,Kadın,Türkiye,İstanbul,0,1,0,0,1,1,1,1,0,0,0,0,0,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+14,Kadın,Çin,Yunnan,1,0,1,1,0,0,1,1,1,0,0,0,1,Kemirgen teması,Orta,İyileşti
+83,Erkek,Arjantin,Buenos Aires,0,0,0,1,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+21,Kadın,ABD,New Mexico,0,0,0,0,0,1,1,0,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+58,Kadın,Türkiye,Samsun,0,1,0,1,0,1,1,0,1,1,0,0,1,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+27,Kadın,Türkiye,Trabzon,1,1,0,0,0,1,1,1,0,0,1,1,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+26,Kadın,ABD,Arizona,0,0,0,1,1,0,0,0,1,0,0,1,0,Gıda deposu riski,Düşük,İyileşti
+36,Kadın,Türkiye,Ankara,0,1,0,0,1,0,1,0,0,1,0,0,1,Kemirgen teması,Orta,Takip önerildi
+13,Erkek,Türkiye,Trabzon,0,1,0,1,0,0,0,1,0,0,0,1,1,Kemirgen teması,Düşük,Tedavi altında
+60,Erkek,Güney Kore,Seoul,0,0,0,0,0,0,1,1,1,0,0,0,0,Kemirgen teması,Orta,Takip önerildi
+49,Erkek,Çin,Yunnan,0,0,1,1,1,1,1,0,1,0,1,0,1,Kapalı alan temizliği,Yüksek,Tedavi altında
+36,Erkek,Türkiye,Ankara,1,0,0,0,0,1,0,0,1,0,0,0,0,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+77,Erkek,Güney Kore,Seoul,0,1,1,0,0,1,1,1,0,1,0,1,0,Kemirgen teması,Yüksek,İyileşti
+22,Erkek,Türkiye,Samsun,0,0,0,0,1,0,0,0,0,1,0,1,1,Belirgin temas yok,Düşük,Tedavi altında
+53,Kadın,İsveç,Umea,0,0,0,0,1,0,0,0,0,1,1,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+36,Kadın,İsveç,Umea,0,0,0,0,0,0,1,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+21,Kadın,ABD,Colorado,0,0,0,0,1,0,1,1,1,1,0,1,1,Kemirgen teması,Orta,Takip önerildi
+45,Kadın,Türkiye,Ankara,1,0,0,0,1,0,0,1,1,1,0,0,0,Kapalı alan temizliği,Yüksek,İyileşti
+28,Kadın,Şili,Santiago,1,1,0,0,1,0,1,1,0,0,0,1,1,Kemirgen teması,Orta,Tedavi altında
+88,Erkek,ABD,New Mexico,0,0,1,0,1,0,1,1,1,1,0,1,1,Kemirgen teması,Orta,Tedavi altında
+13,Erkek,Brezilya,Parana,0,0,0,1,1,0,1,0,0,1,0,1,0,Kapalı alan temizliği,Düşük,İyileşti
+68,Kadın,Almanya,Berlin,0,1,0,1,0,0,1,0,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+13,Erkek,Türkiye,Samsun,0,1,0,0,0,0,1,1,0,1,0,1,0,Kemirgen teması,Orta,Takip önerildi
+87,Erkek,Türkiye,İstanbul,0,0,0,0,1,0,1,0,0,0,1,1,0,Kemirgen teması,Düşük,İyileşti
+12,Kadın,Güney Kore,Seoul,0,0,0,1,0,0,1,0,0,1,0,1,1,Kapalı alan temizliği,Düşük,İyileşti
+20,Kadın,Güney Kore,Seoul,1,0,0,0,0,0,0,1,0,1,0,0,1,Kemirgen teması,Orta,Tedavi altında
+16,Erkek,Türkiye,Erzurum,1,1,1,0,1,0,1,0,0,0,1,0,1,Gıda deposu riski,Orta,Tedavi altında
+23,Kadın,Arjantin,Salta,1,0,1,1,1,0,1,1,0,0,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+36,Kadın,Türkiye,Kars,0,0,1,1,0,0,1,0,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+62,Erkek,ABD,Colorado,0,0,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Tedavi altında
+16,Erkek,Güney Kore,Seoul,0,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Tedavi altında
+71,Erkek,Türkiye,İstanbul,1,0,0,0,0,0,1,1,1,0,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+31,Erkek,Almanya,Berlin,1,1,0,1,0,1,1,1,0,0,1,0,1,Kemirgen teması,Yüksek,Tedavi altında
+67,Kadın,ABD,New Mexico,0,1,1,0,1,1,0,0,0,1,0,0,0,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+66,Kadın,Fransa,Lyon,1,0,1,0,0,0,0,0,0,0,1,0,1,Kapalı alan temizliği,Düşük,İyileşti
+63,Erkek,İsveç,Umea,0,1,0,0,1,0,0,1,1,1,0,1,1,Kapalı alan temizliği,Orta,Tedavi altında
+21,Erkek,Türkiye,Samsun,0,0,1,0,0,0,1,1,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+10,Kadın,Arjantin,Salta,0,0,0,0,0,1,0,1,1,0,1,0,0,Kemirgen teması,Yüksek,İyileşti
+14,Kadın,Türkiye,İstanbul,0,0,1,0,1,0,1,0,0,1,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+23,Erkek,İsveç,Umea,1,1,0,1,0,1,1,1,1,1,0,1,0,Kemirgen teması,Yüksek,İyileşti
+22,Erkek,Türkiye,Bolu,1,0,1,1,1,1,1,1,0,1,1,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+62,Kadın,ABD,Arizona,0,0,1,0,1,0,0,1,0,0,1,1,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+57,Erkek,ABD,Colorado,0,0,0,0,1,0,0,0,1,0,1,0,1,Gıda deposu riski,Düşük,İyileşti
+24,Erkek,Türkiye,İstanbul,0,0,0,0,0,0,1,0,1,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+20,Erkek,İsveç,Umea,1,0,1,0,0,0,1,1,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+49,Kadın,Güney Kore,Seoul,0,1,0,1,0,0,1,0,0,1,0,1,1,Kapalı alan temizliği,Düşük,İyileşti
+60,Kadın,Arjantin,Salta,0,0,0,1,1,0,1,1,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+84,Erkek,İsveç,Umea,0,0,0,1,0,0,1,0,1,0,1,1,0,Gıda deposu riski,Orta,Takip önerildi
+21,Erkek,Şili,Santiago,0,0,0,0,0,0,1,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+25,Erkek,Çin,Yunnan,0,1,0,1,0,0,0,0,1,0,0,0,0,Kemirgen teması,Orta,İyileşti
+61,Kadın,Arjantin,Salta,1,0,0,0,0,0,0,0,0,1,0,0,0,Kapalı alan temizliği,Orta,İyileşti
+45,Erkek,İsveç,Umea,0,0,0,0,0,0,1,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+44,Erkek,Almanya,Berlin,0,1,0,0,0,0,0,1,1,0,1,0,1,Gıda deposu riski,Orta,İyileşti
+21,Kadın,Brezilya,Parana,0,0,0,0,0,1,0,1,0,0,0,0,0,Gıda deposu riski,Orta,İyileşti
+64,Kadın,İsveç,Umea,0,1,0,0,1,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+43,Erkek,Şili,Santiago,1,0,0,0,0,0,1,1,1,0,1,1,1,Kemirgen teması,Orta,Tedavi altında
+75,Kadın,ABD,Arizona,0,0,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+22,Erkek,Türkiye,İstanbul,0,1,0,1,0,0,0,0,0,0,0,1,0,Kapalı alan temizliği,Düşük,İyileşti
+65,Erkek,Çin,Yunnan,1,1,0,0,0,0,0,1,0,0,1,0,0,Kemirgen teması,Orta,İyileşti
+63,Kadın,Almanya,Berlin,0,1,1,0,0,0,1,0,0,1,1,0,0,Gıda deposu riski,Orta,İyileşti
+76,Kadın,Türkiye,Trabzon,0,1,1,0,0,0,0,0,0,0,1,0,1,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+28,Kadın,Güney Kore,Seoul,0,0,1,0,0,0,1,0,0,0,1,0,0,Kemirgen teması,Düşük,İyileşti
+81,Erkek,Türkiye,İstanbul,0,1,1,0,1,1,0,1,0,0,0,1,0,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+78,Erkek,Türkiye,Ankara,0,1,1,1,1,0,1,0,1,1,0,0,1,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+82,Kadın,ABD,New Mexico,0,0,1,0,0,0,1,1,0,1,1,1,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+70,Kadın,ABD,New Mexico,1,1,1,0,1,0,1,0,0,1,0,1,0,Kemirgen teması,Orta,Tedavi altında
+35,Kadın,Fransa,Lyon,0,1,0,0,0,0,0,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+29,Kadın,İsveç,Umea,1,0,1,0,1,1,1,0,0,0,0,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+57,Erkek,Arjantin,Buenos Aires,0,0,0,0,0,0,0,1,0,1,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+74,Erkek,Türkiye,Bolu,0,1,1,1,0,1,0,0,1,0,0,0,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+85,Kadın,Arjantin,Buenos Aires,0,1,1,0,1,0,1,1,1,0,0,0,0,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+15,Kadın,Türkiye,Samsun,1,1,0,0,0,1,1,0,0,0,1,0,0,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+26,Kadın,İsveç,Umea,1,1,0,0,0,0,1,1,0,0,0,1,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+68,Kadın,Türkiye,Erzurum,0,0,0,0,0,0,0,0,1,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+56,Erkek,Güney Kore,Seoul,0,1,0,0,1,0,0,0,0,1,1,0,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+74,Kadın,Fransa,Lyon,1,0,0,0,0,0,1,1,0,0,1,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+79,Erkek,Almanya,Berlin,0,1,1,0,0,1,1,1,0,0,0,1,1,Kemirgen teması,Orta,Tedavi altında
+78,Kadın,ABD,Arizona,1,1,1,0,0,0,0,1,1,1,0,1,1,Kemirgen teması,Orta,Tedavi altında
+15,Kadın,İsveç,Umea,0,1,1,1,1,1,1,1,0,0,0,1,0,Kırsal/hayvanlı alan,Yüksek,İyileşti
+59,Erkek,ABD,Colorado,0,0,0,0,1,0,1,1,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+81,Kadın,Arjantin,Salta,0,0,0,0,0,0,1,1,1,1,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+66,Erkek,ABD,Arizona,0,0,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+51,Kadın,Arjantin,Salta,1,0,1,1,1,1,1,1,1,0,1,0,0,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+53,Kadın,İsveç,Umea,0,0,0,0,0,0,1,1,0,0,1,0,0,Gıda deposu riski,Orta,İyileşti
+73,Erkek,Türkiye,Erzurum,0,0,0,1,0,0,0,1,0,0,0,1,1,Kapalı alan temizliği,Düşük,İyileşti
+56,Kadın,Türkiye,Kars,0,1,0,0,0,1,1,1,0,1,0,0,1,Kapalı alan temizliği,Yüksek,İyileşti
+81,Kadın,Türkiye,Samsun,0,1,0,1,0,0,0,0,0,0,1,0,0,Gıda deposu riski,Orta,Tedavi altında
+70,Erkek,ABD,Arizona,1,0,1,0,0,0,0,1,1,1,1,1,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+23,Erkek,Şili,Santiago,0,0,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Tedavi altında
+29,Erkek,Türkiye,Samsun,0,0,0,0,0,0,1,1,0,1,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+65,Erkek,Çin,Yunnan,0,1,0,0,1,0,0,1,1,1,0,0,1,Kemirgen teması,Orta,Tedavi altında
+21,Erkek,Türkiye,Bolu,0,1,1,0,0,0,1,0,0,1,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+42,Erkek,Almanya,Berlin,0,0,0,0,1,1,0,0,0,1,0,0,1,Kemirgen teması,Orta,İyileşti
+41,Kadın,Şili,Santiago,0,0,1,0,1,1,1,0,0,1,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+32,Erkek,Arjantin,Buenos Aires,0,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Tedavi altında
+42,Erkek,Almanya,Berlin,1,1,0,1,0,1,1,1,1,1,0,0,1,Kemirgen teması,Yüksek,İyileşti
+9,Kadın,Brezilya,Parana,1,1,0,1,1,0,1,1,1,0,0,1,0,Kemirgen teması,Yüksek,Tedavi altında
+32,Erkek,Türkiye,Erzurum,1,0,0,0,0,0,0,1,0,1,0,1,0,Gıda deposu riski,Orta,Takip önerildi
+49,Kadın,ABD,New Mexico,0,1,1,0,0,1,1,0,0,1,0,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+58,Kadın,Türkiye,Trabzon,1,0,0,0,0,1,1,0,1,0,0,1,1,Kemirgen teması,Orta,Takip önerildi
+21,Kadın,Almanya,Berlin,0,0,1,1,0,0,1,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+32,Kadın,Güney Kore,Seoul,0,0,0,0,0,0,1,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+87,Erkek,Türkiye,İstanbul,0,0,0,0,1,0,1,0,0,0,0,0,1,Gıda deposu riski,Düşük,İyileşti
+30,Kadın,Türkiye,Samsun,1,1,0,1,0,1,1,1,0,0,0,0,0,Kemirgen teması,Yüksek,Tedavi altında
+67,Kadın,Türkiye,Bolu,0,0,1,1,0,1,0,0,0,0,1,0,0,Kapalı alan temizliği,Orta,İyileşti
+32,Kadın,Arjantin,Salta,0,0,0,0,1,1,1,0,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+28,Erkek,ABD,Arizona,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+65,Erkek,Brezilya,Parana,1,1,0,0,0,0,1,1,1,1,0,1,0,Kemirgen teması,Yüksek,Tedavi altında
+81,Kadın,Fransa,Lyon,0,0,1,1,1,0,1,1,1,0,1,1,1,Kemirgen teması,Orta,Tedavi altında
+20,Erkek,Fransa,Lyon,0,1,0,0,0,0,0,1,0,0,1,0,1,Kemirgen teması,Orta,Tedavi altında
+14,Erkek,Arjantin,Salta,0,0,0,1,0,0,1,0,1,0,1,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+18,Erkek,ABD,Arizona,0,0,0,1,0,0,1,0,1,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+42,Erkek,Türkiye,Bolu,1,1,0,0,0,0,0,1,0,0,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+37,Kadın,Türkiye,Ankara,0,1,0,0,0,0,1,0,1,0,0,0,1,Gıda deposu riski,Orta,İyileşti
+35,Kadın,Almanya,Berlin,0,0,1,1,1,0,0,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+9,Kadın,Brezilya,Parana,1,1,0,1,1,0,1,0,0,0,1,0,0,Kapalı alan temizliği,Orta,Tedavi altında
+33,Erkek,Türkiye,Erzurum,0,1,1,0,0,0,0,1,0,1,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+57,Kadın,ABD,Colorado,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+50,Erkek,İsveç,Umea,0,1,0,0,1,0,1,1,0,0,0,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+16,Kadın,ABD,Arizona,0,0,0,0,1,1,0,1,1,1,0,0,1,Kemirgen teması,Yüksek,İyileşti
+86,Erkek,Türkiye,İstanbul,0,0,0,1,0,0,0,0,1,1,1,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+12,Erkek,Türkiye,Rize,0,0,0,0,0,0,1,1,0,0,0,0,1,Gıda deposu riski,Düşük,İyileşti
+13,Erkek,Arjantin,Salta,1,0,0,0,1,0,1,0,0,0,0,0,1,Gıda deposu riski,Düşük,Acil değerlendirme önerildi
+79,Erkek,Türkiye,Ankara,0,0,1,0,1,0,0,1,1,0,0,0,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+22,Kadın,Çin,Yunnan,0,1,0,0,0,0,0,0,1,0,0,1,0,Gıda deposu riski,Düşük,Takip önerildi
+19,Kadın,Türkiye,Trabzon,0,1,1,0,0,0,0,1,0,0,0,0,1,Gıda deposu riski,Orta,İyileşti
+30,Kadın,Türkiye,Samsun,0,1,0,0,0,1,1,0,0,0,1,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+35,Erkek,Türkiye,Rize,1,1,1,0,1,1,1,0,1,0,1,0,0,Kapalı alan temizliği,Yüksek,Takip önerildi
+46,Erkek,İsveç,Umea,0,1,0,0,0,1,1,0,0,0,0,0,0,Belirgin temas yok,Orta,İyileşti
+56,Kadın,Arjantin,Buenos Aires,1,1,1,0,0,0,0,1,0,1,0,1,1,Gıda deposu riski,Orta,İyileşti
+44,Erkek,İsveç,Umea,0,0,1,0,0,0,1,0,0,0,1,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+67,Kadın,Türkiye,İstanbul,0,0,1,1,0,0,1,0,0,1,0,0,1,Gıda deposu riski,Orta,Takip önerildi
+50,Erkek,Türkiye,Trabzon,0,1,1,1,0,0,1,0,0,1,0,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+60,Kadın,Brezilya,Parana,0,0,0,0,1,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Tedavi altında
+81,Erkek,Türkiye,Erzurum,0,1,0,1,0,1,1,0,1,0,0,1,1,Kemirgen teması,Orta,Tedavi altında
+33,Kadın,Türkiye,Ankara,0,1,0,0,0,0,1,0,0,1,0,0,0,Kapalı alan temizliği,Orta,İyileşti
+66,Erkek,Türkiye,Ankara,1,0,0,0,0,0,0,1,0,0,0,1,1,Gıda deposu riski,Düşük,Takip önerildi
+33,Kadın,ABD,Arizona,0,1,0,0,1,0,1,0,0,1,1,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+39,Kadın,Fransa,Lyon,1,1,1,0,0,0,1,1,1,1,0,0,1,Kemirgen teması,Yüksek,Takip önerildi
+53,Erkek,İsveç,Umea,1,0,0,1,1,0,1,0,0,1,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+37,Kadın,Güney Kore,Seoul,1,0,1,1,0,0,0,1,1,1,0,1,0,Kemirgen teması,Orta,İyileşti
+85,Kadın,Arjantin,Buenos Aires,0,1,1,1,0,1,1,0,1,0,1,1,1,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+63,Erkek,Fransa,Lyon,1,0,1,1,0,0,1,0,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+21,Erkek,İsveç,Umea,0,0,0,1,0,0,0,1,1,1,0,0,0,Kapalı alan temizliği,Orta,İyileşti
+46,Erkek,ABD,Arizona,0,0,1,0,0,1,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+22,Erkek,Arjantin,Buenos Aires,0,0,1,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+25,Kadın,Türkiye,Samsun,0,0,0,0,0,1,1,0,1,1,0,1,0,Kemirgen teması,Orta,Tedavi altında
+65,Erkek,Almanya,Berlin,0,1,0,0,0,1,1,0,0,0,1,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+26,Erkek,Türkiye,Bolu,0,0,1,1,0,0,1,0,1,0,0,0,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+68,Erkek,Çin,Yunnan,0,1,0,1,1,0,0,0,1,1,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+11,Erkek,İsveç,Umea,0,0,0,0,0,0,1,1,0,1,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+70,Kadın,Türkiye,Rize,0,0,1,0,0,1,0,0,1,1,0,1,1,Gıda deposu riski,Orta,Takip önerildi
+14,Erkek,Arjantin,Buenos Aires,0,0,0,1,0,1,1,1,0,0,0,0,0,Gıda deposu riski,Orta,Acil değerlendirme önerildi
+56,Erkek,Brezilya,Parana,0,0,0,1,0,0,0,1,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+83,Kadın,Türkiye,Rize,0,0,0,0,1,1,0,0,1,1,1,1,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+84,Kadın,Türkiye,Ankara,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+43,Erkek,Brezilya,Parana,0,1,0,1,1,0,0,0,1,0,0,1,1,Gıda deposu riski,Düşük,İyileşti
+30,Erkek,Arjantin,Salta,1,0,0,1,0,0,1,1,0,1,0,1,1,Kemirgen teması,Orta,İyileşti
+57,Erkek,Türkiye,Ankara,0,0,1,1,1,0,1,1,1,0,0,0,1,Kemirgen teması,Orta,Takip önerildi
+80,Erkek,Türkiye,Trabzon,0,0,1,1,0,0,1,1,0,0,0,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+57,Kadın,ABD,New Mexico,0,0,1,0,1,0,1,1,0,0,1,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+10,Kadın,Brezilya,Parana,0,0,0,1,1,0,1,0,1,1,0,0,0,Kapalı alan temizliği,Orta,Tedavi altında
+68,Kadın,Türkiye,İstanbul,0,1,0,1,0,0,0,1,0,0,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+62,Erkek,Türkiye,Kars,0,0,0,0,1,1,0,0,0,0,0,1,0,Gıda deposu riski,Orta,Tedavi altında
+78,Kadın,Arjantin,Buenos Aires,0,1,1,1,0,0,0,1,1,0,0,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+24,Kadın,Güney Kore,Seoul,0,1,0,1,0,0,1,1,1,1,0,0,0,Kemirgen teması,Yüksek,Tedavi altında
+20,Erkek,Çin,Yunnan,1,0,0,0,1,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+44,Kadın,Arjantin,Buenos Aires,0,0,1,0,0,0,1,0,0,1,0,0,1,Kapalı alan temizliği,Düşük,İyileşti
+49,Kadın,Türkiye,Kars,0,0,1,0,0,0,1,1,0,0,0,1,1,Gıda deposu riski,Düşük,İyileşti
+88,Erkek,Türkiye,Kars,1,0,0,0,0,0,0,0,0,1,0,0,1,Belirgin temas yok,Düşük,Tedavi altında
+81,Kadın,Türkiye,Erzurum,0,1,1,0,0,0,0,1,0,0,0,1,0,Kemirgen teması,Orta,İyileşti
+8,Erkek,Fransa,Lyon,0,0,0,0,1,0,1,0,0,1,0,0,0,Belirgin temas yok,Orta,Acil değerlendirme önerildi
+53,Erkek,Türkiye,Samsun,0,0,1,0,1,0,0,1,0,1,0,0,0,Kemirgen teması,Orta,Tedavi altında
+88,Kadın,Türkiye,İstanbul,1,0,0,0,0,0,0,0,1,0,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+14,Kadın,Arjantin,Buenos Aires,1,1,0,0,0,0,1,1,1,0,0,0,0,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+36,Erkek,Türkiye,Kars,1,0,0,0,1,0,1,0,1,1,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+32,Erkek,Türkiye,Bolu,1,1,0,1,0,0,1,1,0,1,1,1,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+52,Erkek,Güney Kore,Seoul,0,1,0,0,0,0,0,1,1,0,1,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+66,Erkek,Brezilya,Parana,1,1,0,0,1,0,0,1,0,1,0,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+27,Kadın,Türkiye,Erzurum,1,1,1,0,1,1,1,1,1,1,1,0,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+71,Kadın,Arjantin,Salta,0,0,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+51,Kadın,Brezilya,Parana,1,1,0,0,1,0,0,1,0,0,0,0,1,Gıda deposu riski,Orta,İyileşti
+18,Erkek,Türkiye,İstanbul,0,0,0,0,0,1,0,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+65,Kadın,ABD,New Mexico,0,1,0,0,1,1,0,0,1,1,1,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+50,Kadın,Çin,Yunnan,0,0,1,0,0,0,0,0,1,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+82,Erkek,ABD,New Mexico,1,0,1,1,0,0,0,1,0,1,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+71,Kadın,ABD,Colorado,0,0,1,1,0,1,1,0,0,1,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+53,Kadın,Türkiye,Samsun,1,0,0,0,1,1,1,0,0,1,1,0,1,Kemirgen teması,Yüksek,Tedavi altında
+42,Erkek,ABD,New Mexico,0,1,1,1,1,0,1,0,1,0,0,0,1,Kemirgen teması,Orta,Tedavi altında
+76,Kadın,Çin,Yunnan,0,0,0,0,1,0,0,1,1,1,0,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+36,Kadın,Türkiye,Trabzon,1,0,0,1,1,0,1,0,0,0,1,0,0,Belirgin temas yok,Orta,Tedavi altında
+68,Kadın,Türkiye,Ankara,0,0,1,1,0,0,1,0,1,1,0,0,0,Belirgin temas yok,Orta,Tedavi altında
+28,Kadın,Arjantin,Buenos Aires,0,1,0,0,0,0,1,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+31,Erkek,Fransa,Lyon,0,0,0,0,0,0,1,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+49,Erkek,Türkiye,Bolu,0,1,1,0,0,0,1,0,1,0,0,0,1,Kemirgen teması,Orta,İyileşti
+21,Erkek,Güney Kore,Seoul,0,1,0,0,0,0,0,1,1,1,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+71,Erkek,Şili,Santiago,0,0,0,1,0,1,0,0,0,0,0,1,0,Gıda deposu riski,Düşük,İyileşti
+88,Kadın,Türkiye,Rize,1,0,0,0,0,0,0,0,0,1,1,0,1,Kemirgen teması,Orta,Tedavi altında
+71,Erkek,ABD,New Mexico,1,0,0,0,1,1,0,0,0,1,0,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+29,Erkek,ABD,New Mexico,0,0,1,1,1,0,1,1,0,0,0,0,0,Kapalı alan temizliği,Orta,Tedavi altında
+44,Erkek,Arjantin,Buenos Aires,0,1,0,0,1,1,1,1,1,0,0,0,0,Kemirgen teması,Yüksek,Tedavi altında
+83,Kadın,ABD,New Mexico,0,0,0,0,0,0,1,0,0,1,0,0,0,Belirgin temas yok,Düşük,İyileşti
+49,Kadın,Arjantin,Salta,0,0,0,0,0,0,1,0,0,0,0,1,0,Gıda deposu riski,Düşük,İyileşti
+41,Kadın,ABD,New Mexico,1,0,0,0,1,1,1,0,0,0,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+46,Erkek,Çin,Yunnan,0,0,1,0,0,0,1,0,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+76,Erkek,ABD,Colorado,0,0,0,0,0,0,0,1,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+28,Erkek,ABD,New Mexico,0,0,0,1,1,1,1,1,1,1,0,1,1,Gıda deposu riski,Yüksek,Acil değerlendirme önerildi
+78,Kadın,ABD,Colorado,1,0,0,0,0,0,1,0,0,1,0,1,1,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+38,Kadın,Türkiye,Samsun,1,0,0,0,0,0,1,1,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+62,Kadın,Türkiye,Rize,0,1,0,0,0,0,1,0,1,1,0,0,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+68,Erkek,Arjantin,Buenos Aires,0,0,0,0,0,0,1,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+76,Kadın,Türkiye,Trabzon,0,1,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+12,Erkek,Şili,Santiago,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+66,Kadın,ABD,Arizona,0,1,1,0,0,0,0,1,0,0,1,1,1,Gıda deposu riski,Orta,İyileşti
+60,Erkek,İsveç,Umea,0,1,0,0,0,1,0,1,1,0,0,1,1,Kapalı alan temizliği,Orta,İyileşti
+86,Kadın,Almanya,Berlin,1,0,0,1,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+71,Kadın,Brezilya,Parana,1,1,0,0,1,1,1,0,0,1,0,1,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+45,Erkek,Türkiye,İstanbul,0,1,1,0,0,0,1,1,0,0,1,0,0,Kemirgen teması,Orta,İyileşti
+15,Kadın,Almanya,Berlin,1,1,0,1,0,0,1,0,0,0,0,0,0,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+13,Kadın,Almanya,Berlin,1,1,1,0,0,0,1,0,0,1,0,0,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+41,Erkek,ABD,New Mexico,0,0,1,1,1,0,1,1,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+63,Kadın,Brezilya,Parana,0,1,1,0,1,0,0,1,0,0,0,0,0,Belirgin temas yok,Orta,Tedavi altında
+80,Kadın,ABD,Colorado,0,1,0,0,0,0,0,0,0,0,1,0,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+27,Kadın,ABD,Arizona,0,0,1,0,0,0,0,0,1,0,0,1,0,Kemirgen teması,Düşük,İyileşti
+14,Erkek,Türkiye,Kars,0,1,0,1,0,1,1,1,0,1,0,1,0,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+23,Erkek,Türkiye,Samsun,0,0,0,0,0,0,1,0,1,0,1,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+86,Kadın,Arjantin,Buenos Aires,0,0,0,1,0,0,1,1,1,0,1,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+24,Erkek,Türkiye,Samsun,1,0,0,0,0,1,0,0,1,1,1,1,1,Belirgin temas yok,Orta,Tedavi altında
+67,Kadın,Türkiye,Trabzon,0,0,0,0,0,1,0,1,0,0,0,0,0,Gıda deposu riski,Orta,İyileşti
+41,Kadın,İsveç,Umea,0,0,1,0,0,0,1,1,1,0,0,1,0,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+46,Kadın,Arjantin,Salta,0,0,0,0,1,1,1,1,1,0,0,1,0,Kemirgen teması,Yüksek,Tedavi altında
+62,Kadın,Güney Kore,Seoul,1,0,1,1,1,0,0,0,1,0,1,1,1,Kemirgen teması,Orta,Tedavi altında
+71,Erkek,Şili,Santiago,1,1,0,0,1,0,1,1,0,0,0,0,1,Kemirgen teması,Orta,Takip önerildi
+71,Erkek,Türkiye,Trabzon,0,0,0,0,0,0,1,1,0,0,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+61,Erkek,Arjantin,Salta,1,0,1,0,0,0,0,0,0,0,0,0,1,Gıda deposu riski,Düşük,İyileşti
+10,Erkek,Türkiye,Ankara,0,1,0,0,0,0,0,0,0,0,1,1,1,Belirgin temas yok,Düşük,İyileşti
+42,Kadın,Almanya,Berlin,0,0,0,0,0,1,0,0,1,1,0,0,0,Belirgin temas yok,Orta,Tedavi altında
+21,Kadın,Çin,Yunnan,1,0,1,1,0,0,0,0,1,1,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+39,Erkek,Türkiye,İstanbul,0,0,1,0,0,0,1,1,1,0,0,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+54,Kadın,Çin,Yunnan,0,1,1,0,1,0,0,0,0,1,0,1,0,Kapalı alan temizliği,Düşük,Takip önerildi
+45,Erkek,Çin,Yunnan,0,0,0,0,1,0,0,0,1,0,0,1,1,Kapalı alan temizliği,Düşük,Takip önerildi
+52,Erkek,Brezilya,Parana,0,1,0,0,0,0,0,1,0,0,0,0,0,Gıda deposu riski,Orta,İyileşti
+83,Erkek,Almanya,Berlin,0,1,0,1,1,0,0,0,0,1,1,1,0,Kapalı alan temizliği,Orta,Tedavi altında
+82,Kadın,Türkiye,Rize,1,0,0,0,1,0,1,0,0,0,0,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+19,Kadın,Türkiye,Bolu,0,0,0,0,0,0,1,1,1,0,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+28,Kadın,Şili,Santiago,1,1,0,0,1,0,1,0,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+81,Erkek,Arjantin,Buenos Aires,0,1,0,0,1,0,1,1,0,1,0,0,1,Kemirgen teması,Orta,Tedavi altında
+78,Erkek,Türkiye,Trabzon,0,1,1,0,0,0,1,1,1,1,1,1,0,Kemirgen teması,Yüksek,İyileşti
+19,Erkek,ABD,Arizona,1,1,0,0,1,0,0,1,1,0,0,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+32,Kadın,Türkiye,Bolu,0,1,0,0,0,1,0,0,0,1,0,0,0,Belirgin temas yok,Orta,Tedavi altında
+59,Kadın,ABD,Arizona,0,0,1,1,0,1,0,1,1,1,0,1,1,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+15,Erkek,Türkiye,Erzurum,0,1,1,0,1,0,1,1,1,1,0,1,0,Kemirgen teması,Yüksek,Tedavi altında
+42,Kadın,Türkiye,Trabzon,0,1,0,0,1,0,1,1,1,0,0,1,0,Kapalı alan temizliği,Orta,Tedavi altında
+34,Kadın,Çin,Yunnan,0,0,1,0,1,0,0,0,0,0,0,0,1,Kapalı alan temizliği,Düşük,İyileşti
+40,Erkek,İsveç,Umea,1,0,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+48,Erkek,Çin,Yunnan,0,0,1,0,0,1,0,0,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+60,Erkek,Türkiye,Erzurum,0,0,0,0,0,1,0,0,0,1,1,0,0,Gıda deposu riski,Orta,Takip önerildi
+23,Erkek,Türkiye,İstanbul,0,0,0,1,0,0,1,1,0,0,0,0,1,Kapalı alan temizliği,Düşük,İyileşti
+85,Kadın,Güney Kore,Seoul,0,0,0,1,0,0,0,0,1,1,0,1,1,Kemirgen teması,Düşük,İyileşti
+37,Erkek,Fransa,Lyon,0,0,0,1,0,0,1,0,0,0,1,0,1,Kemirgen teması,Düşük,Acil değerlendirme önerildi
+23,Erkek,ABD,Colorado,0,1,0,0,0,1,1,1,0,1,0,0,1,Kırsal/hayvanlı alan,Yüksek,Takip önerildi
+39,Kadın,Türkiye,Bolu,1,1,1,1,1,1,1,0,1,0,0,0,0,Kemirgen teması,Yüksek,Tedavi altında
+17,Erkek,Türkiye,Rize,1,1,0,0,0,0,0,0,1,1,1,1,0,Gıda deposu riski,Orta,İyileşti
+79,Kadın,Türkiye,Ankara,0,0,0,0,1,0,1,1,0,1,0,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+74,Erkek,Brezilya,Parana,0,1,0,0,1,1,1,1,0,0,0,0,1,Kırsal/hayvanlı alan,Yüksek,İyileşti
+47,Erkek,Türkiye,Samsun,1,0,0,0,1,1,0,1,0,0,1,0,0,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+14,Erkek,Almanya,Berlin,0,0,0,0,1,0,0,0,1,1,1,0,0,Kapalı alan temizliği,Orta,İyileşti
+66,Kadın,Türkiye,Trabzon,0,0,0,0,0,1,0,0,0,0,1,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+11,Kadın,Arjantin,Buenos Aires,1,1,1,0,1,1,1,0,0,1,0,1,1,Kemirgen teması,Yüksek,İyileşti
+20,Kadın,ABD,Colorado,0,1,0,0,0,0,1,0,0,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+26,Kadın,Türkiye,Trabzon,0,1,0,0,0,1,1,0,0,0,0,1,1,Gıda deposu riski,Orta,Takip önerildi
+73,Erkek,Türkiye,Samsun,0,0,0,1,1,0,1,1,0,1,0,0,0,Kemirgen teması,Orta,Takip önerildi
+68,Erkek,Güney Kore,Seoul,1,0,0,1,0,1,0,0,0,1,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+45,Erkek,Türkiye,Bolu,0,1,1,0,1,1,1,1,0,1,0,1,1,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+72,Kadın,ABD,New Mexico,0,0,0,0,0,0,0,1,1,1,1,1,1,Gıda deposu riski,Orta,Acil değerlendirme önerildi
+41,Kadın,Almanya,Berlin,0,0,0,0,1,0,1,0,0,0,0,0,1,Gıda deposu riski,Düşük,İyileşti
+74,Erkek,Türkiye,Rize,0,0,0,0,1,0,0,0,0,1,0,0,1,Gıda deposu riski,Düşük,İyileşti
+51,Kadın,Arjantin,Buenos Aires,0,1,0,0,0,0,0,1,0,0,0,1,0,Kapalı alan temizliği,Düşük,Tedavi altında
+56,Kadın,Arjantin,Salta,1,0,1,0,0,1,1,0,0,0,0,0,1,Belirgin temas yok,Orta,İyileşti
+44,Kadın,Arjantin,Salta,1,1,0,0,1,0,1,1,1,0,1,0,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+34,Erkek,Türkiye,Samsun,1,1,1,1,0,0,0,0,0,0,0,0,0,Kapalı alan temizliği,Orta,Tedavi altında
+70,Erkek,Fransa,Lyon,0,0,0,0,1,0,1,1,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+31,Kadın,Arjantin,Salta,0,0,1,0,0,0,0,1,0,1,0,1,0,Kapalı alan temizliği,Düşük,Acil değerlendirme önerildi
+21,Erkek,Türkiye,Bolu,0,0,1,1,1,0,1,1,1,1,0,0,1,Kapalı alan temizliği,Yüksek,İyileşti
+70,Erkek,Brezilya,Parana,1,1,1,0,1,1,1,1,0,1,0,0,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+27,Erkek,ABD,Colorado,0,0,0,0,1,1,1,1,0,1,0,0,0,Kapalı alan temizliği,Yüksek,İyileşti
+33,Kadın,Arjantin,Salta,1,0,0,0,1,1,1,1,0,0,0,1,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+49,Erkek,Türkiye,Trabzon,1,0,1,0,0,1,1,1,0,0,1,1,1,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+55,Kadın,İsveç,Umea,0,1,0,0,0,0,1,1,0,0,1,0,0,Kemirgen teması,Orta,Takip önerildi
+50,Kadın,Türkiye,Samsun,0,0,1,0,0,1,0,1,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+47,Kadın,Türkiye,Trabzon,1,0,0,0,0,0,0,0,1,0,0,1,1,Gıda deposu riski,Düşük,İyileşti
+74,Erkek,Türkiye,Ankara,0,1,0,0,0,0,1,1,0,1,1,0,0,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+88,Kadın,Brezilya,Parana,0,0,1,0,0,0,1,0,1,0,0,1,1,Kemirgen teması,Düşük,İyileşti
+39,Erkek,Türkiye,Kars,0,1,1,0,0,0,1,1,1,0,1,0,1,Kemirgen teması,Orta,Takip önerildi
+10,Erkek,Güney Kore,Seoul,1,1,0,0,1,0,1,0,1,0,0,1,1,Kapalı alan temizliği,Orta,İyileşti
+8,Kadın,Türkiye,Kars,0,0,1,0,0,1,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+32,Erkek,Türkiye,Erzurum,0,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+26,Erkek,Türkiye,İstanbul,1,0,0,0,0,1,0,1,1,0,0,1,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+29,Erkek,Şili,Santiago,0,1,0,0,1,1,1,0,0,1,1,1,0,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+47,Kadın,Arjantin,Salta,1,0,0,0,1,0,0,1,1,0,0,0,0,Belirgin temas yok,Orta,Tedavi altında
+31,Kadın,Türkiye,Kars,0,1,1,0,1,0,1,0,1,0,0,0,0,Kemirgen teması,Orta,Tedavi altında
+70,Kadın,Güney Kore,Seoul,0,0,0,1,0,0,1,0,0,0,1,1,0,Kemirgen teması,Düşük,Tedavi altında
+55,Erkek,ABD,Arizona,1,0,0,0,0,0,0,0,0,0,1,1,1,Belirgin temas yok,Düşük,Tedavi altında
+43,Kadın,Çin,Yunnan,0,1,1,1,0,0,1,0,0,0,1,0,0,Kapalı alan temizliği,Orta,Tedavi altında
+70,Erkek,İsveç,Umea,1,0,0,0,0,0,0,0,0,0,0,0,0,Gıda deposu riski,Düşük,Takip önerildi
+12,Kadın,Çin,Yunnan,0,0,1,1,0,0,1,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+28,Erkek,Türkiye,İstanbul,0,0,1,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+16,Erkek,İsveç,Umea,1,1,1,1,0,0,0,0,1,0,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+81,Erkek,Türkiye,Trabzon,0,0,0,0,1,0,1,1,0,1,0,1,1,Kemirgen teması,Orta,Tedavi altında
+58,Kadın,Türkiye,Trabzon,1,0,0,0,0,0,1,1,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+43,Erkek,Türkiye,Trabzon,0,0,1,0,0,0,1,1,0,1,0,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+46,Kadın,Arjantin,Salta,0,0,1,0,0,1,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+14,Erkek,Fransa,Lyon,0,1,0,0,0,0,1,1,0,1,1,1,0,Kapalı alan temizliği,Orta,İyileşti
+29,Kadın,Şili,Santiago,0,1,1,1,0,0,0,1,1,0,0,0,0,Kemirgen teması,Orta,Acil değerlendirme önerildi
+19,Erkek,Arjantin,Salta,0,0,1,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+31,Erkek,Fransa,Lyon,1,0,1,0,0,0,0,0,0,1,1,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+82,Kadın,Çin,Yunnan,0,1,0,0,1,0,1,0,1,0,0,1,1,Gıda deposu riski,Orta,Takip önerildi
+23,Erkek,Türkiye,Bolu,0,0,0,0,0,0,1,1,0,1,1,0,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+85,Kadın,Arjantin,Buenos Aires,0,0,1,0,0,0,0,1,1,1,0,1,1,Gıda deposu riski,Orta,İyileşti
+59,Erkek,Türkiye,Erzurum,0,1,1,0,0,0,1,1,0,0,1,0,0,Kemirgen teması,Orta,Tedavi altında
+48,Erkek,Türkiye,Samsun,1,0,0,1,0,1,0,1,1,0,0,1,1,Kapalı alan temizliği,Orta,İyileşti
+56,Kadın,Türkiye,Rize,0,1,1,1,1,0,1,0,0,0,0,1,1,Gıda deposu riski,Düşük,Takip önerildi
+52,Erkek,Türkiye,Erzurum,1,0,0,0,1,0,1,1,0,1,1,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+64,Erkek,Türkiye,Erzurum,0,0,0,0,1,1,0,1,0,0,0,0,1,Gıda deposu riski,Orta,Takip önerildi
+29,Kadın,Türkiye,Bolu,1,0,0,0,0,1,1,0,0,1,0,0,0,Kemirgen teması,Orta,İyileşti
+8,Erkek,Türkiye,Kars,0,0,0,0,0,0,0,1,0,0,0,0,0,Gıda deposu riski,Düşük,İyileşti
+54,Kadın,Türkiye,Bolu,0,0,1,0,1,1,0,0,0,0,1,0,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+58,Kadın,Fransa,Lyon,1,1,0,0,1,0,0,0,0,0,0,0,0,Belirgin temas yok,Orta,Takip önerildi
+53,Kadın,Arjantin,Salta,0,1,1,1,0,1,1,1,0,1,1,0,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+64,Erkek,Türkiye,Trabzon,0,0,0,1,1,0,1,1,1,0,1,1,1,Kemirgen teması,Orta,Takip önerildi
+23,Erkek,ABD,Colorado,0,0,1,0,0,1,1,0,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+38,Kadın,Türkiye,İstanbul,1,1,0,1,0,0,1,0,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+62,Kadın,Türkiye,Rize,1,1,0,1,1,1,0,1,0,0,1,0,0,Kırsal/hayvanlı alan,Yüksek,İyileşti
+19,Kadın,Türkiye,Kars,1,1,1,0,0,1,1,0,0,1,0,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+13,Kadın,Türkiye,Erzurum,1,1,1,1,0,0,0,1,1,0,1,1,0,Kemirgen teması,Yüksek,Tedavi altında
+83,Erkek,Arjantin,Buenos Aires,0,0,0,1,0,1,1,0,1,1,0,0,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+51,Erkek,İsveç,Umea,0,0,0,0,0,0,0,1,0,1,1,0,1,Gıda deposu riski,Düşük,Takip önerildi
+16,Erkek,Şili,Santiago,0,0,0,0,0,0,0,0,1,0,0,1,1,Kapalı alan temizliği,Düşük,Takip önerildi
+29,Erkek,Türkiye,Bolu,0,0,0,0,0,0,1,0,0,1,1,1,1,Gıda deposu riski,Düşük,İyileşti
+45,Erkek,Türkiye,Rize,1,0,0,1,0,0,1,1,1,1,1,0,0,Kırsal/hayvanlı alan,Yüksek,İyileşti
+88,Erkek,Arjantin,Buenos Aires,0,1,1,0,1,1,0,0,1,1,0,1,0,Kapalı alan temizliği,Yüksek,İyileşti
+21,Erkek,Fransa,Lyon,0,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+19,Erkek,Güney Kore,Seoul,1,1,1,0,1,1,1,0,1,0,0,0,1,Kemirgen teması,Yüksek,Tedavi altında
+20,Kadın,Arjantin,Salta,1,1,1,1,0,1,0,0,0,1,0,0,0,Gıda deposu riski,Yüksek,Acil değerlendirme önerildi
+77,Erkek,Türkiye,Trabzon,0,0,0,0,1,1,1,0,0,0,0,1,1,Belirgin temas yok,Orta,Tedavi altında
+73,Erkek,Türkiye,Trabzon,0,0,0,1,1,1,0,1,1,1,0,1,0,Kemirgen teması,Yüksek,İyileşti
+53,Kadın,ABD,New Mexico,0,0,1,0,1,0,1,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+42,Erkek,Türkiye,Trabzon,0,1,0,0,0,0,0,0,0,1,1,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+62,Erkek,Fransa,Lyon,0,0,1,0,0,0,1,1,0,1,0,0,0,Kemirgen teması,Orta,Tedavi altında
+76,Erkek,Almanya,Berlin,0,1,1,0,1,0,0,0,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+15,Erkek,Türkiye,Trabzon,0,1,1,0,1,0,0,0,1,0,0,0,0,Kapalı alan temizliği,Orta,İyileşti
+62,Erkek,Türkiye,İstanbul,1,1,0,0,0,0,1,0,1,0,1,1,1,Kemirgen teması,Orta,İyileşti
+46,Erkek,Çin,Yunnan,0,0,1,0,0,0,1,0,0,1,1,0,1,Kapalı alan temizliği,Düşük,İyileşti
+81,Erkek,ABD,Colorado,0,1,1,0,0,0,0,1,0,0,0,1,1,Gıda deposu riski,Düşük,Takip önerildi
+69,Erkek,Brezilya,Parana,0,0,1,1,1,1,1,0,1,0,0,1,1,Kırsal/hayvanlı alan,Orta,İyileşti
+47,Kadın,Türkiye,İstanbul,1,1,0,1,0,0,0,1,1,0,0,0,0,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+48,Erkek,Türkiye,Kars,1,0,0,0,0,0,0,0,1,0,0,1,0,Gıda deposu riski,Düşük,İyileşti
+18,Kadın,Brezilya,Parana,0,0,0,0,0,1,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+63,Kadın,İsveç,Umea,0,0,1,0,0,0,0,0,0,0,1,1,0,Belirgin temas yok,Düşük,Takip önerildi
+71,Kadın,Türkiye,Bolu,0,0,0,0,0,0,1,1,1,0,0,1,0,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+70,Kadın,Fransa,Lyon,1,1,0,0,0,0,1,1,0,0,0,0,0,Kapalı alan temizliği,Orta,İyileşti
+39,Kadın,Türkiye,Ankara,1,0,0,0,1,1,1,1,0,0,1,0,0,Kemirgen teması,Yüksek,İyileşti
+63,Kadın,Arjantin,Salta,0,0,1,1,0,0,1,1,0,1,0,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+54,Erkek,Türkiye,Ankara,1,0,1,0,0,0,0,0,1,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+31,Kadın,ABD,Colorado,0,1,0,0,0,0,0,1,0,1,1,1,1,Kemirgen teması,Orta,İyileşti
+33,Kadın,İsveç,Umea,1,0,0,0,0,0,0,1,0,0,0,0,0,Gıda deposu riski,Orta,Takip önerildi
+74,Kadın,ABD,Colorado,0,0,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+9,Erkek,Fransa,Lyon,0,0,0,0,0,1,1,0,0,0,0,0,1,Gıda deposu riski,Düşük,İyileşti
+55,Kadın,Şili,Santiago,0,0,1,1,0,1,1,0,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+21,Erkek,Şili,Santiago,1,0,0,1,0,0,0,0,0,0,0,0,0,Gıda deposu riski,Düşük,İyileşti
+60,Erkek,Brezilya,Parana,0,1,0,0,1,1,1,1,1,0,1,0,0,Kemirgen teması,Yüksek,Tedavi altında
+84,Erkek,Çin,Yunnan,0,0,1,0,0,1,0,0,1,0,1,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+28,Erkek,Çin,Yunnan,0,1,1,1,1,1,1,1,1,0,0,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+11,Kadın,Türkiye,Samsun,1,1,0,0,0,0,1,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+43,Kadın,Türkiye,Ankara,0,0,1,0,0,0,0,0,0,1,0,0,1,Belirgin temas yok,Düşük,İyileşti
+10,Erkek,Güney Kore,Seoul,1,1,1,0,0,1,0,1,0,1,1,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+69,Kadın,Arjantin,Buenos Aires,0,1,1,1,1,0,0,0,1,1,1,0,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+43,Erkek,ABD,Colorado,0,1,1,0,0,0,1,0,0,1,0,1,0,Kemirgen teması,Orta,İyileşti
+47,Kadın,Fransa,Lyon,0,0,0,0,0,1,0,0,0,0,0,0,0,Gıda deposu riski,Düşük,İyileşti
+73,Erkek,Türkiye,Ankara,0,0,0,1,0,0,1,0,0,0,0,1,1,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+9,Erkek,Türkiye,Trabzon,1,1,0,0,0,0,0,1,0,0,0,1,1,Gıda deposu riski,Düşük,Tedavi altında
+61,Erkek,Fransa,Lyon,1,1,0,0,1,0,1,1,0,0,0,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+67,Erkek,Türkiye,İstanbul,0,1,1,1,1,1,0,1,0,0,1,1,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+86,Kadın,Güney Kore,Seoul,1,1,1,1,1,0,0,0,0,0,1,1,0,Kapalı alan temizliği,Orta,Tedavi altında
+19,Kadın,Türkiye,Erzurum,1,1,1,0,0,0,0,0,0,1,0,1,0,Gıda deposu riski,Orta,Tedavi altında
+25,Erkek,Türkiye,Erzurum,0,1,0,0,1,0,1,1,0,0,0,0,0,Kemirgen teması,Orta,Tedavi altında
+41,Erkek,Türkiye,Bolu,0,1,0,0,0,0,1,0,1,0,0,0,1,Gıda deposu riski,Orta,Tedavi altında
+75,Erkek,Fransa,Lyon,0,0,0,0,1,0,1,0,1,0,0,1,1,Gıda deposu riski,Düşük,İyileşti
+81,Kadın,ABD,New Mexico,0,1,0,1,0,1,0,0,1,0,1,1,0,Kemirgen teması,Orta,Tedavi altında
+50,Kadın,Çin,Yunnan,1,0,0,1,1,1,1,1,1,0,1,1,1,Kapalı alan temizliği,Yüksek,İyileşti
+14,Kadın,Türkiye,Trabzon,1,0,0,0,1,1,1,0,1,0,0,1,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+44,Kadın,İsveç,Umea,1,1,0,1,1,0,1,0,1,1,0,1,1,Kemirgen teması,Orta,İyileşti
+41,Kadın,Türkiye,Erzurum,1,1,0,1,1,0,0,1,1,0,1,0,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+20,Erkek,Türkiye,Trabzon,0,1,0,0,0,0,1,0,0,0,0,1,1,Gıda deposu riski,Düşük,Takip önerildi
+22,Erkek,Güney Kore,Seoul,1,0,0,0,0,1,0,1,0,0,0,1,1,Gıda deposu riski,Orta,Acil değerlendirme önerildi
+43,Erkek,Türkiye,Trabzon,0,1,0,0,0,1,0,0,0,0,0,0,0,Belirgin temas yok,Orta,Takip önerildi
+52,Erkek,Fransa,Lyon,1,0,1,1,0,1,1,0,1,0,0,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+14,Erkek,Türkiye,Trabzon,0,0,1,1,1,0,1,0,1,1,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+18,Erkek,Fransa,Lyon,1,1,1,0,0,1,1,1,0,0,0,0,1,Kemirgen teması,Yüksek,Takip önerildi
+40,Kadın,Türkiye,Kars,0,1,0,0,0,0,1,1,1,0,0,1,0,Kapalı alan temizliği,Orta,Tedavi altında
+62,Erkek,Arjantin,Buenos Aires,1,1,0,1,0,0,1,1,0,0,0,0,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+24,Erkek,Arjantin,Salta,1,0,0,0,0,0,1,0,0,0,1,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+73,Kadın,Fransa,Lyon,0,0,0,0,0,1,0,0,0,1,0,0,1,Gıda deposu riski,Orta,İyileşti
+85,Kadın,Türkiye,Samsun,0,1,1,0,1,0,1,1,1,0,0,0,1,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+23,Erkek,İsveç,Umea,0,1,1,0,1,1,1,1,0,1,0,0,1,Kemirgen teması,Yüksek,Tedavi altında
+67,Erkek,Türkiye,Trabzon,0,0,0,0,1,0,1,1,1,0,0,1,0,Gıda deposu riski,Orta,Tedavi altında
+28,Erkek,Türkiye,İstanbul,0,0,0,0,1,0,0,1,0,0,0,1,1,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+16,Erkek,Arjantin,Salta,1,0,1,0,0,1,1,0,0,0,0,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+37,Kadın,Türkiye,Erzurum,1,0,0,0,0,0,1,0,1,1,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+22,Kadın,ABD,Colorado,0,0,0,0,0,0,1,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+28,Erkek,Türkiye,Kars,0,0,0,0,1,1,0,1,0,0,0,1,0,Gıda deposu riski,Orta,Takip önerildi
+71,Kadın,Çin,Yunnan,0,0,1,1,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+14,Erkek,Türkiye,Rize,1,0,1,0,0,1,0,1,0,1,1,0,1,Kemirgen teması,Yüksek,Takip önerildi
+22,Erkek,Almanya,Berlin,0,0,0,0,0,1,0,0,1,0,0,0,1,Belirgin temas yok,Orta,Tedavi altında
+86,Kadın,Fransa,Lyon,0,1,0,1,1,0,1,1,0,0,0,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+10,Kadın,Türkiye,Rize,0,1,1,0,0,1,0,1,0,1,0,1,1,Kemirgen teması,Orta,İyileşti
+55,Erkek,İsveç,Umea,0,0,0,1,0,0,1,1,1,0,1,0,0,Kemirgen teması,Orta,İyileşti
+64,Kadın,Türkiye,Samsun,0,1,0,1,0,0,1,0,0,0,1,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+64,Erkek,Türkiye,Rize,1,0,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+37,Erkek,Çin,Yunnan,0,1,0,1,1,0,1,0,0,1,0,0,0,Gıda deposu riski,Orta,Takip önerildi
+15,Erkek,Türkiye,Bolu,0,0,1,0,0,0,0,1,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+41,Kadın,ABD,Arizona,1,0,0,0,0,0,1,0,0,0,0,0,1,Gıda deposu riski,Düşük,İyileşti
+80,Erkek,Fransa,Lyon,1,1,0,1,0,0,1,0,0,1,1,0,0,Kemirgen teması,Yüksek,Tedavi altında
+85,Kadın,ABD,Colorado,0,0,0,1,1,0,1,1,1,1,0,1,1,Kemirgen teması,Orta,İyileşti
+78,Erkek,İsveç,Umea,0,0,0,0,1,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+13,Kadın,ABD,Arizona,0,1,1,0,0,1,1,1,1,0,0,1,0,Kemirgen teması,Yüksek,Tedavi altında
+61,Kadın,Arjantin,Buenos Aires,0,0,0,1,1,0,0,1,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+21,Kadın,Türkiye,İstanbul,1,0,0,0,1,1,0,0,0,0,0,1,0,Gıda deposu riski,Orta,Acil değerlendirme önerildi
+80,Erkek,Türkiye,Rize,1,0,0,0,0,0,1,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+22,Kadın,ABD,Arizona,1,0,1,0,0,0,0,1,1,0,1,1,1,Kapalı alan temizliği,Orta,İyileşti
+82,Kadın,Şili,Santiago,0,1,1,0,1,0,0,1,1,0,0,1,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+20,Kadın,Güney Kore,Seoul,0,1,0,0,0,0,0,1,0,1,0,0,1,Belirgin temas yok,Orta,Takip önerildi
+83,Kadın,ABD,Arizona,0,0,1,0,0,0,1,0,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+27,Kadın,Türkiye,Bolu,1,1,1,0,0,0,1,0,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+44,Erkek,Şili,Santiago,1,0,1,0,1,1,0,0,1,0,0,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+29,Erkek,Türkiye,Rize,0,1,0,1,0,0,0,0,1,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+11,Erkek,Güney Kore,Seoul,0,0,0,0,1,0,0,0,0,0,0,1,1,Kemirgen teması,Düşük,Acil değerlendirme önerildi
+53,Kadın,Türkiye,Trabzon,1,0,0,1,1,0,1,1,1,0,0,0,0,Gıda deposu riski,Yüksek,Tedavi altında
+79,Kadın,Türkiye,Kars,0,1,0,1,0,1,0,0,0,0,0,1,1,Belirgin temas yok,Orta,Tedavi altında
+8,Erkek,Türkiye,Kars,0,0,0,1,1,1,1,1,1,1,1,1,0,Kemirgen teması,Yüksek,Tedavi altında
+70,Erkek,Güney Kore,Seoul,0,1,0,1,0,0,0,1,1,0,0,0,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+24,Erkek,Arjantin,Salta,0,0,0,0,0,0,0,0,0,1,0,1,0,Belirgin temas yok,Düşük,İyileşti
+14,Erkek,ABD,Colorado,0,1,0,0,1,0,1,0,1,0,1,0,0,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+56,Kadın,Türkiye,İstanbul,0,0,0,0,0,1,1,0,0,1,1,1,0,Gıda deposu riski,Orta,Tedavi altında
+35,Kadın,Şili,Santiago,0,1,0,0,0,1,1,1,0,1,0,0,1,Belirgin temas yok,Yüksek,Acil değerlendirme önerildi
+24,Erkek,Arjantin,Salta,0,1,0,0,0,0,1,0,0,0,1,0,0,Belirgin temas yok,Orta,Takip önerildi
+73,Kadın,Şili,Santiago,0,1,1,0,0,0,1,1,0,0,0,1,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+55,Kadın,Arjantin,Salta,1,0,1,0,1,0,1,1,0,0,0,1,1,Kapalı alan temizliği,Orta,Tedavi altında
+26,Erkek,Türkiye,Bolu,0,1,1,0,0,1,1,0,0,1,0,1,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+70,Erkek,Almanya,Berlin,1,0,1,0,1,0,0,1,0,0,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+22,Kadın,Brezilya,Parana,1,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+29,Kadın,Fransa,Lyon,1,0,0,0,1,0,0,0,0,1,0,0,1,Kapalı alan temizliği,Düşük,İyileşti
+61,Kadın,ABD,Arizona,1,0,1,1,0,1,1,0,1,1,0,0,1,Kemirgen teması,Yüksek,Takip önerildi
+43,Erkek,Türkiye,Kars,0,1,1,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+83,Erkek,Çin,Yunnan,1,0,0,1,0,1,0,0,1,0,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+49,Kadın,Türkiye,İstanbul,0,0,0,0,0,0,1,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+35,Kadın,İsveç,Umea,0,0,0,1,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Tedavi altında
+35,Kadın,Şili,Santiago,1,1,1,0,0,1,1,0,1,0,0,1,1,Kapalı alan temizliği,Yüksek,Tedavi altında
+58,Kadın,Güney Kore,Seoul,0,0,1,0,0,0,0,0,1,0,1,0,1,Belirgin temas yok,Düşük,İyileşti
+11,Kadın,Arjantin,Buenos Aires,0,0,1,0,0,0,1,0,1,0,1,1,0,Gıda deposu riski,Orta,İyileşti
+29,Erkek,ABD,Arizona,0,1,0,1,1,0,0,0,0,0,1,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+47,Erkek,Türkiye,İstanbul,1,1,1,0,1,1,1,0,0,1,0,1,0,Kırsal/hayvanlı alan,Yüksek,İyileşti
+66,Kadın,Arjantin,Buenos Aires,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+33,Kadın,ABD,Colorado,0,0,1,0,0,0,0,0,1,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+52,Erkek,Şili,Santiago,0,1,1,0,1,1,1,1,0,0,1,0,1,Kemirgen teması,Yüksek,Takip önerildi
+80,Erkek,Arjantin,Buenos Aires,0,0,1,0,1,0,0,1,1,0,0,1,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+86,Erkek,Brezilya,Parana,0,1,0,1,0,0,0,0,0,1,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+42,Erkek,Şili,Santiago,0,1,0,0,1,1,1,1,1,0,0,0,0,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+52,Erkek,Türkiye,Samsun,0,0,1,0,0,1,1,0,1,1,1,1,0,Kapalı alan temizliği,Yüksek,İyileşti
+68,Erkek,Türkiye,Trabzon,0,1,0,0,0,0,0,0,0,0,0,1,1,Gıda deposu riski,Düşük,İyileşti
+76,Kadın,Arjantin,Salta,0,1,0,0,1,1,0,0,1,0,1,1,1,Kapalı alan temizliği,Orta,Tedavi altında
+35,Erkek,Türkiye,Ankara,0,0,1,0,0,0,1,0,0,1,0,0,1,Kapalı alan temizliği,Düşük,İyileşti
+59,Kadın,Türkiye,Trabzon,1,1,0,1,0,0,1,1,0,1,0,0,1,Kemirgen teması,Orta,Tedavi altında
+50,Erkek,Güney Kore,Seoul,0,1,0,0,0,0,1,1,0,0,1,1,0,Kemirgen teması,Orta,Tedavi altında
+23,Erkek,Türkiye,Ankara,1,1,0,0,1,1,1,0,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+76,Erkek,Türkiye,Ankara,0,1,0,0,0,0,1,1,0,0,0,1,0,Kapalı alan temizliği,Orta,Tedavi altında
+49,Erkek,Türkiye,Bolu,0,1,1,1,0,0,1,0,0,1,0,0,1,Kemirgen teması,Orta,Takip önerildi
+63,Kadın,Türkiye,Bolu,0,1,0,0,0,1,0,0,0,0,0,0,1,Gıda deposu riski,Orta,Tedavi altında
+85,Erkek,Türkiye,Ankara,0,0,0,0,1,0,0,0,0,1,0,1,1,Belirgin temas yok,Düşük,İyileşti
+85,Erkek,ABD,New Mexico,0,0,0,1,0,0,0,1,0,0,1,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+81,Kadın,Türkiye,Ankara,0,1,0,1,0,0,0,1,1,0,0,1,1,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+44,Erkek,Türkiye,İstanbul,1,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+35,Erkek,Arjantin,Buenos Aires,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+30,Erkek,Türkiye,Erzurum,0,0,0,0,1,0,1,1,0,1,0,1,0,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+81,Erkek,İsveç,Umea,0,0,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+30,Erkek,Türkiye,Rize,0,0,0,0,0,1,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Tedavi altında
+28,Kadın,ABD,Arizona,1,0,1,0,1,0,0,1,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+11,Erkek,Almanya,Berlin,0,0,0,1,1,0,0,1,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+29,Erkek,Türkiye,Trabzon,0,0,1,1,1,0,1,0,0,1,1,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+80,Erkek,ABD,Colorado,0,1,0,0,0,0,0,1,1,1,0,1,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+26,Erkek,Türkiye,Samsun,0,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Tedavi altında
+72,Erkek,Fransa,Lyon,0,1,1,1,1,0,1,0,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+33,Erkek,Türkiye,Trabzon,0,0,1,0,0,0,0,0,1,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+76,Kadın,Almanya,Berlin,0,0,0,1,0,0,1,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+16,Kadın,Türkiye,Kars,0,0,1,1,1,1,1,1,0,0,0,0,0,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+84,Erkek,Türkiye,Kars,0,0,0,1,0,1,1,1,0,0,0,0,0,Kapalı alan temizliği,Yüksek,Takip önerildi
+72,Erkek,ABD,Arizona,0,0,0,0,1,0,0,1,0,1,0,0,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+30,Kadın,Türkiye,Erzurum,1,1,0,0,0,0,0,1,0,0,0,0,1,Gıda deposu riski,Orta,Takip önerildi
+34,Kadın,İsveç,Umea,0,0,0,0,1,1,1,1,1,1,0,1,1,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+55,Kadın,ABD,New Mexico,0,1,0,0,1,0,0,0,1,1,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+34,Erkek,Türkiye,Kars,0,0,1,1,1,0,1,1,0,1,0,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+13,Erkek,Güney Kore,Seoul,0,0,0,1,1,0,0,0,1,0,0,1,0,Gıda deposu riski,Düşük,İyileşti
+27,Kadın,Şili,Santiago,0,0,1,0,0,0,0,0,0,1,0,0,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+65,Kadın,Arjantin,Buenos Aires,1,1,1,0,0,1,1,1,1,0,0,1,0,Kemirgen teması,Yüksek,Tedavi altında
+55,Kadın,Çin,Yunnan,1,1,1,0,1,1,0,0,0,1,0,1,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+81,Erkek,Türkiye,Bolu,0,0,1,0,0,0,0,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+10,Erkek,Şili,Santiago,0,1,0,0,0,0,1,0,1,1,0,1,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+27,Kadın,Fransa,Lyon,0,0,0,1,1,0,1,1,1,0,0,0,0,Gıda deposu riski,Orta,Tedavi altında
+37,Kadın,ABD,Colorado,0,1,1,0,1,0,1,0,0,1,0,1,0,Gıda deposu riski,Orta,Tedavi altında
+19,Kadın,Türkiye,Trabzon,0,0,1,1,0,0,0,0,1,1,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+10,Kadın,Brezilya,Parana,0,1,0,0,0,0,1,0,1,1,1,1,0,Kapalı alan temizliği,Orta,İyileşti
+49,Kadın,ABD,Colorado,0,0,0,0,0,1,1,0,1,1,0,0,1,Kemirgen teması,Orta,İyileşti
+27,Kadın,Çin,Yunnan,0,1,1,1,0,0,0,0,1,1,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+13,Erkek,Şili,Santiago,0,0,0,0,0,0,0,1,1,0,0,1,1,Gıda deposu riski,Düşük,Takip önerildi
+47,Erkek,Türkiye,İstanbul,0,0,1,1,1,0,0,1,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+20,Erkek,Türkiye,Bolu,0,0,0,1,0,0,1,1,1,0,1,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+82,Kadın,Türkiye,Samsun,1,0,1,0,0,1,0,0,0,0,1,0,0,Gıda deposu riski,Orta,Takip önerildi
+59,Erkek,Fransa,Lyon,0,1,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+74,Erkek,ABD,Arizona,0,1,0,1,0,0,1,0,0,1,1,0,1,Kemirgen teması,Orta,İyileşti
+31,Erkek,Çin,Yunnan,0,0,0,0,1,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+29,Erkek,Çin,Yunnan,0,1,1,1,0,0,1,0,0,1,0,0,0,Kemirgen teması,Orta,Tedavi altında
+61,Erkek,Çin,Yunnan,0,0,1,0,1,0,1,0,1,1,0,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+58,Kadın,Türkiye,Rize,1,0,0,1,0,0,1,1,0,1,0,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+23,Erkek,Türkiye,İstanbul,1,0,0,0,0,0,0,0,1,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+22,Erkek,ABD,Colorado,0,0,0,1,0,0,1,0,0,0,1,0,1,Kapalı alan temizliği,Düşük,Takip önerildi
+61,Kadın,Şili,Santiago,0,0,1,1,0,1,0,1,0,1,1,0,1,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+63,Erkek,Fransa,Lyon,0,0,0,0,0,0,0,0,0,0,0,0,0,Kemirgen teması,Düşük,İyileşti
+54,Erkek,Türkiye,Rize,0,0,0,0,0,1,0,1,0,0,0,0,1,Gıda deposu riski,Orta,İyileşti
+20,Erkek,ABD,Arizona,0,0,1,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+79,Erkek,Türkiye,Kars,0,0,0,0,0,1,0,0,1,0,1,1,0,Gıda deposu riski,Orta,Tedavi altında
+71,Kadın,İsveç,Umea,1,1,1,0,0,0,1,0,0,0,0,1,1,Gıda deposu riski,Orta,İyileşti
+76,Kadın,Almanya,Berlin,0,0,0,0,1,0,0,1,1,0,0,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+86,Kadın,ABD,New Mexico,0,1,0,0,0,1,1,0,1,1,0,1,1,Kapalı alan temizliği,Orta,İyileşti
+86,Erkek,Türkiye,İstanbul,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+54,Kadın,Arjantin,Buenos Aires,1,0,0,0,0,0,1,0,1,0,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+37,Erkek,İsveç,Umea,0,0,0,1,0,0,0,0,0,0,0,1,0,Gıda deposu riski,Düşük,İyileşti
+69,Kadın,Arjantin,Buenos Aires,0,0,1,0,0,1,1,0,1,1,0,1,0,Kemirgen teması,Orta,Takip önerildi
+50,Kadın,ABD,New Mexico,0,0,0,1,0,0,0,0,1,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+32,Kadın,Türkiye,Erzurum,1,0,0,0,0,0,0,0,0,1,0,0,1,Belirgin temas yok,Düşük,İyileşti
+31,Kadın,ABD,Arizona,0,1,0,1,1,0,1,1,1,1,1,1,1,Kapalı alan temizliği,Yüksek,İyileşti
+15,Erkek,Almanya,Berlin,0,1,1,0,0,0,1,0,1,1,1,0,0,Kemirgen teması,Orta,Acil değerlendirme önerildi
+27,Erkek,Türkiye,Trabzon,1,0,0,0,0,0,0,0,0,1,1,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+31,Kadın,Arjantin,Buenos Aires,0,0,1,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+32,Erkek,Güney Kore,Seoul,0,1,0,0,0,0,1,0,1,0,0,0,0,Kemirgen teması,Orta,Tedavi altında
+33,Erkek,Almanya,Berlin,1,0,0,1,0,0,1,1,0,0,0,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+75,Kadın,Türkiye,Ankara,1,0,1,1,0,0,1,0,0,0,1,1,1,Kemirgen teması,Orta,Takip önerildi
+73,Kadın,Şili,Santiago,0,0,0,0,1,0,0,1,1,0,1,1,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+45,Kadın,Türkiye,Trabzon,0,1,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,Tedavi altında
+34,Erkek,ABD,New Mexico,1,0,1,0,1,0,1,0,1,0,1,0,1,Kapalı alan temizliği,Orta,İyileşti
+22,Kadın,Türkiye,Trabzon,0,0,0,0,1,1,0,0,0,0,0,0,0,Belirgin temas yok,Orta,Takip önerildi
+19,Erkek,Türkiye,Kars,0,1,0,0,0,0,1,1,1,1,1,1,1,Kemirgen teması,Orta,Takip önerildi
+32,Kadın,Çin,Yunnan,0,1,0,0,0,1,1,1,1,0,0,1,1,Gıda deposu riski,Orta,Tedavi altında
+64,Kadın,ABD,Arizona,0,0,0,0,1,0,1,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+21,Kadın,Türkiye,Samsun,0,1,0,0,0,0,1,1,1,0,0,0,1,Kemirgen teması,Orta,Takip önerildi
+65,Kadın,Arjantin,Salta,0,1,0,1,0,0,0,0,0,0,0,1,0,Gıda deposu riski,Düşük,Takip önerildi
+10,Erkek,Arjantin,Buenos Aires,0,0,0,0,0,0,1,0,0,0,0,1,0,Gıda deposu riski,Düşük,İyileşti
+51,Erkek,Arjantin,Buenos Aires,0,0,0,0,0,0,1,0,1,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+26,Erkek,Arjantin,Salta,0,1,1,0,1,0,1,1,0,0,0,1,1,Kemirgen teması,Orta,Takip önerildi
+80,Kadın,Arjantin,Salta,0,0,1,0,1,0,0,0,1,1,0,1,1,Kapalı alan temizliği,Düşük,Tedavi altında
+20,Kadın,Türkiye,Ankara,1,1,0,0,0,0,1,0,1,0,1,0,1,Kemirgen teması,Orta,Takip önerildi
+51,Kadın,Güney Kore,Seoul,1,0,0,0,0,0,1,0,0,1,0,0,0,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+64,Kadın,Türkiye,Samsun,0,0,1,0,0,0,1,0,0,1,1,0,0,Gıda deposu riski,Orta,Tedavi altında
+18,Erkek,ABD,Arizona,0,1,0,0,1,0,1,1,1,1,0,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+87,Erkek,Türkiye,İstanbul,1,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+18,Erkek,Brezilya,Parana,0,1,0,0,0,0,1,0,0,0,1,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+60,Erkek,Şili,Santiago,0,0,0,0,1,1,1,1,1,1,1,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+17,Kadın,Türkiye,Rize,0,0,1,0,0,0,1,0,0,0,1,1,0,Kapalı alan temizliği,Düşük,Takip önerildi
+86,Kadın,Türkiye,Trabzon,0,1,0,0,0,1,1,0,0,1,0,1,1,Kemirgen teması,Orta,Takip önerildi
+85,Kadın,Güney Kore,Seoul,1,0,0,1,1,0,0,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+37,Kadın,ABD,Arizona,1,1,0,0,1,1,0,1,1,0,1,1,1,Kapalı alan temizliği,Yüksek,İyileşti
+52,Kadın,Güney Kore,Seoul,0,0,0,0,0,1,0,1,0,0,1,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+65,Erkek,ABD,Arizona,1,0,0,0,0,0,0,0,0,0,0,1,0,Gıda deposu riski,Düşük,Takip önerildi
+67,Erkek,Brezilya,Parana,1,1,0,0,0,1,0,1,0,0,0,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+20,Kadın,Türkiye,Kars,1,0,0,0,0,1,1,1,1,1,1,0,0,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+53,Kadın,Türkiye,Ankara,1,1,1,0,0,0,1,1,1,1,0,0,1,Kemirgen teması,Yüksek,İyileşti
+75,Erkek,Türkiye,Samsun,1,0,0,0,0,0,1,0,1,0,0,1,1,Kapalı alan temizliği,Düşük,Takip önerildi
+43,Erkek,Güney Kore,Seoul,0,1,0,0,0,1,1,1,1,1,0,0,1,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+57,Kadın,Türkiye,Trabzon,0,0,1,1,0,1,1,0,0,0,0,1,1,Kırsal/hayvanlı alan,Orta,İyileşti
+49,Erkek,Türkiye,İstanbul,0,0,0,0,1,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+75,Erkek,Türkiye,Kars,0,0,1,0,0,0,1,0,0,1,1,1,1,Kapalı alan temizliği,Düşük,İyileşti
+84,Erkek,Türkiye,Erzurum,0,1,0,0,0,0,1,1,1,0,0,1,1,Gıda deposu riski,Orta,Takip önerildi
+11,Erkek,Almanya,Berlin,0,1,0,1,1,1,1,1,0,1,0,0,0,Kırsal/hayvanlı alan,Yüksek,İyileşti
+28,Kadın,Çin,Yunnan,0,0,0,0,1,1,1,1,1,1,1,1,1,Kemirgen teması,Yüksek,İyileşti
+37,Kadın,ABD,Colorado,0,0,1,1,1,0,1,1,0,0,0,1,0,Kemirgen teması,Orta,Tedavi altında
+45,Erkek,Çin,Yunnan,1,1,0,0,0,0,1,1,1,1,1,1,1,Kemirgen teması,Yüksek,İyileşti
+88,Erkek,Türkiye,İstanbul,0,0,0,0,0,0,1,1,0,0,1,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+31,Kadın,Türkiye,Kars,0,0,0,0,1,0,0,0,0,1,0,0,0,Kemirgen teması,Düşük,İyileşti
+35,Kadın,ABD,Colorado,0,0,0,0,0,0,1,1,1,0,0,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+17,Kadın,Türkiye,Rize,0,1,1,0,1,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+43,Erkek,Türkiye,Bolu,0,1,0,0,0,0,1,1,1,1,0,0,0,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+9,Kadın,Türkiye,Erzurum,0,1,1,0,1,0,1,0,0,0,1,0,1,Kemirgen teması,Orta,Takip önerildi
+30,Kadın,Şili,Santiago,1,1,0,1,0,1,1,1,0,1,0,0,0,Kırsal/hayvanlı alan,Yüksek,Takip önerildi
+63,Erkek,Fransa,Lyon,0,0,0,0,0,0,0,0,0,1,0,0,0,Gıda deposu riski,Düşük,İyileşti
+59,Erkek,Fransa,Lyon,0,0,0,0,0,0,1,1,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+13,Erkek,Türkiye,Erzurum,1,0,1,0,1,0,0,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+77,Kadın,Çin,Yunnan,0,1,0,0,0,0,0,1,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+81,Erkek,Türkiye,Rize,0,0,0,0,0,0,0,0,1,0,1,0,0,Gıda deposu riski,Düşük,Tedavi altında
+38,Erkek,ABD,New Mexico,0,0,1,0,1,0,1,0,0,1,1,1,1,Kapalı alan temizliği,Düşük,Tedavi altında
+84,Erkek,Türkiye,İstanbul,0,0,1,1,0,0,1,1,0,0,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+62,Erkek,Türkiye,Trabzon,1,0,0,0,1,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+68,Kadın,İsveç,Umea,0,1,0,1,1,1,1,0,0,0,1,0,0,Kapalı alan temizliği,Yüksek,Takip önerildi
+14,Erkek,Almanya,Berlin,1,1,0,1,0,1,0,0,0,1,1,1,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+56,Kadın,Türkiye,Erzurum,1,1,1,0,0,1,1,0,0,0,0,0,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+10,Erkek,Şili,Santiago,0,1,0,0,0,0,1,0,1,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+19,Kadın,Türkiye,Erzurum,0,0,1,1,1,0,1,0,0,1,1,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+73,Kadın,Türkiye,Ankara,0,1,0,0,1,0,1,0,1,0,1,0,0,Kemirgen teması,Orta,Tedavi altında
+17,Kadın,Almanya,Berlin,0,0,0,0,0,0,0,1,0,0,0,1,1,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+49,Erkek,Türkiye,Ankara,0,0,0,0,0,1,1,0,1,0,0,0,1,Kemirgen teması,Orta,Tedavi altında
+71,Kadın,ABD,New Mexico,0,0,0,0,1,0,1,1,1,0,1,0,1,Kapalı alan temizliği,Orta,İyileşti
+68,Erkek,ABD,New Mexico,0,1,0,0,0,0,0,0,0,0,0,0,0,Kapalı alan temizliği,Düşük,İyileşti
+42,Erkek,ABD,Colorado,0,0,1,0,0,1,1,0,1,1,1,0,1,Kırsal/hayvanlı alan,Yüksek,Takip önerildi
+45,Kadın,Türkiye,Samsun,0,0,1,0,0,1,1,0,0,0,0,1,0,Gıda deposu riski,Orta,Takip önerildi
+55,Kadın,Güney Kore,Seoul,0,0,0,1,0,1,0,0,0,1,1,1,1,Kapalı alan temizliği,Orta,Tedavi altında
+82,Erkek,Almanya,Berlin,0,1,1,0,0,1,1,1,0,0,0,1,1,Kırsal/hayvanlı alan,Orta,İyileşti
+78,Erkek,Türkiye,Trabzon,0,0,1,1,1,0,1,0,1,1,0,1,1,Kemirgen teması,Orta,Takip önerildi
+53,Kadın,Almanya,Berlin,0,1,0,0,1,0,1,1,1,0,0,1,0,Kemirgen teması,Orta,İyileşti
+36,Kadın,Şili,Santiago,0,1,1,1,1,0,1,1,1,1,1,1,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+86,Erkek,Arjantin,Salta,0,1,0,1,1,1,0,1,0,1,0,1,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+29,Erkek,Arjantin,Salta,1,0,1,0,0,0,1,1,1,1,1,0,1,Kemirgen teması,Yüksek,Tedavi altında
+54,Erkek,Arjantin,Buenos Aires,1,1,1,0,0,0,1,1,1,1,1,1,0,Kemirgen teması,Yüksek,Tedavi altında
+56,Erkek,Türkiye,Ankara,1,1,1,0,0,1,1,0,1,0,0,1,0,Kemirgen teması,Yüksek,Tedavi altında
+74,Kadın,Türkiye,Erzurum,0,0,0,1,0,1,1,1,0,0,0,0,1,Kemirgen teması,Orta,Takip önerildi
+20,Erkek,Türkiye,Bolu,1,1,0,0,0,1,1,1,0,0,0,1,0,Gıda deposu riski,Yüksek,Tedavi altında
+58,Kadın,Türkiye,Ankara,0,0,0,1,0,1,1,0,1,0,0,0,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+8,Erkek,Türkiye,Samsun,0,1,0,0,0,0,0,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+29,Erkek,Şili,Santiago,1,1,0,0,1,0,1,1,0,0,1,0,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+83,Kadın,Brezilya,Parana,0,0,0,0,1,0,1,1,1,1,0,0,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+45,Erkek,Türkiye,Trabzon,0,0,0,0,1,1,1,1,0,1,0,1,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+9,Kadın,Türkiye,Erzurum,0,0,0,1,1,0,1,1,1,1,0,1,1,Kemirgen teması,Orta,İyileşti
+70,Erkek,Brezilya,Parana,0,0,0,0,1,1,1,0,0,0,1,0,0,Gıda deposu riski,Orta,Takip önerildi
+86,Erkek,Türkiye,Bolu,0,0,0,0,1,0,1,1,1,1,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+41,Erkek,Türkiye,Ankara,0,0,0,0,0,0,1,0,1,0,1,0,0,Gıda deposu riski,Orta,Tedavi altında
+88,Erkek,ABD,Arizona,0,0,1,0,1,0,0,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,Acil değerlendirme önerildi
+83,Erkek,Türkiye,Ankara,1,1,0,0,0,0,1,0,0,0,0,0,1,Gıda deposu riski,Orta,İyileşti
+39,Kadın,Türkiye,Bolu,0,0,1,0,1,0,0,0,0,0,1,1,1,Kırsal/hayvanlı alan,Düşük,Acil değerlendirme önerildi
+83,Kadın,Arjantin,Salta,1,1,0,1,0,0,0,1,0,1,1,1,1,Kapalı alan temizliği,Orta,İyileşti
+14,Kadın,Türkiye,Samsun,1,1,1,1,0,1,1,1,0,0,0,0,0,Kırsal/hayvanlı alan,Yüksek,İyileşti
+32,Kadın,Türkiye,İstanbul,1,0,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+44,Kadın,Türkiye,Rize,0,0,0,0,0,0,1,1,0,0,0,1,0,Kapalı alan temizliği,Düşük,İyileşti
+27,Kadın,Brezilya,Parana,1,1,1,0,0,0,1,0,1,0,1,0,1,Kemirgen teması,Orta,Takip önerildi
+83,Erkek,Almanya,Berlin,0,0,1,0,0,0,0,0,1,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+65,Kadın,ABD,Arizona,0,1,1,1,0,0,0,0,0,0,0,0,1,Gıda deposu riski,Düşük,İyileşti
+38,Erkek,Türkiye,Samsun,0,1,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+43,Erkek,Çin,Yunnan,0,0,0,0,1,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+68,Erkek,Türkiye,Bolu,0,1,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+36,Erkek,Türkiye,Ankara,1,0,0,0,0,0,1,1,1,0,0,0,0,Kemirgen teması,Orta,Takip önerildi
+82,Kadın,Güney Kore,Seoul,0,1,0,0,1,0,0,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+29,Erkek,ABD,Colorado,0,0,1,0,0,0,1,0,1,1,1,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+16,Erkek,Türkiye,Rize,0,0,1,0,0,0,1,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+10,Kadın,ABD,Colorado,0,0,0,0,1,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+29,Kadın,Türkiye,Kars,0,0,0,0,0,0,1,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+8,Erkek,Türkiye,Kars,1,1,0,0,0,0,1,1,1,0,1,1,1,Kemirgen teması,Orta,Tedavi altında
+51,Kadın,Almanya,Berlin,1,1,0,1,1,0,1,0,1,1,0,1,0,Kırsal/hayvanlı alan,Yüksek,İyileşti
+60,Kadın,ABD,Arizona,1,1,0,0,1,1,0,0,0,0,1,1,1,Belirgin temas yok,Orta,Acil değerlendirme önerildi
+48,Kadın,ABD,Arizona,0,0,0,0,0,1,1,0,1,1,0,0,0,Kemirgen teması,Orta,Tedavi altında
+20,Erkek,ABD,New Mexico,0,0,1,0,0,0,1,0,0,0,0,1,1,Gıda deposu riski,Düşük,İyileşti
+28,Kadın,ABD,Colorado,0,1,0,0,0,0,1,0,0,0,0,1,1,Kemirgen teması,Düşük,İyileşti
+42,Kadın,Çin,Yunnan,0,0,0,1,0,0,1,0,0,0,0,1,1,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+85,Erkek,ABD,Colorado,0,1,0,1,1,1,1,0,0,0,0,0,0,Kemirgen teması,Yüksek,İyileşti
+25,Kadın,Arjantin,Salta,0,1,0,1,0,0,1,1,1,1,0,1,1,Kapalı alan temizliği,Orta,Tedavi altında
+43,Erkek,Çin,Yunnan,0,1,1,1,0,1,0,1,0,1,0,0,1,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+66,Erkek,Türkiye,Ankara,1,0,1,1,1,0,1,1,1,1,0,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+42,Kadın,Arjantin,Salta,0,1,1,0,1,1,1,1,0,0,0,0,0,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+47,Erkek,Çin,Yunnan,0,0,0,0,1,0,1,0,1,1,0,0,0,Kemirgen teması,Orta,Tedavi altında
+10,Erkek,Türkiye,Samsun,0,0,1,1,0,0,0,0,0,0,1,0,0,Gıda deposu riski,Düşük,Tedavi altında
+53,Kadın,Fransa,Lyon,0,0,0,0,1,0,0,0,1,0,0,0,0,Kapalı alan temizliği,Düşük,İyileşti
+34,Erkek,Türkiye,Ankara,1,1,1,0,0,0,0,1,0,0,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+34,Kadın,Brezilya,Parana,1,0,0,0,0,1,1,1,0,0,0,0,0,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+60,Erkek,Türkiye,Kars,0,1,0,0,0,0,1,1,0,1,0,0,0,Kemirgen teması,Orta,İyileşti
+37,Kadın,Türkiye,Erzurum,1,0,1,0,0,0,1,1,1,0,0,1,1,Gıda deposu riski,Orta,Takip önerildi
+16,Kadın,Türkiye,Samsun,1,1,1,1,0,0,1,0,0,0,0,1,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+75,Erkek,Almanya,Berlin,0,0,0,0,0,0,1,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+45,Erkek,Arjantin,Salta,0,0,0,0,0,0,0,1,0,0,1,1,0,Gıda deposu riski,Düşük,Takip önerildi
+74,Kadın,Türkiye,Ankara,0,1,0,1,0,1,1,1,0,0,0,0,1,Kırsal/hayvanlı alan,Yüksek,İyileşti
+70,Kadın,Şili,Santiago,1,0,0,0,0,0,0,0,1,1,0,1,0,Kemirgen teması,Orta,İyileşti
+11,Kadın,Türkiye,İstanbul,0,0,0,0,0,1,0,1,0,0,0,1,0,Belirgin temas yok,Orta,Tedavi altında
+11,Kadın,İsveç,Umea,0,1,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+30,Erkek,Türkiye,Samsun,0,0,0,0,1,0,0,1,0,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+59,Erkek,Türkiye,Samsun,0,0,0,1,0,0,1,1,1,1,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+38,Erkek,Türkiye,Kars,0,0,1,1,0,0,0,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+75,Kadın,ABD,Colorado,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Tedavi altında
+42,Kadın,Arjantin,Salta,0,1,1,1,0,0,1,0,0,1,1,0,0,Kemirgen teması,Orta,Tedavi altında
+63,Kadın,Çin,Yunnan,1,0,1,1,0,1,0,1,1,1,0,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+51,Kadın,Arjantin,Buenos Aires,1,0,0,0,0,0,0,0,1,1,0,1,1,Kapalı alan temizliği,Düşük,Takip önerildi
+38,Kadın,Arjantin,Buenos Aires,0,0,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+32,Erkek,Arjantin,Buenos Aires,0,0,0,1,1,0,0,1,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+88,Kadın,Türkiye,Bolu,1,0,0,0,0,0,1,0,0,1,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+60,Kadın,Çin,Yunnan,1,0,0,1,1,0,1,0,0,1,1,0,1,Kemirgen teması,Orta,Takip önerildi
+44,Kadın,ABD,Colorado,0,1,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+77,Erkek,Türkiye,Trabzon,0,0,0,0,1,0,1,1,0,0,0,1,1,Kemirgen teması,Düşük,İyileşti
+17,Kadın,Şili,Santiago,0,1,0,1,0,0,1,0,0,1,0,0,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+74,Kadın,Türkiye,Ankara,1,1,0,1,0,1,1,0,1,1,1,0,0,Kemirgen teması,Yüksek,İyileşti
+17,Erkek,Brezilya,Parana,0,0,1,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Tedavi altında
+87,Kadın,Türkiye,Samsun,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+25,Erkek,Çin,Yunnan,0,1,1,0,0,0,1,1,0,1,0,0,0,Kemirgen teması,Orta,İyileşti
+10,Erkek,Türkiye,Erzurum,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Tedavi altında
+19,Erkek,Brezilya,Parana,0,0,0,0,0,0,0,0,0,0,1,0,1,Kemirgen teması,Düşük,Takip önerildi
+31,Kadın,Türkiye,Trabzon,0,0,0,1,0,0,1,0,1,0,0,1,0,Kapalı alan temizliği,Düşük,İyileşti
+30,Kadın,Brezilya,Parana,1,0,1,0,0,0,0,0,0,1,0,0,1,Kapalı alan temizliği,Düşük,Acil değerlendirme önerildi
+52,Erkek,Türkiye,İstanbul,1,0,0,0,0,0,1,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+81,Erkek,Arjantin,Salta,0,0,0,1,1,0,0,0,1,0,0,1,0,Kapalı alan temizliği,Düşük,İyileşti
+42,Erkek,Türkiye,Kars,0,0,1,1,0,0,1,0,1,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+16,Kadın,Arjantin,Salta,0,1,0,0,1,0,0,1,1,1,1,0,0,Kemirgen teması,Yüksek,İyileşti
+17,Erkek,İsveç,Umea,1,0,1,1,1,0,1,1,0,1,0,1,1,Kemirgen teması,Orta,Tedavi altında
+58,Kadın,ABD,New Mexico,1,0,0,0,0,0,0,0,0,0,0,1,1,Kemirgen teması,Düşük,İyileşti
+28,Kadın,Türkiye,Ankara,1,0,0,0,0,1,1,0,0,0,1,1,1,Gıda deposu riski,Orta,Tedavi altında
+21,Erkek,Arjantin,Salta,1,1,0,1,0,0,1,1,0,0,1,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+77,Erkek,Güney Kore,Seoul,1,0,1,0,1,1,1,0,0,0,1,0,0,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+43,Erkek,Şili,Santiago,0,0,0,0,1,1,0,0,0,1,0,1,1,Belirgin temas yok,Düşük,İyileşti
+70,Kadın,Türkiye,Bolu,0,0,1,0,0,0,1,0,0,1,0,0,1,Kemirgen teması,Düşük,İyileşti
+73,Kadın,Türkiye,Trabzon,0,0,0,0,0,1,0,0,1,0,0,0,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+59,Erkek,Türkiye,Ankara,1,0,1,0,1,1,1,0,1,0,0,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+9,Erkek,Arjantin,Buenos Aires,1,0,1,0,0,0,1,1,1,0,0,0,0,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+83,Erkek,Almanya,Berlin,0,0,0,0,1,0,1,0,0,0,0,1,0,Kemirgen teması,Düşük,İyileşti
+40,Erkek,İsveç,Umea,0,0,0,0,0,1,1,0,0,0,0,1,1,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+53,Kadın,Türkiye,Bolu,0,1,1,0,0,0,1,1,1,0,0,1,0,Kemirgen teması,Orta,Tedavi altında
+76,Erkek,İsveç,Umea,1,0,0,0,0,0,1,0,0,0,0,1,0,Kapalı alan temizliği,Düşük,Tedavi altında
+59,Kadın,Türkiye,İstanbul,0,0,0,0,1,0,0,0,0,0,0,0,0,Gıda deposu riski,Düşük,İyileşti
+30,Erkek,Almanya,Berlin,0,1,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+36,Kadın,Arjantin,Salta,1,0,0,0,1,0,0,0,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+29,Erkek,Fransa,Lyon,0,1,0,0,1,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+79,Erkek,Arjantin,Salta,1,0,0,0,0,1,1,1,0,0,1,1,0,Kemirgen teması,Yüksek,Tedavi altında
+29,Kadın,Güney Kore,Seoul,1,1,1,0,1,1,0,1,1,0,1,1,1,Kemirgen teması,Yüksek,İyileşti
+35,Erkek,İsveç,Umea,1,0,0,0,1,0,0,0,1,0,0,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+53,Kadın,Türkiye,Ankara,1,0,1,1,0,0,1,0,1,0,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+59,Kadın,Arjantin,Buenos Aires,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+73,Erkek,ABD,Arizona,0,0,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+62,Erkek,Türkiye,Bolu,0,1,1,0,0,0,0,1,1,1,1,0,0,Kemirgen teması,Yüksek,İyileşti
+48,Kadın,ABD,Arizona,1,1,0,0,1,0,1,1,0,0,0,0,0,Kemirgen teması,Yüksek,Takip önerildi
+71,Kadın,Türkiye,Samsun,0,0,0,0,1,0,0,0,0,1,0,0,1,Kapalı alan temizliği,Düşük,İyileşti
+30,Kadın,Türkiye,Kars,1,0,1,1,1,0,1,1,1,1,0,1,1,Gıda deposu riski,Yüksek,İyileşti
+67,Erkek,Almanya,Berlin,0,1,0,0,0,0,1,1,0,1,0,0,0,Kemirgen teması,Orta,Tedavi altında
+12,Erkek,Fransa,Lyon,1,1,0,0,0,0,1,0,0,0,0,0,1,Kemirgen teması,Orta,İyileşti
+35,Kadın,Brezilya,Parana,1,1,0,0,1,0,0,1,0,0,1,0,1,Kapalı alan temizliği,Orta,İyileşti
+62,Erkek,Türkiye,Trabzon,0,1,0,0,1,0,0,0,1,0,1,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+23,Erkek,Şili,Santiago,0,0,0,0,0,0,0,0,0,1,0,1,1,Gıda deposu riski,Düşük,İyileşti
+85,Erkek,Brezilya,Parana,0,0,1,0,0,1,1,1,1,1,0,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+39,Kadın,Çin,Yunnan,0,1,0,1,0,0,0,0,1,0,0,0,0,Kemirgen teması,Orta,Acil değerlendirme önerildi
+74,Erkek,Brezilya,Parana,0,1,0,0,0,0,1,0,0,1,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+46,Kadın,ABD,Colorado,1,1,0,0,0,1,0,0,0,0,0,1,0,Belirgin temas yok,Orta,İyileşti
+29,Erkek,Fransa,Lyon,0,0,0,1,0,0,1,1,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+26,Erkek,Türkiye,Trabzon,0,0,1,0,0,1,1,1,1,1,0,0,1,Kemirgen teması,Yüksek,İyileşti
+21,Kadın,Arjantin,Salta,0,0,0,0,0,0,1,0,1,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+51,Kadın,Arjantin,Salta,1,1,1,0,0,0,0,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+9,Erkek,ABD,Arizona,0,0,0,1,0,0,1,0,0,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+80,Erkek,Türkiye,Kars,0,1,1,0,1,0,1,1,1,1,0,1,1,Kemirgen teması,Yüksek,Tedavi altında
+41,Kadın,Türkiye,İstanbul,0,0,1,0,1,0,0,1,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+62,Kadın,Şili,Santiago,1,0,0,1,0,0,1,0,0,0,1,1,0,Kapalı alan temizliği,Orta,İyileşti
+23,Kadın,Türkiye,Ankara,0,1,0,0,0,0,0,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+39,Erkek,Türkiye,Erzurum,0,0,1,1,0,0,1,0,1,0,1,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+65,Erkek,Türkiye,Trabzon,0,1,0,0,1,0,0,0,0,1,1,1,0,Kapalı alan temizliği,Orta,İyileşti
+33,Kadın,Türkiye,Bolu,0,0,0,1,0,1,1,1,0,1,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+80,Erkek,Türkiye,İstanbul,1,1,1,0,0,1,1,0,1,1,0,1,1,Kemirgen teması,Yüksek,Tedavi altında
+40,Erkek,Brezilya,Parana,1,1,0,0,1,0,0,0,0,1,0,1,0,Belirgin temas yok,Orta,Tedavi altında
+16,Kadın,Türkiye,İstanbul,0,0,1,0,0,0,1,0,1,1,1,0,0,Kemirgen teması,Orta,Tedavi altında
+81,Kadın,ABD,Colorado,0,0,0,0,0,0,0,0,1,1,1,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+36,Kadın,Güney Kore,Seoul,0,1,1,1,1,0,1,0,0,1,0,1,1,Kemirgen teması,Orta,İyileşti
+30,Erkek,Türkiye,Rize,0,0,1,0,1,0,1,0,0,0,1,0,1,Kapalı alan temizliği,Düşük,Takip önerildi
+11,Kadın,Türkiye,Samsun,0,1,0,0,1,0,1,0,0,1,1,1,1,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+38,Erkek,Türkiye,Bolu,1,0,0,0,0,0,0,0,0,0,0,1,1,Gıda deposu riski,Düşük,Takip önerildi
+11,Kadın,Çin,Yunnan,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+77,Kadın,Türkiye,İstanbul,1,0,1,0,0,0,1,0,1,1,0,0,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+71,Erkek,Çin,Yunnan,0,0,0,1,1,0,0,0,0,1,0,1,0,Gıda deposu riski,Düşük,Takip önerildi
+19,Erkek,ABD,Colorado,0,1,0,0,0,0,1,1,0,1,0,0,0,Kemirgen teması,Orta,Takip önerildi
+31,Erkek,Arjantin,Salta,1,0,1,0,1,1,0,0,0,1,0,1,1,Kırsal/hayvanlı alan,Orta,İyileşti
+51,Kadın,Almanya,Berlin,1,0,0,0,1,0,1,0,0,1,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+86,Kadın,Türkiye,Rize,0,0,1,0,0,0,1,0,0,0,0,1,0,Belirgin temas yok,Düşük,Tedavi altında
+53,Kadın,Türkiye,Rize,0,1,0,0,1,0,0,0,1,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+29,Erkek,Türkiye,İstanbul,0,0,1,0,0,1,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+16,Kadın,Güney Kore,Seoul,0,0,1,0,0,0,0,0,0,1,0,0,1,Gıda deposu riski,Düşük,Takip önerildi
+36,Erkek,Türkiye,Trabzon,1,0,0,0,0,0,0,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+19,Erkek,ABD,New Mexico,1,0,0,0,0,0,1,1,0,1,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+22,Kadın,Arjantin,Buenos Aires,0,1,0,0,1,0,1,0,1,0,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+15,Erkek,İsveç,Umea,1,1,0,0,0,0,1,0,0,1,1,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+86,Erkek,Almanya,Berlin,0,0,0,0,1,0,1,1,0,1,0,0,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+36,Kadın,ABD,Arizona,0,0,1,0,0,1,0,1,1,0,0,0,0,Gıda deposu riski,Orta,Tedavi altında
+85,Erkek,ABD,Arizona,0,0,0,0,0,0,1,0,0,1,1,1,1,Kemirgen teması,Düşük,İyileşti
+86,Kadın,ABD,Arizona,0,0,0,0,1,0,1,1,0,1,0,0,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+21,Erkek,Türkiye,İstanbul,0,1,0,0,0,0,0,0,0,0,1,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+41,Kadın,Şili,Santiago,0,1,0,0,0,0,1,1,1,1,1,1,0,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+78,Erkek,Brezilya,Parana,0,0,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+40,Erkek,Şili,Santiago,1,0,0,0,0,0,1,0,0,0,0,1,1,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+87,Kadın,Güney Kore,Seoul,1,1,0,0,0,0,0,1,1,0,0,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+9,Kadın,Arjantin,Buenos Aires,0,0,0,0,0,0,1,0,0,0,0,0,1,Gıda deposu riski,Düşük,İyileşti
+50,Kadın,Türkiye,Rize,0,0,0,0,0,0,1,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+40,Erkek,ABD,Colorado,1,0,0,1,0,0,1,0,1,0,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+38,Kadın,ABD,Arizona,0,0,0,1,0,0,1,1,0,0,0,0,0,Kemirgen teması,Orta,İyileşti
+69,Kadın,ABD,Arizona,0,0,0,0,1,1,1,0,0,0,0,0,0,Belirgin temas yok,Orta,İyileşti
+36,Erkek,Almanya,Berlin,0,0,0,0,0,0,1,0,1,0,0,0,1,Kemirgen teması,Düşük,İyileşti
+81,Kadın,Türkiye,Ankara,0,0,1,0,0,0,1,0,1,1,0,1,0,Kemirgen teması,Orta,Takip önerildi
+69,Erkek,Almanya,Berlin,0,1,1,1,0,0,1,0,1,1,1,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+43,Erkek,Güney Kore,Seoul,0,1,1,0,0,0,0,0,1,0,0,0,1,Gıda deposu riski,Düşük,Takip önerildi
+8,Erkek,Türkiye,Erzurum,1,0,0,0,1,1,1,0,0,0,0,1,0,Gıda deposu riski,Orta,Takip önerildi
+55,Erkek,Arjantin,Salta,0,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+9,Erkek,İsveç,Umea,0,1,0,0,0,0,0,0,0,0,1,0,0,Gıda deposu riski,Düşük,İyileşti
+80,Kadın,Çin,Yunnan,1,0,1,0,0,0,0,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+19,Kadın,Türkiye,İstanbul,0,1,1,0,0,0,0,0,0,0,0,0,0,Kapalı alan temizliği,Düşük,İyileşti
+17,Erkek,Türkiye,Samsun,0,1,1,1,0,0,1,0,1,0,1,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+43,Kadın,Türkiye,Samsun,0,0,0,0,0,0,0,0,0,1,1,0,1,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+24,Kadın,ABD,Colorado,0,1,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+16,Erkek,Türkiye,Ankara,0,0,0,0,0,0,1,1,1,1,1,0,1,Kemirgen teması,Orta,Takip önerildi
+8,Kadın,ABD,Colorado,1,1,1,0,0,0,1,0,0,1,0,0,1,Kemirgen teması,Orta,Tedavi altında
+16,Kadın,Güney Kore,Seoul,1,0,0,0,0,0,0,0,0,1,1,1,1,Gıda deposu riski,Düşük,İyileşti
+54,Kadın,Türkiye,Ankara,0,0,1,0,0,0,0,0,0,0,1,0,0,Belirgin temas yok,Düşük,Tedavi altında
+81,Erkek,Çin,Yunnan,0,0,0,1,1,0,1,1,0,1,0,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+19,Kadın,Şili,Santiago,0,1,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+35,Erkek,ABD,New Mexico,1,0,1,0,1,0,1,0,1,0,1,0,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+46,Kadın,ABD,Colorado,0,1,1,0,0,0,0,1,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+58,Erkek,Türkiye,Ankara,1,0,0,0,1,0,1,1,0,1,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+84,Kadın,Türkiye,İstanbul,1,0,0,0,0,1,1,1,1,0,0,1,0,Belirgin temas yok,Yüksek,Takip önerildi
+11,Erkek,Türkiye,Erzurum,1,1,1,0,0,0,1,1,0,0,0,1,1,Gıda deposu riski,Orta,Tedavi altında
+9,Kadın,Türkiye,Ankara,0,0,0,0,0,0,0,0,1,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+12,Erkek,ABD,Arizona,0,0,0,0,1,1,0,0,0,0,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+14,Kadın,Türkiye,Bolu,1,0,1,1,0,1,0,0,0,0,0,1,0,Belirgin temas yok,Orta,Tedavi altında
+16,Kadın,ABD,New Mexico,0,1,0,1,0,0,0,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+57,Kadın,Arjantin,Buenos Aires,0,0,1,0,0,1,1,1,0,1,1,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+69,Erkek,Türkiye,Rize,0,0,1,0,0,0,1,0,1,1,0,1,0,Gıda deposu riski,Orta,Takip önerildi
+49,Kadın,ABD,Arizona,1,1,0,1,1,1,1,0,1,1,0,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+36,Kadın,Türkiye,Samsun,0,1,1,0,0,0,0,1,0,1,1,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+9,Kadın,Türkiye,Rize,0,0,0,0,0,0,1,0,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+65,Erkek,Almanya,Berlin,0,0,0,0,0,0,0,1,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+53,Kadın,Arjantin,Buenos Aires,1,1,0,0,1,0,1,1,1,0,1,1,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+85,Kadın,Türkiye,Trabzon,1,1,1,0,0,0,0,0,1,0,0,1,1,Kemirgen teması,Orta,Tedavi altında
+48,Erkek,Fransa,Lyon,0,1,0,0,0,1,0,0,1,0,1,1,0,Gıda deposu riski,Orta,Tedavi altında
+85,Kadın,Arjantin,Salta,1,0,1,0,1,1,0,0,0,1,0,1,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+45,Kadın,İsveç,Umea,1,1,1,0,0,1,0,1,0,1,1,1,1,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+81,Kadın,Arjantin,Buenos Aires,0,1,0,1,0,0,0,0,0,1,0,0,1,Gıda deposu riski,Düşük,Takip önerildi
+39,Erkek,Türkiye,Trabzon,1,0,0,0,0,0,1,0,1,1,0,1,1,Gıda deposu riski,Orta,Takip önerildi
+66,Erkek,Brezilya,Parana,1,0,0,0,1,0,1,0,1,0,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+28,Kadın,Türkiye,Ankara,1,0,0,1,1,0,0,1,0,0,0,1,1,Kemirgen teması,Orta,Tedavi altında
+59,Erkek,Arjantin,Buenos Aires,0,1,0,0,0,1,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Tedavi altında
+46,Kadın,ABD,Colorado,1,0,1,0,1,1,1,0,0,0,1,1,1,Kapalı alan temizliği,Orta,İyileşti
+19,Erkek,Türkiye,Trabzon,0,0,1,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+84,Kadın,Güney Kore,Seoul,0,1,1,0,1,1,0,1,1,0,0,1,0,Gıda deposu riski,Yüksek,Acil değerlendirme önerildi
+66,Kadın,ABD,New Mexico,0,1,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+55,Erkek,ABD,Colorado,0,0,0,0,0,0,1,0,0,0,0,1,0,Gıda deposu riski,Düşük,İyileşti
+63,Erkek,Türkiye,Rize,0,0,1,1,1,1,0,1,0,0,0,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+81,Erkek,Türkiye,İstanbul,0,0,0,0,0,0,0,0,0,1,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+9,Erkek,Türkiye,Rize,0,1,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+61,Kadın,Türkiye,Erzurum,1,0,0,1,0,0,1,1,0,1,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+53,Kadın,Çin,Yunnan,1,0,1,0,0,0,1,1,0,1,0,1,1,Kemirgen teması,Orta,Takip önerildi
+42,Erkek,ABD,Colorado,0,0,0,1,0,0,1,0,1,0,0,1,0,Kemirgen teması,Düşük,İyileşti
+49,Erkek,Arjantin,Salta,0,0,0,1,0,0,1,1,0,0,1,0,0,Kemirgen teması,Orta,Takip önerildi
+12,Kadın,Türkiye,Ankara,0,0,0,0,0,0,0,0,0,1,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+58,Kadın,Türkiye,Kars,0,0,1,0,0,0,1,1,1,0,0,0,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+52,Kadın,Türkiye,Rize,0,0,0,0,1,0,0,0,0,0,0,1,1,Gıda deposu riski,Düşük,Tedavi altında
+44,Erkek,Türkiye,İstanbul,1,0,1,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+31,Erkek,Çin,Yunnan,0,1,1,0,0,0,0,1,0,1,0,1,1,Kırsal/hayvanlı alan,Orta,İyileşti
+79,Kadın,Almanya,Berlin,1,0,1,0,1,1,0,0,0,0,0,0,0,Gıda deposu riski,Orta,Acil değerlendirme önerildi
+27,Kadın,Türkiye,Kars,0,0,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+53,Erkek,Türkiye,Erzurum,0,0,0,0,1,0,1,0,0,1,0,1,1,Kemirgen teması,Düşük,İyileşti
+42,Erkek,Türkiye,Ankara,0,0,0,1,0,1,0,1,1,0,0,0,0,Gıda deposu riski,Orta,Tedavi altında
+15,Erkek,Arjantin,Salta,1,1,0,0,0,0,1,0,0,0,1,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+42,Kadın,Şili,Santiago,0,0,0,0,0,0,0,0,1,1,0,0,0,Kemirgen teması,Düşük,İyileşti
+25,Kadın,Türkiye,İstanbul,1,1,0,0,0,0,1,1,1,0,0,1,0,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+67,Erkek,Arjantin,Salta,0,0,1,0,0,1,1,0,1,1,0,0,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+75,Erkek,Fransa,Lyon,0,1,0,0,0,0,1,1,0,1,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+82,Erkek,Çin,Yunnan,0,0,0,0,0,0,1,1,1,1,0,0,1,Kemirgen teması,Orta,Takip önerildi
+25,Erkek,Türkiye,İstanbul,0,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+40,Erkek,Türkiye,Ankara,0,0,0,0,1,0,1,1,0,0,1,0,0,Kemirgen teması,Orta,Takip önerildi
+80,Erkek,Türkiye,Samsun,1,1,1,1,0,0,1,0,0,0,1,1,1,Kemirgen teması,Orta,Tedavi altında
+87,Erkek,Çin,Yunnan,0,1,1,0,0,0,1,1,0,1,0,0,0,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+58,Kadın,Türkiye,Trabzon,0,1,0,0,0,0,1,0,0,0,0,1,0,Gıda deposu riski,Düşük,İyileşti
+83,Erkek,Türkiye,Ankara,0,0,0,1,1,0,1,0,0,1,0,0,0,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+65,Kadın,Fransa,Lyon,1,0,0,1,0,1,1,0,0,0,1,0,1,Kemirgen teması,Orta,Takip önerildi
+39,Kadın,Türkiye,Ankara,0,1,0,0,1,1,1,1,1,0,1,0,0,Kemirgen teması,Yüksek,Takip önerildi
+50,Erkek,Brezilya,Parana,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+78,Erkek,Arjantin,Buenos Aires,1,0,1,0,0,0,1,1,1,1,0,0,1,Kemirgen teması,Yüksek,İyileşti
+32,Erkek,Türkiye,Rize,0,0,0,0,0,0,1,1,0,1,1,0,0,Kapalı alan temizliği,Orta,İyileşti
+26,Erkek,ABD,Arizona,1,0,1,1,1,0,1,1,0,0,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+54,Kadın,Almanya,Berlin,0,0,1,1,0,0,0,0,1,1,1,0,0,Kemirgen teması,Orta,İyileşti
+10,Kadın,Türkiye,Samsun,0,0,1,0,0,0,1,1,1,1,1,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+62,Kadın,Brezilya,Parana,1,1,0,0,0,0,0,0,0,1,0,1,0,Gıda deposu riski,Orta,İyileşti
+29,Kadın,Güney Kore,Seoul,0,0,0,0,1,0,1,0,0,1,0,0,0,Kemirgen teması,Orta,İyileşti
+24,Erkek,Türkiye,Erzurum,0,0,0,0,0,0,1,1,0,1,0,0,0,Kemirgen teması,Orta,Takip önerildi
+21,Kadın,Şili,Santiago,0,0,0,1,1,0,1,0,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+51,Erkek,Fransa,Lyon,1,0,0,0,1,1,1,0,0,0,1,1,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+75,Erkek,Türkiye,Trabzon,0,0,1,0,0,0,1,0,0,0,0,0,1,Belirgin temas yok,Düşük,Tedavi altında
+84,Kadın,Türkiye,Rize,1,1,1,0,0,0,1,0,1,1,0,0,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+66,Kadın,Almanya,Berlin,0,0,0,1,1,0,1,1,1,1,0,1,0,Kemirgen teması,Yüksek,Takip önerildi
+33,Erkek,Türkiye,Kars,1,1,1,1,0,0,1,0,1,0,0,0,0,Kapalı alan temizliği,Yüksek,Tedavi altında
+52,Kadın,Çin,Yunnan,0,1,0,0,1,1,0,1,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+68,Erkek,Güney Kore,Seoul,0,1,0,0,0,1,1,0,1,0,0,1,1,Gıda deposu riski,Orta,İyileşti
+49,Erkek,Türkiye,Bolu,0,1,1,0,0,0,1,1,0,0,0,1,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+63,Erkek,Türkiye,Ankara,1,0,0,1,0,0,1,0,1,0,1,1,0,Kemirgen teması,Orta,İyileşti
+16,Kadın,Türkiye,Erzurum,1,1,1,0,0,0,1,0,1,1,0,0,0,Kemirgen teması,Yüksek,Tedavi altında
+21,Kadın,Türkiye,İstanbul,1,0,0,0,0,0,1,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+48,Erkek,Türkiye,Rize,0,1,1,1,0,0,0,0,1,0,0,0,1,Gıda deposu riski,Orta,Tedavi altında
+30,Kadın,Türkiye,Samsun,1,0,0,0,0,0,1,0,1,1,1,1,0,Kemirgen teması,Orta,İyileşti
+86,Erkek,Güney Kore,Seoul,0,1,0,1,1,0,0,0,0,0,0,0,0,Kemirgen teması,Orta,Tedavi altında
+8,Kadın,Türkiye,Erzurum,0,1,1,1,0,1,0,0,0,1,0,0,1,Kemirgen teması,Orta,Takip önerildi
+78,Kadın,Arjantin,Buenos Aires,0,1,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+72,Erkek,Türkiye,Kars,0,0,0,0,0,1,0,1,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+63,Erkek,Türkiye,Rize,0,1,0,0,0,0,1,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+16,Erkek,İsveç,Umea,1,0,0,0,1,0,0,0,0,0,0,0,1,Kapalı alan temizliği,Düşük,Takip önerildi
+20,Erkek,Çin,Yunnan,0,0,0,0,1,0,1,1,0,0,1,0,0,Kapalı alan temizliği,Orta,Tedavi altında
+30,Kadın,Güney Kore,Seoul,1,0,0,1,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Tedavi altında
+80,Kadın,Fransa,Lyon,0,0,0,0,1,0,1,1,0,0,0,0,0,Kapalı alan temizliği,Orta,Tedavi altında
+16,Erkek,ABD,New Mexico,0,0,0,0,1,0,1,1,1,0,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+72,Erkek,İsveç,Umea,0,1,1,0,0,1,1,1,1,0,1,1,0,Kemirgen teması,Yüksek,Tedavi altında
+29,Erkek,İsveç,Umea,0,0,0,1,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+53,Kadın,ABD,Colorado,0,0,1,0,0,0,1,0,0,1,0,1,1,Gıda deposu riski,Düşük,Takip önerildi
+78,Erkek,Türkiye,Trabzon,1,1,0,0,1,0,0,1,0,0,0,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+34,Kadın,Arjantin,Buenos Aires,0,0,0,0,1,0,0,0,1,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+23,Erkek,Türkiye,İstanbul,1,1,1,0,1,0,0,0,1,0,1,1,0,Kemirgen teması,Orta,Acil değerlendirme önerildi
+69,Erkek,Arjantin,Salta,1,0,1,0,0,0,0,0,0,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+62,Kadın,ABD,Arizona,0,1,1,0,1,1,0,1,1,1,0,0,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+84,Kadın,Arjantin,Buenos Aires,0,1,0,1,1,0,1,1,0,1,1,1,0,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+8,Kadın,Türkiye,Ankara,0,0,0,1,0,0,0,0,0,1,0,0,0,Kapalı alan temizliği,Düşük,İyileşti
+87,Erkek,Türkiye,Rize,1,0,1,1,0,0,0,1,1,1,0,1,0,Kırsal/hayvanlı alan,Yüksek,Takip önerildi
+16,Kadın,Brezilya,Parana,0,0,0,0,1,0,1,0,1,1,1,1,1,Kapalı alan temizliği,Orta,Tedavi altında
+22,Erkek,ABD,New Mexico,1,1,0,1,1,0,1,0,0,1,1,0,0,Kemirgen teması,Yüksek,Tedavi altında
+33,Kadın,Türkiye,Bolu,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+63,Kadın,Almanya,Berlin,0,0,0,0,1,0,1,1,0,1,0,0,0,Kapalı alan temizliği,Orta,İyileşti
+69,Kadın,Şili,Santiago,0,1,1,1,0,0,0,0,0,0,0,1,0,Kapalı alan temizliği,Düşük,İyileşti
+88,Erkek,Arjantin,Salta,0,1,1,1,0,0,0,1,0,0,1,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+28,Kadın,ABD,Arizona,0,0,1,0,0,0,0,0,0,0,1,1,1,Gıda deposu riski,Düşük,Takip önerildi
+55,Erkek,Fransa,Lyon,1,0,1,0,1,1,0,1,0,0,0,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+76,Kadın,Brezilya,Parana,0,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+62,Erkek,Türkiye,Kars,0,0,0,0,0,0,1,0,0,1,1,1,1,Gıda deposu riski,Düşük,Tedavi altında
+76,Kadın,Güney Kore,Seoul,0,0,0,0,0,0,0,0,0,1,0,0,0,Kapalı alan temizliği,Düşük,İyileşti
+79,Erkek,Türkiye,Samsun,0,0,0,0,0,0,0,0,0,1,0,1,1,Belirgin temas yok,Düşük,İyileşti
+10,Kadın,Arjantin,Salta,1,0,1,1,0,1,1,0,1,0,0,0,0,Kemirgen teması,Yüksek,İyileşti
+49,Kadın,Çin,Yunnan,1,0,0,0,0,0,0,1,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+18,Kadın,Brezilya,Parana,0,0,0,0,0,0,0,0,0,1,0,0,0,Gıda deposu riski,Düşük,İyileşti
+65,Kadın,ABD,New Mexico,1,1,1,0,0,0,1,1,1,0,0,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+68,Erkek,Türkiye,Rize,1,1,1,0,1,0,1,1,0,0,0,1,1,Kemirgen teması,Orta,Takip önerildi
+12,Kadın,Türkiye,Bolu,1,0,1,0,1,1,0,0,1,0,0,0,0,Kırsal/hayvanlı alan,Yüksek,Takip önerildi
+25,Erkek,Türkiye,İstanbul,0,0,0,0,0,0,1,0,0,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+81,Erkek,Türkiye,İstanbul,0,1,1,0,0,0,1,0,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+42,Erkek,Brezilya,Parana,0,1,1,1,0,0,1,0,1,0,0,0,1,Gıda deposu riski,Orta,Tedavi altında
+23,Kadın,Almanya,Berlin,0,0,1,0,0,0,0,0,0,0,1,1,1,Gıda deposu riski,Düşük,Takip önerildi
+36,Kadın,Çin,Yunnan,0,0,1,0,0,0,1,1,1,1,1,1,1,Kemirgen teması,Orta,İyileşti
+24,Erkek,Almanya,Berlin,0,0,0,0,0,1,1,1,1,1,0,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+10,Kadın,Türkiye,Bolu,1,0,1,0,0,0,0,0,0,1,0,1,0,Gıda deposu riski,Düşük,Takip önerildi
+26,Erkek,Türkiye,Samsun,0,1,1,1,0,0,1,0,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+9,Erkek,ABD,New Mexico,0,0,1,0,1,1,0,0,0,1,0,0,1,Belirgin temas yok,Orta,Tedavi altında
+29,Kadın,Brezilya,Parana,1,0,1,0,0,1,1,1,0,0,0,0,1,Belirgin temas yok,Yüksek,Tedavi altında
+48,Kadın,İsveç,Umea,0,1,0,0,1,1,1,1,0,0,1,0,1,Kemirgen teması,Yüksek,Tedavi altında
+80,Kadın,Arjantin,Salta,0,0,1,0,1,0,0,1,0,1,1,0,1,Gıda deposu riski,Orta,Tedavi altında
+16,Erkek,Almanya,Berlin,0,0,1,0,1,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+35,Erkek,Türkiye,Erzurum,0,0,1,0,1,1,1,0,0,0,0,1,0,Gıda deposu riski,Orta,Takip önerildi
+48,Kadın,Arjantin,Buenos Aires,0,1,1,0,0,0,1,1,0,0,1,0,0,Kemirgen teması,Orta,Tedavi altında
+21,Kadın,Türkiye,Samsun,0,0,1,0,0,0,1,0,0,0,1,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+73,Erkek,Şili,Santiago,0,0,0,0,0,1,1,0,0,0,1,0,1,Kemirgen teması,Orta,İyileşti
+87,Kadın,ABD,New Mexico,0,1,0,0,0,0,1,1,0,0,0,0,0,Kemirgen teması,Orta,Acil değerlendirme önerildi
+77,Erkek,ABD,Colorado,1,1,0,1,1,1,1,0,1,1,1,0,1,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+26,Kadın,Güney Kore,Seoul,0,0,0,0,0,0,1,0,0,1,1,0,1,Kapalı alan temizliği,Düşük,İyileşti
+81,Kadın,Çin,Yunnan,0,0,1,0,0,0,1,0,1,0,0,1,0,Kemirgen teması,Orta,Tedavi altında
+81,Erkek,Almanya,Berlin,0,0,0,0,1,0,0,0,0,0,0,0,0,Gıda deposu riski,Düşük,İyileşti
+83,Erkek,İsveç,Umea,0,1,0,0,0,0,1,1,1,0,0,1,1,Gıda deposu riski,Orta,Tedavi altında
+47,Kadın,Fransa,Lyon,0,1,0,0,0,0,0,0,0,1,0,1,1,Belirgin temas yok,Düşük,Tedavi altında
+59,Erkek,ABD,Colorado,0,0,0,1,1,1,0,1,0,1,0,1,1,Kapalı alan temizliği,Orta,Tedavi altında
+8,Kadın,ABD,New Mexico,0,0,0,0,0,0,0,1,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+66,Kadın,Arjantin,Buenos Aires,1,1,1,1,0,1,1,0,0,0,1,0,1,Kemirgen teması,Yüksek,Takip önerildi
+58,Kadın,ABD,New Mexico,0,1,1,1,0,0,1,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+80,Erkek,Türkiye,Samsun,0,1,0,0,0,0,1,1,0,0,0,1,0,Kemirgen teması,Orta,İyileşti
+13,Erkek,Arjantin,Salta,1,1,1,0,0,0,0,0,0,1,0,1,0,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+70,Kadın,ABD,New Mexico,1,0,0,0,1,0,1,0,1,0,0,1,1,Kapalı alan temizliği,Orta,İyileşti
+61,Erkek,Arjantin,Salta,0,0,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+68,Erkek,ABD,New Mexico,0,0,0,0,1,0,0,0,0,0,1,0,1,Belirgin temas yok,Düşük,Takip önerildi
+47,Kadın,Türkiye,Kars,0,1,0,0,1,0,1,0,1,1,1,1,0,Kapalı alan temizliği,Orta,İyileşti
+43,Erkek,Arjantin,Salta,1,1,0,0,1,0,1,1,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+72,Kadın,ABD,New Mexico,1,0,0,0,1,1,0,1,0,0,0,1,0,Gıda deposu riski,Orta,Takip önerildi
+33,Erkek,ABD,New Mexico,0,0,1,1,0,0,0,1,1,0,1,0,0,Kemirgen teması,Orta,Tedavi altında
+15,Kadın,Türkiye,Ankara,1,0,1,1,1,0,0,1,0,0,0,0,0,Kemirgen teması,Orta,Takip önerildi
+21,Erkek,Türkiye,Rize,0,0,0,0,0,0,0,0,0,0,0,1,0,Gıda deposu riski,Düşük,Takip önerildi
+72,Erkek,Türkiye,Ankara,1,1,0,1,0,0,1,0,0,0,1,1,1,Kemirgen teması,Orta,İyileşti
+79,Erkek,Türkiye,Erzurum,1,1,0,1,0,0,1,1,0,0,0,0,0,Kırsal/hayvanlı alan,Yüksek,İyileşti
+84,Erkek,Türkiye,Kars,0,0,1,0,0,0,1,1,1,1,1,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+53,Erkek,Arjantin,Buenos Aires,0,0,1,0,0,1,0,1,0,0,0,0,1,Belirgin temas yok,Orta,Acil değerlendirme önerildi
+56,Erkek,İsveç,Umea,0,0,0,0,0,0,0,0,1,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+19,Erkek,Türkiye,Samsun,1,1,0,0,0,1,1,1,1,1,1,0,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+35,Kadın,ABD,New Mexico,0,0,0,0,0,0,0,0,1,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+20,Erkek,Türkiye,Samsun,0,1,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+49,Kadın,Türkiye,İstanbul,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+25,Kadın,Türkiye,Trabzon,0,0,0,0,1,0,0,0,1,0,0,0,1,Belirgin temas yok,Düşük,Tedavi altında
+37,Erkek,Türkiye,Erzurum,0,1,1,1,0,1,1,1,0,0,0,1,0,Kemirgen teması,Yüksek,Tedavi altında
+54,Erkek,Türkiye,Trabzon,0,1,1,1,1,0,0,0,0,0,0,0,1,Gıda deposu riski,Düşük,Takip önerildi
+72,Erkek,ABD,New Mexico,0,1,0,0,0,0,0,0,1,1,0,0,0,Gıda deposu riski,Orta,Tedavi altında
+40,Kadın,Şili,Santiago,1,0,0,0,0,1,1,1,1,0,1,0,1,Kemirgen teması,Yüksek,Takip önerildi
+75,Erkek,Türkiye,Kars,0,0,0,1,0,0,0,0,0,0,1,1,0,Gıda deposu riski,Düşük,Takip önerildi
+8,Erkek,ABD,Colorado,0,0,0,0,0,0,0,0,0,1,1,1,1,Gıda deposu riski,Düşük,Tedavi altında
+60,Erkek,ABD,Arizona,0,0,1,0,1,0,1,0,1,0,1,1,0,Kemirgen teması,Orta,Tedavi altında
+24,Erkek,Arjantin,Salta,0,0,0,0,1,0,1,0,1,0,0,1,1,Gıda deposu riski,Düşük,İyileşti
+45,Kadın,Türkiye,Ankara,0,0,0,1,0,0,0,1,1,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+60,Kadın,Türkiye,Erzurum,0,0,0,0,0,0,0,1,0,1,0,1,0,Kemirgen teması,Düşük,İyileşti
+65,Kadın,Türkiye,Kars,0,0,0,1,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+63,Kadın,Brezilya,Parana,0,0,0,0,0,0,1,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+36,Kadın,İsveç,Umea,1,0,1,0,0,1,1,0,1,0,1,0,0,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+65,Erkek,Şili,Santiago,0,0,0,0,1,0,0,0,1,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+61,Erkek,Türkiye,İstanbul,0,0,0,0,0,0,0,0,1,1,1,0,1,Belirgin temas yok,Orta,Takip önerildi
+38,Kadın,ABD,New Mexico,1,0,1,1,1,0,1,0,0,1,1,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+52,Kadın,ABD,Arizona,0,0,0,0,0,1,0,1,1,1,0,0,1,Kemirgen teması,Orta,İyileşti
+32,Kadın,Türkiye,Rize,0,0,1,1,0,1,1,0,0,1,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+82,Kadın,Türkiye,Erzurum,1,0,0,1,0,0,1,0,1,0,0,1,1,Kapalı alan temizliği,Orta,İyileşti
+9,Erkek,Türkiye,Bolu,0,1,0,0,1,0,0,1,1,1,0,0,0,Kemirgen teması,Orta,Takip önerildi
+62,Erkek,Türkiye,Samsun,1,0,1,0,1,1,1,0,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+42,Erkek,Almanya,Berlin,0,0,0,1,0,1,0,0,0,1,0,0,1,Belirgin temas yok,Orta,İyileşti
+74,Erkek,Türkiye,Ankara,1,0,0,1,0,0,0,0,1,0,1,0,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+22,Kadın,Almanya,Berlin,1,1,1,1,0,0,0,0,0,0,0,0,0,Gıda deposu riski,Orta,Tedavi altında
+87,Kadın,Arjantin,Buenos Aires,0,1,0,1,0,1,1,0,1,1,1,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+69,Kadın,Şili,Santiago,0,0,0,0,0,0,1,0,1,0,0,0,1,Kapalı alan temizliği,Düşük,İyileşti
+28,Kadın,Almanya,Berlin,0,0,0,0,1,0,1,0,0,1,0,0,1,Kemirgen teması,Düşük,Takip önerildi
+19,Kadın,Türkiye,İstanbul,0,0,0,0,1,0,1,1,0,0,0,0,0,Gıda deposu riski,Orta,İyileşti
+14,Erkek,ABD,Arizona,0,0,1,0,0,1,1,0,1,1,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+19,Kadın,Brezilya,Parana,0,0,0,1,0,0,0,0,0,0,1,0,1,Belirgin temas yok,Düşük,Takip önerildi
+63,Kadın,Güney Kore,Seoul,1,1,0,0,0,0,1,0,0,1,0,1,1,Kapalı alan temizliği,Orta,İyileşti
+60,Kadın,Türkiye,Kars,1,1,0,1,0,1,0,0,1,1,0,1,1,Kemirgen teması,Yüksek,İyileşti
+57,Erkek,Güney Kore,Seoul,0,1,1,0,1,0,1,0,1,0,1,1,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+78,Erkek,Çin,Yunnan,1,0,0,1,1,0,1,0,0,0,1,0,1,Kemirgen teması,Orta,İyileşti
+52,Erkek,ABD,Colorado,0,0,0,1,0,1,0,0,0,1,0,0,1,Gıda deposu riski,Orta,Tedavi altında
+43,Erkek,Türkiye,Ankara,0,1,0,0,0,1,1,0,1,0,0,1,1,Kemirgen teması,Orta,Tedavi altında
+38,Erkek,ABD,Colorado,1,0,0,0,1,1,0,0,1,0,0,1,0,Gıda deposu riski,Orta,Tedavi altında
+41,Erkek,Çin,Yunnan,0,0,0,1,0,0,1,0,1,0,0,0,1,Kemirgen teması,Düşük,İyileşti
+55,Erkek,Türkiye,Bolu,0,1,0,1,0,0,1,0,0,0,1,1,1,Belirgin temas yok,Düşük,Tedavi altında
+57,Kadın,Almanya,Berlin,1,0,0,1,0,0,1,1,0,1,0,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+59,Erkek,Türkiye,İstanbul,0,0,0,0,0,0,0,1,0,1,1,1,0,Gıda deposu riski,Düşük,Tedavi altında
+50,Kadın,Şili,Santiago,0,1,0,0,0,0,1,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,Acil değerlendirme önerildi
+48,Erkek,Türkiye,İstanbul,0,0,0,1,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+58,Kadın,Şili,Santiago,1,0,0,0,0,0,1,1,0,0,0,0,1,Kemirgen teması,Orta,Takip önerildi
+76,Kadın,Fransa,Lyon,0,0,1,0,0,0,0,0,1,0,1,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+45,Kadın,Fransa,Lyon,0,1,0,0,1,1,1,0,0,0,0,1,0,Kemirgen teması,Orta,Takip önerildi
+61,Erkek,İsveç,Umea,0,1,0,1,0,0,1,1,0,0,0,1,1,Kemirgen teması,Orta,İyileşti
+14,Kadın,Türkiye,Rize,1,0,0,0,1,1,0,0,1,0,1,0,0,Gıda deposu riski,Yüksek,Acil değerlendirme önerildi
+82,Kadın,Çin,Yunnan,1,1,0,0,1,1,1,1,0,0,0,0,0,Kemirgen teması,Yüksek,Takip önerildi
+60,Erkek,Türkiye,Samsun,1,1,1,1,0,0,0,1,0,0,0,0,0,Kemirgen teması,Orta,Takip önerildi
+46,Erkek,ABD,New Mexico,1,0,0,1,0,1,1,0,0,0,0,0,0,Gıda deposu riski,Orta,Acil değerlendirme önerildi
+84,Erkek,Türkiye,Trabzon,0,0,0,0,0,0,0,0,0,1,1,1,1,Belirgin temas yok,Düşük,Tedavi altında
+43,Erkek,ABD,Colorado,0,1,1,0,1,0,0,1,0,0,1,0,0,Kemirgen teması,Orta,Takip önerildi
+28,Erkek,ABD,New Mexico,0,1,0,0,0,1,1,0,0,1,1,1,1,Kemirgen teması,Orta,Tedavi altında
+8,Kadın,Brezilya,Parana,0,0,0,1,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+10,Kadın,ABD,Colorado,0,0,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,Acil değerlendirme önerildi
+37,Erkek,Türkiye,Samsun,0,0,0,0,0,0,1,1,0,0,0,0,1,Kemirgen teması,Düşük,İyileşti
+40,Kadın,Türkiye,Ankara,0,0,0,1,0,0,1,1,0,0,1,1,1,Kırsal/hayvanlı alan,Düşük,Acil değerlendirme önerildi
+27,Kadın,İsveç,Umea,1,0,0,1,1,0,0,0,0,1,0,0,1,Kemirgen teması,Orta,İyileşti
+85,Kadın,ABD,Colorado,1,0,1,1,0,0,1,0,1,0,1,0,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+86,Kadın,Türkiye,Samsun,0,1,0,0,0,0,0,0,0,1,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+24,Kadın,Güney Kore,Seoul,1,0,1,0,0,1,0,0,0,0,1,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+37,Kadın,ABD,Arizona,0,0,0,0,0,0,1,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+55,Erkek,Türkiye,Ankara,1,0,0,0,1,0,0,1,0,1,0,1,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+8,Erkek,ABD,New Mexico,0,1,0,1,0,0,0,0,1,1,1,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+71,Erkek,Türkiye,Bolu,0,0,0,0,0,1,1,0,0,1,1,0,0,Kemirgen teması,Orta,Tedavi altında
+46,Kadın,Türkiye,Kars,1,0,0,0,0,0,0,0,0,0,0,0,1,Gıda deposu riski,Düşük,İyileşti
+68,Erkek,Türkiye,İstanbul,0,1,0,0,1,0,0,0,0,0,0,0,0,Kapalı alan temizliği,Düşük,İyileşti
+53,Erkek,ABD,Colorado,1,0,1,0,0,1,1,0,1,0,0,1,0,Kemirgen teması,Orta,Takip önerildi
+54,Kadın,Arjantin,Salta,0,0,0,0,1,0,1,0,0,0,1,1,0,Kırsal/hayvanlı alan,Düşük,Acil değerlendirme önerildi
+85,Kadın,Türkiye,Rize,1,0,0,0,0,0,0,1,1,1,0,0,0,Kemirgen teması,Orta,Tedavi altında
+64,Kadın,Türkiye,İstanbul,1,1,1,0,1,1,1,0,1,0,0,0,0,Kemirgen teması,Yüksek,Tedavi altında
+46,Erkek,Brezilya,Parana,0,0,0,0,1,0,0,0,1,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+19,Erkek,İsveç,Umea,0,0,1,0,0,0,1,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+59,Kadın,İsveç,Umea,1,0,1,0,1,0,1,0,0,1,0,0,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+76,Kadın,Türkiye,Ankara,0,0,0,0,0,0,0,1,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+31,Kadın,Şili,Santiago,0,1,1,0,0,1,0,1,1,1,1,0,1,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+59,Kadın,Çin,Yunnan,0,0,1,0,1,1,0,1,1,1,0,1,1,Kapalı alan temizliği,Yüksek,Tedavi altında
+9,Kadın,Türkiye,Trabzon,0,1,0,0,0,0,0,0,1,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+54,Kadın,İsveç,Umea,0,0,0,0,0,0,0,0,0,1,0,0,1,Belirgin temas yok,Düşük,İyileşti
+88,Kadın,ABD,Colorado,0,0,1,0,1,0,1,0,0,0,0,1,1,Kemirgen teması,Düşük,İyileşti
+44,Erkek,ABD,New Mexico,1,0,1,0,0,0,1,0,0,0,1,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+77,Erkek,ABD,New Mexico,1,0,1,0,1,0,1,1,0,0,0,1,1,Kemirgen teması,Orta,Takip önerildi
+64,Kadın,Türkiye,Bolu,1,1,1,1,1,0,0,1,0,1,0,1,1,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+15,Erkek,ABD,Colorado,1,0,1,0,1,0,0,0,1,0,0,0,1,Belirgin temas yok,Orta,Tedavi altında
+76,Erkek,Fransa,Lyon,1,0,0,0,0,0,0,1,0,0,0,1,1,Kapalı alan temizliği,Düşük,İyileşti
+55,Erkek,Türkiye,İstanbul,1,1,0,0,1,0,1,1,0,0,0,0,0,Kemirgen teması,Yüksek,Tedavi altında
+35,Kadın,Türkiye,Rize,0,0,1,0,1,0,1,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+66,Erkek,Arjantin,Salta,0,0,0,1,1,1,0,1,1,0,1,0,1,Kırsal/hayvanlı alan,Yüksek,Takip önerildi
+8,Kadın,ABD,Colorado,1,0,1,0,0,0,1,0,1,1,1,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+50,Erkek,Türkiye,Bolu,1,0,1,1,0,0,1,0,0,0,0,0,0,Gıda deposu riski,Orta,Acil değerlendirme önerildi
+27,Kadın,Türkiye,Kars,0,0,0,0,1,0,0,0,0,0,0,0,1,Gıda deposu riski,Düşük,Takip önerildi
+11,Erkek,Güney Kore,Seoul,1,0,1,0,0,0,1,1,1,1,0,1,1,Kemirgen teması,Orta,İyileşti
+24,Erkek,Türkiye,Ankara,0,0,0,0,1,0,0,0,0,0,0,1,1,Kapalı alan temizliği,Düşük,İyileşti
+32,Erkek,Arjantin,Salta,0,1,0,0,1,0,0,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,Acil değerlendirme önerildi
+70,Erkek,Fransa,Lyon,0,0,0,0,0,0,0,1,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+45,Kadın,Şili,Santiago,0,0,0,1,0,1,0,0,1,1,1,1,0,Kemirgen teması,Orta,Tedavi altında
+51,Kadın,Almanya,Berlin,0,0,0,0,1,0,1,1,0,0,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+51,Erkek,Türkiye,Erzurum,1,0,0,0,0,0,0,0,1,0,0,1,0,Gıda deposu riski,Düşük,Takip önerildi
+57,Kadın,Türkiye,Bolu,0,0,0,0,0,0,1,0,0,1,0,1,1,Kapalı alan temizliği,Düşük,İyileşti
+64,Erkek,Şili,Santiago,1,0,1,0,1,0,0,1,0,1,1,0,0,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+59,Kadın,Arjantin,Salta,0,0,1,1,0,0,1,1,1,1,0,0,1,Kemirgen teması,Orta,Tedavi altında
+40,Erkek,Türkiye,Erzurum,1,0,1,0,1,0,1,1,0,1,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+46,Erkek,ABD,Colorado,0,0,0,0,1,1,1,0,0,1,0,0,1,Kemirgen teması,Orta,Tedavi altında
+16,Erkek,Türkiye,Ankara,0,1,1,0,0,0,1,1,0,1,0,1,1,Kemirgen teması,Orta,Takip önerildi
+11,Erkek,Türkiye,Rize,0,0,0,0,0,0,1,0,1,0,0,0,1,Gıda deposu riski,Düşük,İyileşti
+79,Erkek,Türkiye,Samsun,0,0,0,0,0,1,1,0,0,1,0,0,1,Kemirgen teması,Orta,İyileşti
+81,Erkek,Türkiye,Rize,0,1,1,0,0,0,0,0,0,0,1,0,1,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+75,Kadın,Arjantin,Buenos Aires,0,0,0,0,0,0,1,0,1,1,0,1,1,Kapalı alan temizliği,Düşük,Takip önerildi
+47,Kadın,Türkiye,Trabzon,0,0,1,0,0,0,1,1,0,0,1,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+21,Erkek,ABD,Colorado,0,0,1,0,0,0,1,1,0,1,0,1,0,Kemirgen teması,Orta,İyileşti
+32,Kadın,Brezilya,Parana,0,0,0,0,0,1,1,0,0,0,0,1,0,Kapalı alan temizliği,Düşük,İyileşti
+54,Erkek,Arjantin,Salta,1,0,1,0,0,1,1,0,0,0,0,1,1,Kırsal/hayvanlı alan,Orta,İyileşti
+37,Erkek,Türkiye,Erzurum,0,0,0,0,0,0,0,1,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,Acil değerlendirme önerildi
+49,Erkek,Fransa,Lyon,0,0,1,0,1,0,0,1,1,1,0,0,0,Kemirgen teması,Orta,Tedavi altında
+49,Erkek,Türkiye,Bolu,0,0,0,0,1,1,0,1,0,0,0,1,1,Kırsal/hayvanlı alan,Orta,İyileşti
+69,Erkek,Türkiye,İstanbul,0,0,0,0,1,0,1,1,1,1,0,0,1,Kemirgen teması,Orta,Takip önerildi
+74,Erkek,Almanya,Berlin,0,0,0,0,0,1,0,1,0,0,1,0,1,Belirgin temas yok,Orta,Tedavi altında
+69,Kadın,Türkiye,Rize,0,1,0,0,1,0,1,0,0,1,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+66,Erkek,ABD,Arizona,0,0,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+51,Kadın,ABD,Arizona,0,0,0,0,1,1,0,0,0,0,0,0,0,Gıda deposu riski,Orta,Tedavi altında
+76,Kadın,Çin,Yunnan,0,0,0,0,1,0,1,1,0,0,0,0,0,Kemirgen teması,Orta,Tedavi altında
+88,Erkek,ABD,Arizona,0,0,1,0,0,0,0,0,0,0,0,0,0,Gıda deposu riski,Düşük,İyileşti
+73,Erkek,Şili,Santiago,0,0,0,1,1,1,0,0,1,0,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+71,Kadın,Türkiye,Kars,0,1,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+19,Erkek,Fransa,Lyon,0,0,1,0,0,0,0,0,0,0,1,1,1,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+11,Erkek,Arjantin,Salta,0,0,0,1,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+22,Erkek,İsveç,Umea,1,0,1,0,1,0,1,1,1,1,0,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+57,Kadın,Güney Kore,Seoul,0,0,0,0,0,0,1,0,0,0,0,0,1,Gıda deposu riski,Düşük,İyileşti
+27,Erkek,Türkiye,İstanbul,1,0,0,0,1,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,Acil değerlendirme önerildi
+63,Kadın,Şili,Santiago,0,1,0,0,1,0,0,0,0,1,0,0,1,Kemirgen teması,Düşük,İyileşti
+64,Erkek,Türkiye,Kars,1,1,0,1,1,0,0,0,0,1,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+16,Erkek,Arjantin,Buenos Aires,0,0,1,1,0,0,1,1,0,1,0,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+86,Erkek,Arjantin,Salta,0,1,0,0,0,0,0,0,0,0,0,1,1,Kapalı alan temizliği,Düşük,İyileşti
+50,Erkek,Türkiye,Erzurum,0,0,1,0,1,1,0,1,0,0,0,0,1,Kemirgen teması,Orta,Tedavi altında
+37,Kadın,Türkiye,Rize,1,1,1,0,0,0,1,1,0,1,0,1,0,Kapalı alan temizliği,Orta,Tedavi altında
+35,Kadın,ABD,Arizona,0,1,0,0,1,1,1,1,0,1,0,0,1,Kemirgen teması,Yüksek,Takip önerildi
+39,Kadın,Güney Kore,Seoul,1,0,0,0,0,1,1,1,0,1,0,0,1,Kapalı alan temizliği,Yüksek,Takip önerildi
+88,Erkek,Arjantin,Salta,0,0,1,0,0,0,1,0,0,0,0,0,1,Kapalı alan temizliği,Düşük,İyileşti
+9,Erkek,Türkiye,Kars,0,1,1,0,1,0,1,1,0,1,1,0,0,Kemirgen teması,Yüksek,İyileşti
+11,Erkek,Türkiye,Samsun,0,0,1,0,1,1,1,1,1,0,0,1,0,Kapalı alan temizliği,Yüksek,İyileşti
+12,Erkek,Türkiye,Ankara,0,0,1,1,0,1,0,1,0,1,0,0,1,Kemirgen teması,Orta,İyileşti
+81,Kadın,Türkiye,Rize,0,1,0,0,1,1,1,1,0,0,1,1,1,Kemirgen teması,Yüksek,Tedavi altında
+46,Erkek,Arjantin,Salta,0,0,0,0,0,0,1,1,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+43,Erkek,Türkiye,Rize,0,1,1,0,1,0,1,1,1,0,1,1,1,Kemirgen teması,Orta,Tedavi altında
+55,Kadın,Türkiye,Erzurum,0,0,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+63,Erkek,Arjantin,Salta,0,0,0,1,1,0,1,0,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+71,Kadın,Arjantin,Salta,0,0,1,1,0,0,1,1,0,0,0,1,1,Kapalı alan temizliği,Orta,İyileşti
+39,Kadın,Şili,Santiago,0,0,0,0,1,1,1,0,1,0,0,1,0,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+20,Erkek,Türkiye,Bolu,0,0,1,0,1,1,0,0,0,1,1,0,1,Belirgin temas yok,Orta,Tedavi altında
+69,Kadın,Şili,Santiago,1,0,0,0,1,0,1,0,0,1,0,0,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+29,Erkek,Fransa,Lyon,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+22,Kadın,Türkiye,Bolu,0,0,1,0,0,1,0,0,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,Acil değerlendirme önerildi
+29,Erkek,Türkiye,Trabzon,0,1,1,0,1,0,0,1,0,1,0,0,1,Gıda deposu riski,Orta,Tedavi altında
+34,Erkek,Güney Kore,Seoul,0,0,1,1,1,0,1,1,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,İyileşti
+44,Kadın,Türkiye,İstanbul,0,0,0,0,0,1,1,0,0,1,0,1,0,Gıda deposu riski,Orta,Acil değerlendirme önerildi
+85,Kadın,İsveç,Umea,1,1,1,0,1,1,1,0,0,1,0,0,1,Kapalı alan temizliği,Yüksek,Tedavi altında
+70,Kadın,Türkiye,Trabzon,1,0,0,1,0,0,1,1,1,0,0,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+46,Erkek,Türkiye,Samsun,0,0,1,1,0,0,1,0,0,0,1,1,1,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+35,Erkek,İsveç,Umea,1,0,0,0,1,0,1,0,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+44,Kadın,Fransa,Lyon,1,0,0,0,0,0,1,1,0,1,1,0,1,Kapalı alan temizliği,Orta,İyileşti
+51,Kadın,Arjantin,Buenos Aires,0,1,0,0,0,0,0,0,0,0,1,0,1,Belirgin temas yok,Düşük,İyileşti
+62,Erkek,Arjantin,Buenos Aires,0,1,0,0,0,1,1,0,0,0,1,1,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+45,Kadın,Çin,Yunnan,0,0,0,0,0,1,0,0,1,0,0,0,1,Belirgin temas yok,Orta,Takip önerildi
+22,Kadın,ABD,Colorado,0,0,0,1,0,0,0,1,0,1,1,1,0,Kemirgen teması,Orta,Tedavi altında
+15,Erkek,İsveç,Umea,1,0,0,0,0,0,0,1,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+27,Erkek,Almanya,Berlin,1,1,0,0,0,0,1,1,1,1,0,0,1,Kemirgen teması,Yüksek,Tedavi altında
+22,Kadın,Türkiye,Trabzon,1,0,0,0,1,0,1,0,0,1,0,0,0,Kapalı alan temizliği,Orta,İyileşti
+70,Kadın,Arjantin,Buenos Aires,0,0,0,0,1,0,1,1,1,0,0,1,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+73,Kadın,Türkiye,Samsun,1,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+79,Kadın,Güney Kore,Seoul,0,0,0,0,0,0,1,0,0,0,1,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+50,Erkek,ABD,Arizona,0,0,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,Tedavi altında
+27,Erkek,Arjantin,Buenos Aires,0,1,1,0,1,1,1,1,1,1,1,0,1,Kemirgen teması,Yüksek,Takip önerildi
+46,Kadın,Türkiye,Bolu,0,1,1,0,0,0,1,1,1,0,0,0,0,Kemirgen teması,Orta,İyileşti
+76,Erkek,Türkiye,İstanbul,0,1,1,0,1,0,1,1,1,1,0,0,1,Kırsal/hayvanlı alan,Yüksek,Takip önerildi
+76,Erkek,ABD,Arizona,1,1,0,1,0,1,1,0,0,1,0,0,1,Kapalı alan temizliği,Yüksek,İyileşti
+84,Erkek,ABD,Arizona,1,0,1,0,1,0,0,0,1,0,0,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+64,Kadın,Türkiye,Bolu,0,0,1,1,1,0,1,1,1,1,1,1,0,Kemirgen teması,Yüksek,Takip önerildi
+8,Erkek,Güney Kore,Seoul,1,0,0,1,1,0,1,1,1,1,0,0,1,Kemirgen teması,Yüksek,Takip önerildi
+21,Kadın,Türkiye,Ankara,1,0,1,1,1,0,1,0,0,0,0,1,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+71,Kadın,ABD,Colorado,1,1,0,0,0,1,1,0,1,0,0,0,0,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+88,Erkek,Arjantin,Salta,1,0,0,0,0,0,0,0,1,0,0,1,1,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+18,Erkek,Türkiye,Trabzon,0,1,0,0,1,0,0,0,0,1,0,0,0,Belirgin temas yok,Orta,İyileşti
+15,Erkek,Almanya,Berlin,0,0,0,0,0,1,0,0,1,1,0,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+33,Erkek,Türkiye,Samsun,1,1,0,1,0,0,1,1,0,1,0,0,0,Kemirgen teması,Yüksek,Tedavi altında
+11,Kadın,Türkiye,Ankara,0,1,1,0,0,0,1,0,0,0,0,1,1,Kapalı alan temizliği,Düşük,İyileşti
+34,Kadın,İsveç,Umea,0,1,0,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+11,Erkek,ABD,Colorado,0,0,0,0,0,0,1,0,0,0,0,0,0,Gıda deposu riski,Düşük,Takip önerildi
+70,Erkek,Türkiye,Rize,0,1,0,0,0,0,1,0,0,0,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+88,Kadın,Şili,Santiago,1,0,0,0,0,0,0,0,0,0,0,0,0,Kapalı alan temizliği,Düşük,Takip önerildi
+84,Kadın,Türkiye,Erzurum,1,1,0,0,0,1,0,0,0,1,0,1,1,Gıda deposu riski,Orta,İyileşti
+45,Erkek,Türkiye,Kars,0,0,0,1,1,0,0,0,0,0,0,1,1,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+66,Kadın,Türkiye,Ankara,1,1,0,0,1,1,1,0,1,1,0,0,0,Kemirgen teması,Yüksek,Takip önerildi
+48,Kadın,ABD,Colorado,0,0,0,0,1,1,1,0,0,1,1,0,0,Gıda deposu riski,Orta,İyileşti
+11,Kadın,Türkiye,Samsun,0,1,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+29,Erkek,Çin,Yunnan,1,0,0,1,0,0,0,1,1,1,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+14,Kadın,Fransa,Lyon,0,0,1,1,0,0,1,0,0,1,0,1,1,Belirgin temas yok,Düşük,İyileşti
+15,Kadın,Çin,Yunnan,1,1,1,0,0,0,1,1,0,0,1,1,1,Kemirgen teması,Orta,Takip önerildi
+32,Kadın,ABD,Arizona,1,0,0,0,0,0,0,0,0,1,1,1,0,Kapalı alan temizliği,Düşük,Takip önerildi
+41,Kadın,Almanya,Berlin,0,0,1,0,0,1,0,1,0,0,0,1,0,Kemirgen teması,Orta,Tedavi altında
+62,Erkek,Arjantin,Salta,1,1,0,1,1,1,1,1,0,1,0,0,1,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+34,Erkek,Almanya,Berlin,1,1,1,0,0,0,1,0,0,1,0,1,1,Kemirgen teması,Orta,İyileşti
+59,Kadın,Arjantin,Salta,0,0,0,1,0,0,0,0,1,1,0,0,1,Kemirgen teması,Düşük,İyileşti
+51,Kadın,Çin,Yunnan,1,1,0,1,1,0,0,1,0,1,0,0,1,Kemirgen teması,Orta,Tedavi altında
+62,Kadın,ABD,New Mexico,1,0,1,0,0,0,1,0,0,0,1,0,0,Belirgin temas yok,Orta,Takip önerildi
+69,Erkek,Türkiye,Erzurum,0,0,0,1,0,1,0,0,1,0,0,1,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+26,Kadın,Türkiye,Bolu,1,0,0,0,0,0,1,0,1,1,1,1,0,Kemirgen teması,Orta,İyileşti
+62,Kadın,İsveç,Umea,0,1,0,0,0,0,0,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+10,Kadın,ABD,Colorado,0,0,0,0,1,0,1,1,0,1,1,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+39,Kadın,ABD,Colorado,0,1,0,1,0,1,1,1,0,0,0,1,0,Kapalı alan temizliği,Orta,Tedavi altında
+61,Kadın,Türkiye,Samsun,0,0,0,1,1,0,1,1,0,0,0,0,0,Kemirgen teması,Orta,Takip önerildi
+70,Kadın,Arjantin,Buenos Aires,0,0,0,0,0,1,1,0,0,1,1,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+19,Erkek,Türkiye,Kars,0,0,1,0,0,0,0,0,0,0,1,1,1,Gıda deposu riski,Düşük,İyileşti
+26,Kadın,Türkiye,Ankara,0,1,0,0,1,0,0,1,0,0,1,1,1,Kırsal/hayvanlı alan,Orta,İyileşti
+33,Kadın,Türkiye,Ankara,1,1,0,0,0,0,1,0,1,0,0,0,0,Kapalı alan temizliği,Orta,İyileşti
+64,Kadın,Almanya,Berlin,0,0,1,0,0,0,0,0,0,0,1,0,0,Gıda deposu riski,Düşük,Tedavi altında
+87,Kadın,Türkiye,Ankara,0,1,0,1,0,0,1,1,1,1,1,1,1,Kemirgen teması,Yüksek,Tedavi altında
+52,Erkek,Türkiye,Bolu,0,0,1,0,0,0,0,0,0,0,0,0,1,Gıda deposu riski,Düşük,Tedavi altında
+9,Erkek,Türkiye,Rize,0,0,0,0,0,0,1,0,0,0,1,0,1,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+59,Erkek,Türkiye,Trabzon,0,0,1,0,0,0,0,1,0,1,0,0,0,Kapalı alan temizliği,Orta,İyileşti
+28,Erkek,Arjantin,Salta,0,1,0,1,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+85,Kadın,Almanya,Berlin,0,0,0,0,0,1,0,1,1,0,1,1,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+55,Kadın,Almanya,Berlin,0,0,0,0,0,1,0,0,0,1,0,1,0,Kapalı alan temizliği,Düşük,Takip önerildi
+58,Erkek,Arjantin,Buenos Aires,0,0,1,0,1,0,0,0,0,0,0,1,1,Gıda deposu riski,Düşük,Tedavi altında
+65,Erkek,Çin,Yunnan,0,1,0,1,0,0,1,1,1,1,1,1,1,Kapalı alan temizliği,Yüksek,İyileşti
+29,Kadın,ABD,Colorado,1,0,0,0,1,0,0,1,0,1,0,1,1,Kapalı alan temizliği,Orta,Tedavi altında
+25,Erkek,Türkiye,İstanbul,0,0,1,1,0,0,0,0,0,1,0,0,1,Gıda deposu riski,Düşük,Takip önerildi
+43,Erkek,Türkiye,Bolu,0,0,1,0,1,0,0,0,0,0,0,1,0,Kapalı alan temizliği,Düşük,İyileşti
+43,Erkek,Türkiye,Bolu,0,0,0,0,0,0,0,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+62,Kadın,Almanya,Berlin,0,0,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+60,Kadın,Türkiye,Erzurum,1,1,0,0,0,0,0,1,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+30,Erkek,İsveç,Umea,1,1,0,1,0,0,1,0,1,1,1,0,0,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+48,Erkek,Fransa,Lyon,0,0,1,1,1,0,0,0,0,1,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+10,Kadın,ABD,Arizona,0,0,0,0,0,0,1,0,0,1,0,0,0,Belirgin temas yok,Düşük,İyileşti
+20,Kadın,Türkiye,Bolu,1,0,0,0,1,0,1,0,1,0,0,1,1,Kemirgen teması,Orta,İyileşti
+75,Erkek,Türkiye,Ankara,0,1,0,0,1,1,0,0,0,0,0,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+46,Erkek,Güney Kore,Seoul,0,1,0,0,0,1,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+48,Erkek,Türkiye,Bolu,0,0,0,0,0,0,1,0,0,1,0,0,1,Kapalı alan temizliği,Düşük,İyileşti
+87,Kadın,Fransa,Lyon,0,0,0,1,1,0,1,0,0,1,0,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+77,Kadın,Fransa,Lyon,0,0,0,0,0,0,1,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+52,Kadın,Çin,Yunnan,1,1,0,1,1,0,0,1,0,0,0,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+56,Erkek,Brezilya,Parana,1,0,1,1,0,0,1,1,1,0,0,0,1,Kemirgen teması,Orta,İyileşti
+12,Kadın,Türkiye,Bolu,0,0,0,0,0,0,0,0,0,1,1,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+35,Kadın,Brezilya,Parana,1,1,0,0,0,0,0,1,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+63,Erkek,Brezilya,Parana,0,0,0,0,1,1,1,1,0,1,1,0,1,Kemirgen teması,Yüksek,Tedavi altında
+30,Kadın,Türkiye,İstanbul,0,0,0,1,1,0,1,0,0,0,0,1,1,Kemirgen teması,Düşük,Takip önerildi
+38,Kadın,Türkiye,Ankara,1,0,1,0,0,1,1,0,1,0,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+78,Kadın,Türkiye,Rize,1,1,1,0,1,0,1,0,1,1,1,1,0,Kapalı alan temizliği,Yüksek,İyileşti
+33,Kadın,Almanya,Berlin,0,0,1,0,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+67,Erkek,Türkiye,İstanbul,1,0,1,1,1,0,1,1,1,0,1,0,1,Kırsal/hayvanlı alan,Yüksek,Acil değerlendirme önerildi
+76,Erkek,Türkiye,İstanbul,1,0,1,0,0,0,1,1,1,0,0,0,1,Kemirgen teması,Orta,Tedavi altında
+51,Erkek,Arjantin,Buenos Aires,0,0,0,1,0,0,0,0,0,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+59,Erkek,Türkiye,Samsun,0,0,0,0,1,0,0,0,1,0,0,1,0,Belirgin temas yok,Düşük,Tedavi altında
+56,Kadın,ABD,New Mexico,1,0,0,1,1,0,0,0,1,0,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+45,Kadın,Türkiye,Erzurum,0,1,0,0,0,0,1,0,1,0,0,0,0,Kemirgen teması,Orta,İyileşti
+78,Kadın,Arjantin,Salta,1,1,0,0,1,0,1,1,0,0,1,0,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+22,Kadın,İsveç,Umea,0,0,1,0,1,1,1,1,1,1,0,1,0,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+32,Kadın,Çin,Yunnan,0,0,0,0,0,1,1,0,0,0,0,0,1,Kemirgen teması,Düşük,İyileşti
+82,Erkek,ABD,New Mexico,0,0,0,0,0,0,1,1,0,1,1,1,0,Kırsal/hayvanlı alan,Orta,İyileşti
+63,Kadın,Türkiye,İstanbul,1,1,0,0,0,0,0,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+21,Erkek,Şili,Santiago,0,0,0,0,1,0,0,1,0,0,1,0,1,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+22,Kadın,Türkiye,Ankara,1,0,1,0,0,1,1,1,0,0,0,0,1,Kırsal/hayvanlı alan,Yüksek,Tedavi altında
+50,Erkek,Çin,Yunnan,0,0,0,0,0,0,0,1,0,0,1,0,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+84,Kadın,Türkiye,Rize,1,0,1,0,0,1,0,0,1,0,1,1,0,Kemirgen teması,Orta,Tedavi altında
+88,Erkek,Türkiye,Bolu,0,1,0,0,0,0,0,0,0,0,0,1,1,Belirgin temas yok,Düşük,İyileşti
+79,Erkek,Türkiye,Kars,0,0,1,0,1,0,1,1,0,0,1,0,1,Kapalı alan temizliği,Orta,Takip önerildi
+54,Erkek,ABD,New Mexico,0,0,1,0,0,1,1,0,0,0,0,1,1,Kemirgen teması,Düşük,İyileşti
+16,Kadın,Türkiye,Bolu,0,0,0,1,1,1,1,1,1,1,0,1,0,Kemirgen teması,Yüksek,İyileşti
+20,Kadın,ABD,Colorado,0,1,0,0,1,0,1,0,1,0,0,1,1,Gıda deposu riski,Orta,Tedavi altında
+27,Kadın,ABD,Colorado,0,1,0,0,0,0,1,0,0,1,0,1,1,Kemirgen teması,Düşük,İyileşti
+9,Erkek,ABD,Colorado,0,1,0,0,0,0,1,1,0,0,0,0,1,Kemirgen teması,Orta,Tedavi altında
+57,Kadın,Türkiye,Erzurum,0,1,0,1,0,0,0,1,0,1,0,1,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+84,Kadın,Şili,Santiago,0,0,0,1,0,0,0,1,0,1,0,0,0,Gıda deposu riski,Orta,Takip önerildi
+43,Kadın,Türkiye,Samsun,0,0,0,1,0,1,1,0,0,1,0,1,1,Kapalı alan temizliği,Orta,Acil değerlendirme önerildi
+56,Erkek,Çin,Yunnan,0,0,0,1,0,1,0,1,0,0,0,1,1,Belirgin temas yok,Orta,İyileşti
+10,Erkek,ABD,Arizona,0,0,0,1,0,0,0,0,0,0,0,1,1,Kemirgen teması,Düşük,Tedavi altında
+44,Erkek,Şili,Santiago,1,1,0,0,1,0,1,0,1,1,1,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+43,Erkek,Türkiye,Kars,1,1,0,0,0,0,0,0,0,0,0,0,0,Gıda deposu riski,Düşük,Takip önerildi
+82,Kadın,Şili,Santiago,0,0,0,1,0,0,1,1,1,1,0,0,1,Kemirgen teması,Orta,Tedavi altında
+8,Erkek,ABD,Arizona,0,1,1,1,0,0,0,1,1,1,0,1,0,Kemirgen teması,Orta,Tedavi altında
+81,Erkek,Şili,Santiago,0,0,1,1,1,0,0,0,1,0,0,0,1,Kemirgen teması,Orta,Takip önerildi
+30,Erkek,ABD,Colorado,1,1,0,0,0,0,0,0,1,1,0,1,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+30,Erkek,Şili,Santiago,0,0,0,0,0,0,0,0,1,0,0,0,1,Belirgin temas yok,Düşük,İyileşti
+10,Kadın,Türkiye,Rize,0,1,1,0,0,1,1,0,1,0,0,1,0,Kemirgen teması,Orta,Takip önerildi
+66,Erkek,Güney Kore,Seoul,1,1,1,0,1,0,0,1,1,1,1,0,0,Kırsal/hayvanlı alan,Yüksek,Takip önerildi
+37,Kadın,Türkiye,Rize,0,0,1,1,0,0,0,1,1,0,0,0,0,Kırsal/hayvanlı alan,Orta,Tedavi altında
+62,Kadın,Brezilya,Parana,0,0,0,0,1,0,0,0,0,0,0,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+86,Erkek,Arjantin,Buenos Aires,0,0,0,0,0,0,0,0,0,0,1,1,1,Gıda deposu riski,Düşük,İyileşti
+61,Erkek,Brezilya,Parana,0,1,1,0,0,0,1,1,0,0,0,1,0,Kapalı alan temizliği,Orta,İyileşti
+83,Kadın,İsveç,Umea,0,1,1,0,1,0,0,1,0,0,0,1,1,Gıda deposu riski,Orta,Takip önerildi
+54,Kadın,Şili,Santiago,0,0,0,1,0,0,1,1,0,0,0,1,0,Kapalı alan temizliği,Düşük,İyileşti
+16,Kadın,Türkiye,Bolu,0,0,0,0,0,1,0,0,0,0,0,1,0,Gıda deposu riski,Düşük,İyileşti
+72,Kadın,ABD,Arizona,1,0,0,0,0,0,0,0,0,1,0,0,1,Gıda deposu riski,Düşük,İyileşti
+60,Erkek,Fransa,Lyon,0,1,0,0,0,0,0,0,0,1,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+37,Kadın,Türkiye,Erzurum,0,0,0,0,1,1,1,0,0,0,0,1,0,Kemirgen teması,Orta,İyileşti
+76,Erkek,Türkiye,Bolu,0,1,1,1,1,1,1,1,0,1,0,1,1,Kapalı alan temizliği,Yüksek,Tedavi altında
+41,Erkek,İsveç,Umea,0,0,0,0,0,0,0,0,0,0,1,0,0,Kemirgen teması,Düşük,İyileşti
+69,Erkek,Güney Kore,Seoul,1,0,0,0,0,1,1,1,1,0,1,1,1,Kemirgen teması,Yüksek,Tedavi altında
+75,Erkek,İsveç,Umea,0,0,0,0,0,0,0,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+50,Erkek,Arjantin,Salta,0,1,1,0,0,1,0,0,1,0,0,1,0,Gıda deposu riski,Orta,Takip önerildi
+15,Kadın,Türkiye,Ankara,0,1,0,0,0,0,1,0,0,0,0,0,1,Belirgin temas yok,Düşük,Takip önerildi
+83,Kadın,Türkiye,Ankara,1,1,0,0,1,1,1,1,0,1,0,1,1,Kemirgen teması,Yüksek,İyileşti
+12,Kadın,Türkiye,Rize,0,1,0,1,0,1,1,1,1,1,0,0,0,Kemirgen teması,Yüksek,Tedavi altında
+38,Erkek,Şili,Santiago,0,0,1,1,0,0,0,1,0,0,0,1,1,Kapalı alan temizliği,Düşük,Takip önerildi
+10,Erkek,Türkiye,Trabzon,0,0,0,0,1,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,Takip önerildi
+59,Kadın,Türkiye,Trabzon,0,1,0,0,0,1,1,1,0,0,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+71,Kadın,ABD,Colorado,0,0,0,0,0,1,1,0,1,0,0,0,0,Gıda deposu riski,Orta,İyileşti
+42,Erkek,Brezilya,Parana,0,0,0,0,0,0,0,1,1,0,1,0,1,Kırsal/hayvanlı alan,Orta,Takip önerildi
+26,Erkek,Türkiye,İstanbul,1,1,0,0,0,0,1,1,1,0,0,1,1,Kemirgen teması,Orta,Tedavi altında
+13,Kadın,ABD,Arizona,1,0,1,0,0,1,1,0,0,0,0,0,1,Kapalı alan temizliği,Orta,Tedavi altında
+75,Erkek,Güney Kore,Seoul,0,1,0,0,1,0,1,0,0,0,0,1,1,Gıda deposu riski,Düşük,Takip önerildi
+32,Erkek,Türkiye,Trabzon,1,0,1,1,0,1,1,0,1,0,0,1,0,Kemirgen teması,Yüksek,Acil değerlendirme önerildi
+49,Kadın,Fransa,Lyon,0,0,1,0,0,0,0,0,1,0,0,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+68,Kadın,Şili,Santiago,0,0,0,0,0,0,0,1,1,0,0,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+27,Kadın,Arjantin,Salta,0,0,1,1,1,1,0,0,0,0,1,0,0,Kapalı alan temizliği,Orta,Tedavi altında
+73,Erkek,Çin,Yunnan,0,1,0,1,0,0,0,0,0,0,0,0,1,Kapalı alan temizliği,Düşük,İyileşti
+68,Erkek,Fransa,Lyon,0,1,0,0,1,0,1,0,1,0,0,0,0,Kemirgen teması,Orta,Acil değerlendirme önerildi
+16,Erkek,Türkiye,Bolu,1,0,0,0,0,0,0,0,0,0,0,1,0,Belirgin temas yok,Düşük,İyileşti
+17,Erkek,ABD,Arizona,0,1,0,0,0,1,0,0,0,0,0,1,0,Gıda deposu riski,Düşük,Takip önerildi
+32,Kadın,Arjantin,Salta,0,0,1,0,0,0,0,0,0,1,0,1,0,Kemirgen teması,Düşük,İyileşti
+80,Erkek,Türkiye,Ankara,1,1,1,0,1,1,0,0,0,0,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+75,Erkek,Arjantin,Buenos Aires,1,1,0,0,0,0,0,1,1,1,0,1,1,Kapalı alan temizliği,Orta,Takip önerildi
+25,Erkek,Arjantin,Salta,0,1,0,0,0,0,1,0,1,0,0,0,1,Kemirgen teması,Orta,Acil değerlendirme önerildi
+72,Erkek,Türkiye,Samsun,0,1,1,1,0,0,1,1,0,0,0,0,0,Gıda deposu riski,Orta,İyileşti
+19,Kadın,Türkiye,Samsun,1,0,0,1,0,0,1,1,0,1,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+80,Kadın,Fransa,Lyon,0,0,1,0,0,0,1,0,0,1,0,1,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+39,Erkek,Çin,Yunnan,0,1,0,0,0,0,1,0,0,0,0,0,1,Kırsal/hayvanlı alan,Düşük,İyileşti
+76,Erkek,Şili,Santiago,0,0,1,0,0,1,1,0,0,1,1,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+34,Erkek,Arjantin,Buenos Aires,0,0,0,1,0,0,1,0,0,1,0,0,1,Kırsal/hayvanlı alan,Düşük,Tedavi altında
+69,Kadın,Almanya,Berlin,0,0,1,0,0,0,0,1,0,1,1,1,0,Kemirgen teması,Orta,İyileşti
+27,Kadın,ABD,Arizona,0,0,0,0,0,0,0,0,0,1,0,0,0,Belirgin temas yok,Düşük,Tedavi altında
+13,Kadın,Arjantin,Salta,0,0,0,0,1,1,0,0,1,0,0,1,1,Gıda deposu riski,Orta,İyileşti
+83,Erkek,Arjantin,Salta,0,1,0,0,0,1,1,0,0,0,0,0,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+44,Erkek,Güney Kore,Seoul,0,1,0,0,0,1,1,1,1,0,0,1,1,Gıda deposu riski,Orta,Tedavi altında
+42,Kadın,Fransa,Lyon,1,0,0,0,0,0,1,0,0,1,0,1,0,Kırsal/hayvanlı alan,Düşük,Takip önerildi
+64,Erkek,Şili,Santiago,0,0,0,0,1,0,1,1,0,0,0,0,1,Kırsal/hayvanlı alan,Orta,İyileşti
+35,Kadın,Türkiye,Bolu,0,0,0,0,0,0,0,0,0,1,1,0,0,Gıda deposu riski,Düşük,Takip önerildi
+69,Erkek,ABD,Arizona,0,1,1,0,0,0,0,1,0,0,1,0,0,Kapalı alan temizliği,Orta,Takip önerildi
+54,Kadın,Şili,Santiago,0,0,1,0,1,0,1,1,0,1,0,1,0,Kapalı alan temizliği,Orta,Takip önerildi
+57,Erkek,Çin,Yunnan,0,0,1,0,0,0,1,0,0,0,0,1,1,Belirgin temas yok,Düşük,Takip önerildi
+80,Kadın,Almanya,Berlin,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+22,Kadın,Türkiye,Bolu,0,1,0,1,0,0,0,0,0,0,1,1,1,Gıda deposu riski,Düşük,İyileşti
+35,Erkek,Fransa,Lyon,0,0,1,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,İyileşti
+42,Kadın,ABD,Arizona,0,0,0,0,0,1,1,0,0,0,1,1,1,Belirgin temas yok,Düşük,İyileşti
+63,Kadın,Güney Kore,Seoul,0,0,1,1,1,0,0,0,0,0,1,1,1,Belirgin temas yok,Düşük,İyileşti
+58,Kadın,Çin,Yunnan,1,1,0,0,0,1,1,0,0,1,0,0,1,Kırsal/hayvanlı alan,Orta,Tedavi altında
+12,Erkek,Arjantin,Salta,0,0,0,0,1,1,0,1,0,0,0,0,0,Gıda deposu riski,Orta,Takip önerildi
+84,Erkek,Türkiye,Trabzon,0,0,1,0,1,0,1,1,0,0,1,1,0,Gıda deposu riski,Orta,İyileşti
+39,Erkek,İsveç,Umea,0,1,0,0,0,0,0,0,1,0,1,1,0,Gıda deposu riski,Düşük,İyileşti
+37,Kadın,İsveç,Umea,0,0,0,0,1,0,1,1,0,0,0,0,1,Gıda deposu riski,Orta,Takip önerildi
+81,Kadın,Arjantin,Salta,1,0,1,0,0,0,0,1,0,0,0,0,0,Gıda deposu riski,Orta,Tedavi altında
+80,Kadın,Güney Kore,Seoul,1,1,0,0,1,0,0,0,0,1,0,1,1,Belirgin temas yok,Orta,İyileşti
+56,Kadın,ABD,Colorado,0,0,1,0,0,0,0,1,0,0,0,0,1,Kapalı alan temizliği,Düşük,İyileşti
+15,Kadın,Şili,Santiago,0,0,0,0,0,1,1,1,0,0,0,0,1,Kapalı alan temizliği,Orta,İyileşti
+41,Erkek,Türkiye,Erzurum,1,1,0,0,0,0,0,0,0,0,0,1,0,Gıda deposu riski,Düşük,Takip önerildi
+35,Kadın,Brezilya,Parana,0,0,0,0,0,0,0,0,0,0,1,1,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+21,Kadın,Türkiye,Trabzon,1,1,0,0,1,0,0,0,1,0,0,0,1,Kemirgen teması,Orta,İyileşti
+51,Erkek,Çin,Yunnan,0,0,0,0,0,0,0,0,0,0,0,0,0,Belirgin temas yok,Düşük,Takip önerildi
+16,Kadın,Şili,Santiago,0,0,1,0,0,0,0,0,0,0,0,0,0,Kırsal/hayvanlı alan,Düşük,İyileşti
+36,Erkek,Arjantin,Salta,0,0,1,0,0,1,1,0,0,0,0,1,0,Kırsal/hayvanlı alan,Orta,Takip önerildi
+77,Kadın,Şili,Santiago,1,1,1,0,0,1,1,1,0,1,0,1,0,Kapalı alan temizliği,Yüksek,Acil değerlendirme önerildi
+80,Erkek,Arjantin,Salta,0,1,1,1,0,0,0,1,0,0,1,1,0,Gıda deposu riski,Orta,Takip önerildi
+56,Erkek,Türkiye,Ankara,0,0,0,0,1,0,0,0,1,0,0,1,1,Kapalı alan temizliği,Düşük,Takip önerildi
+75,Kadın,Türkiye,Samsun,0,0,0,0,0,0,0,1,0,0,0,0,1,Kapalı alan temizliği,Düşük,Tedavi altında
+37,Kadın,Türkiye,Ankara,0,0,0,0,0,0,1,1,1,0,1,0,0,Kemirgen teması,Orta,Tedavi altında
+80,Erkek,Güney Kore,Seoul,1,1,0,1,0,0,0,1,0,0,1,1,1,Kemirgen teması,Orta,İyileşti
+62,Kadın,Türkiye,Trabzon,0,1,0,1,1,0,0,0,0,0,1,1,1,Kemirgen teması,Düşük,Takip önerildi
+18,Erkek,Türkiye,İstanbul,1,0,0,1,0,0,1,1,1,0,0,0,0,Kapalı alan temizliği,Yüksek,İyileşti
+53,Kadın,Türkiye,Trabzon,0,0,1,0,0,1,0,0,1,0,1,0,1,Kapalı alan temizliği,Orta,İyileşti

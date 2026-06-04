@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanta Virüs Bilgilendirme Portalı</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top border-bottom">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-success" href="{{ url_for('index') }}">
+            <i class="bi bi-shield-virus"></i> Hanta Portalı
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#ustMenu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="ustMenu">
+            <div class="navbar-nav ms-auto gap-2">
+                <a class="nav-link active-menu" href="{{ url_for('index') }}">Açıklama</a>
+                <a class="nav-link" href="{{ url_for('test') }}">Test</a>
+                <a class="nav-link" href="{{ url_for('sonuclar') }}">Sonuçlar</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<section class="hero">
+    <div class="container">
+        <div class="row align-items-center g-4">
+            <div class="col-lg-8">
+                <span class="badge bg-light text-success px-3 py-2 mb-3">
+                    Veri seti destekli eğitim ve analiz portalı
+                </span>
+
+                <h1>Hanta virüsü nedir, nasıl bulaşır ve risk nasıl analiz edilir?</h1>
+
+                <p class="lead mt-3">
+                    Bu web sitesi Hanta virüsü hakkında bilgilendirme yapar, kullanıcılara ayrıntılı
+                    bir risk testi uygular ve test sonuçlarını SQLite veritabanına kaydeder.
+                    Sistem, oluşturulan veri setinden yaş grubu karşılaştırması da üretir.
+                </p>
+
+                <div class="d-flex flex-wrap gap-2 mt-4">
+                    <a href="{{ url_for('test') }}" class="btn btn-light btn-lg fw-bold">
+                        <i class="bi bi-clipboard2-pulse"></i> Teste Başla
+                    </a>
+
+                    <a href="{{ url_for('sonuclar') }}" class="btn btn-outline-light btn-lg fw-bold">
+                        <i class="bi bi-table"></i> Sonuçları Gör
+                    </a>
+                </div>
+            </div>
+
+            <div class="col-lg-4">
+                <div class="stat-card">
+                    <small>Sentetik veri seti kaydı</small>
+                    <strong>{{ ozet.vaka }}</strong>
+                </div>
+
+                <div class="stat-card">
+                    <small>Veri setindeki ülke sayısı</small>
+                    <strong>{{ ozet.ulke }}</strong>
+                </div>
+
+                <div class="stat-card">
+                    <small>İyileşen kayıt oranı</small>
+                    <strong>%{{ ozet.iyilesme }}</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<main class="container py-5">
+
+    <section class="row g-4 mb-5">
+        <div class="col-md-4">
+            <div class="info-card">
+                <div class="icon-box">
+                    <i class="bi bi-virus"></i>
+                </div>
+
+                <h3>Hanta virüsü nedir?</h3>
+
+                <p>
+                    Hantavirüsler bazı kemirgen türlerinde bulunabilen virüslerdir.
+                    İnsanlarda ateş, kas ağrısı, baş ağrısı, halsizlik ve bazı durumlarda
+                    ciddi solunum problemlerine neden olabilir.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="info-card">
+                <div class="icon-box">
+                    <i class="bi bi-house-exclamation"></i>
+                </div>
+
+                <h3>Nasıl bulaşabilir?</h3>
+
+                <p>
+                    Bulaşma genellikle kemirgen idrarı, dışkısı veya salgılarıyla kirlenmiş
+                    tozun solunmasıyla olur. Bodrum, depo, ahır, garaj, kulübe ve kırsal alanlar
+                    risk oluşturabilir.
+                </p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="info-card">
+                <div class="icon-box">
+                    <i class="bi bi-heart-pulse"></i>
+                </div>
+
+                <h3>Ne zaman dikkat edilmeli?</h3>
+
+                <p>
+                    Riskli temas sonrası ateş, yoğun kas ağrısı, öksürük, göğüste baskı
+                    veya nefes darlığı gelişirse sağlık kuruluşuna başvurulmalıdır.
+                    Bu sistem tanı koymaz, eğitim amaçlı analiz yapar.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="row g-4 mb-5">
+        <div class="col-lg-7">
+            <div class="content-card">
+                <h2>Sitenin çalışma mantığı</h2>
+
+                <div class="timeline mt-4">
+                    <div>
+                        <span>1</span>
+                        <p>
+                            Kullanıcı önce bu açıklama sayfasında Hanta virüsü, bulaşma yolları
+                            ve korunma yöntemleri hakkında bilgi alır.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>2</span>
+                        <p>
+                            Test sayfasında 20 adet çoktan seçmeli soruyu cevaplar.
+                            Cevaplar sadece evet/hayır değildir; risk derecesine göre puanlanır.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>3</span>
+                        <p>
+                            Sistem maruziyet, belirti, kritik solunum bulgusu ve korunma durumunu
+                            ayrı ayrı analiz eder.
+                        </p>
+                    </div>
+
+                    <div>
+                        <span>4</span>
+                        <p>
+                            Sonuç veritabanına kaydedilir. Sonuçlar sayfasında geçmiş kayıtlar,
+                            risk skorları ve analiz detayları görülebilir.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-lg-5">
+            <div class="content-card green-card">
+                <h2>Veri seti bilgisi</h2>
+
+                <p>
+                    Bu projede kullanılan veri seti; yaş, cinsiyet, ülke, şehir, belirti durumu,
+                    kemirgen teması, kapalı alan temizliği, korunma davranışları, risk seviyesi
+                    ve sonuç alanlarından oluşur.
+                </p>
+
+                <div class="dataset-box">
+                    <div>
+                        <small>En yaygın maruziyet</small>
+                        <strong>{{ ozet.maruziyet }}</strong>
+                    </div>
+
+                    <div>
+                        <small>Yüksek riskli kayıt</small>
+                        <strong>{{ ozet.risk_yuksek }}</strong>
+                    </div>
+
+                    <div>
+                        <small>Orta riskli kayıt</small>
+                        <strong>{{ ozet.risk_orta }}</strong>
+                    </div>
+
+                    <div>
+                        <small>Düşük riskli kayıt</small>
+                        <strong>{{ ozet.risk_dusuk }}</strong>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-card mb-5">
+        <h2>Test hangi alanları değerlendirir?</h2>
+
+        <div class="row g-3 mt-2">
+            <div class="col-md-3">
+                <div class="mini-box">
+                    <strong>Maruziyet</strong>
+                    <p>Kemirgen görme, dışkı/idrar teması, kapalı alan temizliği ve hayvanlı/kırsal alan.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="mini-box">
+                    <strong>Belirtiler</strong>
+                    <p>Ateş, kas ağrısı, halsizlik, baş ağrısı, mide bulantısı, öksürük ve genel durum.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="mini-box">
+                    <strong>Kritik Bulgular</strong>
+                    <p>Nefes darlığı, göğüste baskı ve belirtilerin kısa sürede kötüleşmesi.</p>
+                </div>
+            </div>
+
+            <div class="col-md-3">
+                <div class="mini-box">
+                    <strong>Korunma</strong>
+                    <p>Maske, eldiven, havalandırma, dezenfeksiyon ve kemirgen girişini önleme.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="alert alert-warning mt-4 mb-0">
+            <strong>Önemli:</strong>
+            Bu uygulama tıbbi tanı koymaz. Nefes darlığı, hızlı kötüleşme veya ciddi belirti varsa
+            sağlık kuruluşuna başvurulmalıdır.
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div>
+            <h2>Hazırsan ayrıntılı teste geçebilirsin.</h2>
+            <p>
+                Test tamamlandığında sistem risk skorunu hesaplar, veri setiyle karşılaştırır
+                ve sonucu veritabanına kaydeder.
+            </p>
+        </div>
+
+        <a href="{{ url_for('test') }}" class="btn btn-success btn-lg fw-bold">
+            Test Sayfasına Git
+        </a>
+    </section>
+
+</main>
+
+<footer class="bg-white border-top py-4">
+    <div class="container d-flex justify-content-between flex-wrap gap-2 text-muted small">
+        <span>Hanta Virüs Bilgilendirme ve Analiz Portalı</span>
+        <span>Eğitim amaçlıdır, tıbbi tanı yerine geçmez.</span>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
